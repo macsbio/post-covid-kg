@@ -33,7 +33,9 @@ def get_disgenet_diseases(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame, dict
     gene_ids_csv = pd.read_csv('disgenet/genes_disgenet.csv')
     diseases_ids_csv = pd.read_csv('disgenet/diseases_disgenet.csv')
     gene_diseases = pd.read_csv('disgenet/gene-disease_disgenet.csv')
+    '''CURATED: GDAs from UniProt, PsyGeNET, Orphanet, the CGI, CTD (human data), ClinGen, and the Genomics England PanelApp.'''
     
+    gene_diseases = gene_diseases[gene_diseases['source'].isin(['UNIPROT', 'PSYGENET', 'ORPHANET','CGI','CTD_human','CLINGEN','GENOMICS_ENGLAND'])]
     #str 
     gene_ids_csv['geneNID']=gene_ids_csv['geneNID'].astype(str)
     gene_ids_csv['geneId']=gene_ids_csv['geneId'].astype(str)
