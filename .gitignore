@@ -161,6 +161,7 @@ cython_debug/
 
 # DisGenNet database file
 *.db
+*.xml
 /KG/disgenet/genes_disgenet.csv
 /KG/disgenet/diseases_disgenet.csv
 /KG/disgenet/gene-disease_disgenet.csv
