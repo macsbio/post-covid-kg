@@ -25,10 +25,10 @@ from DREAMwalk.calculate_drug_scores import find_candidates
 # GENERSTE FILES
 kg_data= pd.read_csv('preprocessed_graph.csv')
 
-'''
+
 gen.generate_files(kg_data)
 
-dis_gen.save_dis_sim('preprocessed_graph.csv','dis_sim.csv')
+dis_gen.save_dis_sim('preprocessed_graph.csv','dis_sim.tsv')
 
 
 # ALGORITHM
@@ -39,7 +39,7 @@ hierf='hierarchy.csv'
 simf='similarty_graph_drugs.tsv'
 cutoff=0.4
 
-#save_sim_graph(networkf=networkf,hierf=hierf,outputf=simf,cutoff=cutoff)
+save_sim_graph(networkf=networkf,hierf=hierf,outputf=simf,cutoff=cutoff)
 
 #create similarity graph merging disease and drugs
 dis_sim = pd.read_csv('dis_sim.tsv',sep='\t',header=None)
@@ -51,7 +51,7 @@ similarty_graph[4] = range(0, len(similarty_graph))
 similarty_graph.to_csv('similarty_graph.txt', sep='\t', index=False,header=False)
 
 
-
+'''
 # Generate node embeddings by teleport-guided randomwalk
 
 
@@ -61,7 +61,7 @@ simf='similarty_graph.txt'
 
 save_embedding_files(netf=networkf,sim_netf=hierf, outputf=embeddingf,
                     nodetypef=nodetypef,tp_factor=0.3)
-'''
+
 
 # Predict drug-disease association
 
@@ -76,4 +76,4 @@ model_folder= 'results'
 query_disease= 'C0000000'
 kgfile='preprocessed_graph.csv'
 find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_count=20)
-
+'''
