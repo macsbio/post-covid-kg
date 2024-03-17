@@ -1,0 +1,5651 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="score" for="edge" attr.name="score" attr.type="double"/>
+<key id="logFC" for="node" attr.name="logFC" attr.type="double"/>
+<key id="p_value" for="node" attr.name="p_value" attr.type="double"/>
+<key id="node_type" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="DANIRIXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIBAVADEMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PAROXETINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RELDESEMTIV">
+  <data key="node_type">drug</data>
+</node>
+<node id="AZELASTINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAS0612">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMLODIPINE BESYLATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENMD-2076">
+  <data key="node_type">drug</data>
+</node>
+<node id="NISOLDIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ANCROD">
+  <data key="node_type">drug</data>
+</node>
+<node id="OCRIPLASMIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="VANUCIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CLOBAZAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="VARESPLADIB METHYL">
+  <data key="node_type">drug</data>
+</node>
+<node id="ROLAPITANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="FIBRINOLYSIN, HUMAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="UTOMILUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ISTAROXIME">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMIFAMPRIDINE PHOSPHATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="IBRUTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOZASERTIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZOLPIDEM">
+  <data key="node_type">drug</data>
+</node>
+<node id="ROLAPITANT HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BMS-986158">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIFEPRISTONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BIVATUZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSNETUPITANT CHLORIDE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="METOCLOPRAMIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TENELIGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="FLAVOXATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SOFPIRONIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="RG-4733">
+  <data key="node_type">drug</data>
+</node>
+<node id="MISOPROSTOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAPINAROF">
+  <data key="node_type">drug</data>
+</node>
+<node id="EFLAPEGRASTIM">
+  <data key="node_type">drug</data>
+</node>
+<node id="CLOTHIAPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DAROTROPIUM BROMIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BIRICODAR">
+  <data key="node_type">drug</data>
+</node>
+<node id="SIRUKUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="DEXKETOPROFEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="BLINATUMOMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOREFORANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="DINACICLIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENTRECTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PIROXICAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="VENGLUSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PEXELIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="OTILIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="SEPHB4-HSA">
+  <data key="node_type">drug</data>
+</node>
+<node id="MEGESTROL ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DULOXETINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMLODIPINE BENZOATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PROMETHAZINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NORTRIPTYLINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ETHOTOIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="NETUPITANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="BEPOTASTINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZONISAMIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RAVULIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOLRESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENMD-981693">
+  <data key="node_type">drug</data>
+</node>
+<node id="GUANFACINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DANUSERTIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALPRAZOLAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="PLONMARLIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="METRELEPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="PEXASTIMOGENE DEVACIREPVEC">
+  <data key="node_type">drug</data>
+</node>
+<node id="GANAXOLONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZANUBRUTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="RIVIPANSEL">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPHEDRINE SULFATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LUMASIRAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="TECLISTAMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="IMD-1041">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMIFAMPRIDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ATAGABALIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="LUCERASTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="GSK2816126">
+  <data key="node_type">drug</data>
+</node>
+<node id="GOLIMUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="LAROTRECTINIB SULFATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAFAMIDIS MEGLUMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="AFACIFENACIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="DINOPROSTONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CELGOSIVIR">
+  <data key="node_type">drug</data>
+</node>
+<node id="IMAGABALIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="SRT-2104">
+  <data key="node_type">drug</data>
+</node>
+<node id="OLOKIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="UR-63325">
+  <data key="node_type">drug</data>
+</node>
+<node id="TELOTRISTAT ETIPRATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DIGOXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="SILTUXIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACETAMINOPHEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="TACEDINALINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALEPLASININ">
+  <data key="node_type">drug</data>
+</node>
+<node id="PACTIMIBE">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMLODIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BREXANOLONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="GRANISETRON">
+  <data key="node_type">drug</data>
+</node>
+<node id="PROBUCOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="TELOTRISTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMISELIMOD HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="POZELIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="REGRAMOSTIM">
+  <data key="node_type">drug</data>
+</node>
+<node id="AZD9056">
+  <data key="node_type">drug</data>
+</node>
+<node id="GSK1482160">
+  <data key="node_type">drug</data>
+</node>
+<node id="MOSAPRIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MOCETINOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="CERDULATINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PANOBINOSTAT LACTATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LENZILUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="RODATRISTAT ETHYL">
+  <data key="node_type">drug</data>
+</node>
+<node id="APABETALONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MARIZOMIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="BIRINAPANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="DALFAMPRIDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CLAZAKIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TALETRECTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="METFORMIN HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DESLANOSIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="EVOBRUTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPALRESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="NORTRIPTYLINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="VERAPAMIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="DICLOFENAC SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="SEVOFLURANE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FLURBIPROFEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="SERTRALINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALOGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ORLISTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="BENRALIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="FINGOLIMOD">
+  <data key="node_type">drug</data>
+</node>
+<node id="CERTOLIZUMAB PEGOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="CVX-060">
+  <data key="node_type">drug</data>
+</node>
+<node id="ONDANSETRON">
+  <data key="node_type">drug</data>
+</node>
+<node id="SULTHIAME">
+  <data key="node_type">drug</data>
+</node>
+<node id="BI113823">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIDOSTAURIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="XANOMELINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MYRCLUDEX B">
+  <data key="node_type">drug</data>
+</node>
+<node id="FREMANEZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="BEPRIDIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="INFLIXIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ABIVERTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="GSK-690693">
+  <data key="node_type">drug</data>
+</node>
+<node id="COFIRASERSEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="DESVENLAFAXINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RO-6870810">
+  <data key="node_type">drug</data>
+</node>
+<node id="VARESPLADIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMISULPRIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TARIQUIDAR">
+  <data key="node_type">drug</data>
+</node>
+<node id="VENLAFAXINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CEMDISIRAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="FELODIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LINAGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="BARDOXOLONE METHYL">
+  <data key="node_type">drug</data>
+</node>
+<node id="SULFASALAZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="KETOROLAC">
+  <data key="node_type">drug</data>
+</node>
+<node id="TARENFLURBIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="DEXFENFLURAMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SITAGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="NIMODIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ELUBRIXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="EDIFOLIGIDE SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="ADALIMUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ELIGLUSTAT TARTRATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TILPISERTIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="HEPALATIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="GIMSILUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CELECOXIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CAFICRESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PROPOFOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="ATALUREN">
+  <data key="node_type">drug</data>
+</node>
+<node id="IC14">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIGLUSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PHLOROGLUCINOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="VOGLIBOSE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CYPROTERONE ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TREBANANIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARBINOXAMINE MALEATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENCEQUIDAR">
+  <data key="node_type">drug</data>
+</node>
+<node id="MDX-447">
+  <data key="node_type">drug</data>
+</node>
+<node id="ESLICARBAZEPINE ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FILGRASTIM">
+  <data key="node_type">drug</data>
+</node>
+<node id="QUINIDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="OLOPATADINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NEVANIMIBE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DILTIAZEM">
+  <data key="node_type">drug</data>
+</node>
+<node id="CENEGERMIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="NIFEDIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ULIMORELIN HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="AVAGACESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="VUTRISIRAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAZEMETOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARGLUMIC ACID">
+  <data key="node_type">drug</data>
+</node>
+<node id="PADSEVONIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="LIDOCAINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="METHYLPROMAZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TRIPROLIDINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DULOXETINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="METHOXYFLURANE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIDAZOLAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALISERTIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="DICLOFENAC">
+  <data key="node_type">drug</data>
+</node>
+<node id="NESVACUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PLASMINOGEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="R-333">
+  <data key="node_type">drug</data>
+</node>
+<node id="ANAMORELIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="CIRMTUZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZIRITAXESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="AT-7519">
+  <data key="node_type">drug</data>
+</node>
+<node id="CE-224535">
+  <data key="node_type">drug</data>
+</node>
+<node id="ROPIVACAINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARLUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ELX-02">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENTOSPLETINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ANAMORELIN HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TRELAGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="AMITRIPTYLINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TROPISETRON">
+  <data key="node_type">drug</data>
+</node>
+<node id="NEFAZODONE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CROVALIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="VERAPAMIL HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PANOBINOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOFERSEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ADRIFORANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="COCAINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="OLECLUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARBAMAZEPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RIVENPROST">
+  <data key="node_type">drug</data>
+</node>
+<node id="GALCANEZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="FLAVOXATE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZIMELDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BRIMONIDINE TARTRATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MUPARFOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="APREPITANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOLAZOLINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SX-682">
+  <data key="node_type">drug</data>
+</node>
+<node id="ILORASERTIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TALQUETAMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ROMIDEPSIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="DRONEDARONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CYPROHEPTADINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ETONOGESTREL">
+  <data key="node_type">drug</data>
+</node>
+<node id="NORETHINDRONE ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALCAFTADINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="OPROZOMIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TERODILINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CETIRIZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TOPIRAMATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FIBRINOGEN, HUMAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="MIRTAZAPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="IDREVLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="EZOGABINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACAMPROSATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSAPREPITANT DIMEGLUMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ESCITALOPRAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="GUANIDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="JNJ-54175446">
+  <data key="node_type">drug</data>
+</node>
+<node id="FEXOFENADINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="KETOROLAC TROMETHAMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LESTAURTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="OXYMETAZOLINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="R-348">
+  <data key="node_type">drug</data>
+</node>
+<node id="LENOGRASTIM">
+  <data key="node_type">drug</data>
+</node>
+<node id="OXIGLUTATIONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BILASTINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALDUMASTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="GLOFITAMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="HYDROXYZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ABX-IL8">
+  <data key="node_type">drug</data>
+</node>
+<node id="CLONAZEPAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSAPREPITANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PARECOXIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENIBARCIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PELABRESIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ETOMIDATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LAMOTRIGINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="LANRAPLENIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TEDISAMIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="NAMILUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPCORITAMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="GLENZOCIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PEGINTERFERON LAMBDA-1A">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSTAMATINIB DISODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="TIRZEPATIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NIROGACESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="MOLIBRESIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARMUSTINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SOFPIRONIUM BROMIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RONICICLIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ASTEGOLIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ULIPRISTAL ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="INOTERSEN SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZILTIVEKIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="OMARIGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="DEXMEDETOMIDINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CATUMAXOMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="DEXCHLORPHENIRAMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FORODESINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ISOFLURANE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ULODESINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="HUMAX-IL8">
+  <data key="node_type">drug</data>
+</node>
+<node id="LEVONORGESTREL">
+  <data key="node_type">drug</data>
+</node>
+<node id="SOVLEPLENIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="FEPIXNEBART">
+  <data key="node_type">drug</data>
+</node>
+<node id="GUANIDINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="METFORMIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="LADARIXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACADESINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PRIMIDONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SAXAGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALFIMEPRASE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SODIUM DICHLOROACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DESFLURANE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NAPROXEN SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="FEXOFENADINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ISRADIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SULOCTIDIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="TIRASEMTIV">
+  <data key="node_type">drug</data>
+</node>
+<node id="ETANERCEPT">
+  <data key="node_type">drug</data>
+</node>
+<node id="LEVOCETIRIZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NINGETINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="SUCRALFATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DIGITOXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="VALSPODAR">
+  <data key="node_type">drug</data>
+</node>
+<node id="METOCLOPRAMIDE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ECULIZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="DIMENHYDRINATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PENTOXIFYLLINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAZEMETOSTAT HYDROBROMIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PHA-793887">
+  <data key="node_type">drug</data>
+</node>
+<node id="REPARIXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="LABETALOL">
+  <data key="node_type">drug</data>
+</node>
+<node id="BIMOSIAMOSE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ALICAFORSEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ABEXINOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="LERCANIDIPINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="GUSACITINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="DIAZEPAM">
+  <data key="node_type">drug</data>
+</node>
+<node id="NEDOSIRAN SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="BENFLUOREX">
+  <data key="node_type">drug</data>
+</node>
+<node id="RELAMORELIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZOLPIDEM TARTRATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="URELUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="TELOTRISTAT ETHYL">
+  <data key="node_type">drug</data>
+</node>
+<node id="CR-6086">
+  <data key="node_type">drug</data>
+</node>
+<node id="SAR-113945">
+  <data key="node_type">drug</data>
+</node>
+<node id="BETAINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PF-04236921">
+  <data key="node_type">drug</data>
+</node>
+<node id="FORODESINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPINEPHRINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NABUMETONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="IGURATIMOD">
+  <data key="node_type">drug</data>
+</node>
+<node id="SORBINIL">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPINASTINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MACIMORELIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="MOSUNETUZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="PROMETHAZINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BIRABRESIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="VANTICTUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CETILISTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="SELICICLIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACETYLDIGITOXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="SOTATERCEPT">
+  <data key="node_type">drug</data>
+</node>
+<node id="BERTILIMUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ASPIRIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="HYDROXYPROGESTERONE CAPROATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="IBUTAMOREN MESYLATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DROSPIRENONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MK0686">
+  <data key="node_type">drug</data>
+</node>
+<node id="VORTIOXETINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DAROTROPIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="FLUOXETINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="CFI-400945">
+  <data key="node_type">drug</data>
+</node>
+<node id="ELIGLUSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PATISIRAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="CENOBAMATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZILUCOPLAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="NOREPINEPHRINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="NAVARIXIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ZOSUQUIDAR">
+  <data key="node_type">drug</data>
+</node>
+<node id="GARETOSMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="ELRANATAMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="NICARDIPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="RGB-286638">
+  <data key="node_type">drug</data>
+</node>
+<node id="BULEVIRTIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="SITAGLIPTIN PHOSPHATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPTINEZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CLEMASTINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BELINOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="FARICIMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="UPROLESELAN">
+  <data key="node_type">drug</data>
+</node>
+<node id="ENTINOSTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="VILDAGLIPTIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="PF-5190457">
+  <data key="node_type">drug</data>
+</node>
+<node id="VANDETANIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="LAROTRECTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="LUMASIRAN SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACALABRUTINIB MALEATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="DIPYRIDAMOLE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PROGESTERONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="MEDROXYPROGESTERONE ACETATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSNETUPITANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="EPLONTERSEN">
+  <data key="node_type">drug</data>
+</node>
+<node id="PEVONEDISTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="PALONOSETRON">
+  <data key="node_type">drug</data>
+</node>
+<node id="ONDANSETRON HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TRICLOFOS">
+  <data key="node_type">drug</data>
+</node>
+<node id="PATISIRAN SODIUM">
+  <data key="node_type">drug</data>
+</node>
+<node id="CODRITUZUMAB">
+  <data key="node_type">drug</data>
+</node>
+<node id="VATIQUINONE">
+  <data key="node_type">drug</data>
+</node>
+<node id="TAFAMIDIS">
+  <data key="node_type">drug</data>
+</node>
+<node id="ACALABRUTINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="CARBINOXAMINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="GRAPIPRANT">
+  <data key="node_type">drug</data>
+</node>
+<node id="LANATOSIDE C">
+  <data key="node_type">drug</data>
+</node>
+<node id="FINGOLIMOD HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ULIPRISTAL">
+  <data key="node_type">drug</data>
+</node>
+<node id="VB-201">
+  <data key="node_type">drug</data>
+</node>
+<node id="CAPROMORELIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="DEXMEDETOMIDINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="BI-505">
+  <data key="node_type">drug</data>
+</node>
+<node id="SEMAGACESTAT">
+  <data key="node_type">drug</data>
+</node>
+<node id="RG-1530">
+  <data key="node_type">drug</data>
+</node>
+<node id="ROPIVACAINE HYDROCHLORIDE">
+  <data key="node_type">drug</data>
+</node>
+<node id="PEGFILGRASTIM">
+  <data key="node_type">drug</data>
+</node>
+<node id="MT-3724">
+  <data key="node_type">drug</data>
+</node>
+<node id="TZP-102">
+  <data key="node_type">drug</data>
+</node>
+<node id="OXCARBAZEPINE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ANAKINRA">
+  <data key="node_type">drug</data>
+</node>
+<node id="UCN-01">
+  <data key="node_type">drug</data>
+</node>
+<node id="FOSTAMATINIB">
+  <data key="node_type">drug</data>
+</node>
+<node id="IBOCTADEKIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="RAMOSETRON">
+  <data key="node_type">drug</data>
+</node>
+<node id="IBUTAMOREN">
+  <data key="node_type">drug</data>
+</node>
+<node id="REMIMAZOLAM BESYLATE">
+  <data key="node_type">drug</data>
+</node>
+<node id="ULIMORELIN">
+  <data key="node_type">drug</data>
+</node>
+<node id="PNLIP">
+  <data key="p_value">0.000161413675042897</data>
+  <data key="logFC">6.76755411424679</data>
+</node>
+<node id="DEFB105A">
+  <data key="p_value">0.000734086637543234</data>
+  <data key="logFC">6.23988903188984</data>
+</node>
+<node id="RND1">
+  <data key="p_value">2.33999194752234e-05</data>
+  <data key="logFC">6.01311509552199</data>
+</node>
+<node id="C9">
+  <data key="p_value">0.00124059916888817</data>
+  <data key="logFC">5.27936125026934</data>
+</node>
+<node id="AIPL1">
+  <data key="p_value">0.000215044652721229</data>
+  <data key="logFC">5.04105791682106</data>
+</node>
+<node id="HSPA6">
+  <data key="p_value">2.6328496470454e-05</data>
+  <data key="logFC">4.89955118758783</data>
+</node>
+<node id="TNF">
+  <data key="p_value">3.45713832378932e-05</data>
+  <data key="logFC">4.54638797508775</data>
+</node>
+<node id="SNAI1">
+  <data key="p_value">7.5042145737146e-06</data>
+  <data key="logFC">4.07207924236507</data>
+</node>
+<node id="ID2">
+  <data key="p_value">0.000119066068350427</data>
+  <data key="logFC">3.90973175772651</data>
+</node>
+<node id="ATF3">
+  <data key="p_value">7.00154027813302e-05</data>
+  <data key="logFC">3.88148852110515</data>
+</node>
+<node id="SLC7A11">
+  <data key="p_value">4.11232532203993e-05</data>
+  <data key="logFC">3.39412176079515</data>
+</node>
+<node id="ULBP2">
+  <data key="p_value">0.000915765012861314</data>
+  <data key="logFC">3.2677486024368</data>
+</node>
+<node id="PNP">
+  <data key="p_value">0.000273402384836857</data>
+  <data key="logFC">2.8992646181139</data>
+</node>
+<node id="ULBP3">
+  <data key="p_value">0.000768078474876627</data>
+  <data key="logFC">2.79948269968295</data>
+</node>
+<node id="HSPA5">
+  <data key="p_value">0.000270801872524692</data>
+  <data key="logFC">2.76740493989062</data>
+</node>
+<node id="EFHB">
+  <data key="p_value">0.00129781979752882</data>
+  <data key="logFC">2.7630537191298</data>
+</node>
+<node id="ELL2">
+  <data key="p_value">0.000495714315402426</data>
+  <data key="logFC">2.70553802548063</data>
+</node>
+<node id="NRXN3">
+  <data key="p_value">0.000187263542418472</data>
+  <data key="logFC">2.60680668839165</data>
+</node>
+<node id="SDR16C5">
+  <data key="p_value">0.000936552298124754</data>
+  <data key="logFC">2.54975943471594</data>
+</node>
+<node id="CDKN1A">
+  <data key="p_value">0.000168191221299794</data>
+  <data key="logFC">2.41467398356196</data>
+</node>
+<node id="EFNA5">
+  <data key="p_value">0.000375919611089006</data>
+  <data key="logFC">2.09589098682254</data>
+</node>
+<node id="GCH1">
+  <data key="p_value">0.00136643146788367</data>
+  <data key="logFC">2.06458248015214</data>
+</node>
+<node id="SERPINE1">
+  <data key="p_value">0.00147803692722878</data>
+  <data key="logFC">1.74606347350889</data>
+</node>
+<node id="TIAM1">
+  <data key="p_value">0.00056625514266644</data>
+  <data key="logFC">1.59604773061882</data>
+</node>
+<node id="NT5E">
+  <data key="p_value">0.00119267110657337</data>
+  <data key="logFC">1.36482893368353</data>
+</node>
+<node id="DPP4">
+  <data key="p_value">0.00112067358192346</data>
+  <data key="logFC">1.27434573720124</data>
+</node>
+<node id="TAF13">
+  <data key="p_value">0.00097161273545653</data>
+  <data key="logFC">-0.844226094331413</data>
+</node>
+<node id="POMP">
+  <data key="p_value">0.000924867589402495</data>
+  <data key="logFC">-0.934813420388232</data>
+</node>
+<node id="LAMTOR5">
+  <data key="p_value">0.000873872311888994</data>
+  <data key="logFC">-0.935308574999839</data>
+</node>
+<node id="ZSWIM7">
+  <data key="p_value">0.000407980632035733</data>
+  <data key="logFC">-1.18648881177046</data>
+</node>
+<node id="TIMM8B">
+  <data key="p_value">0.000881894599506562</data>
+  <data key="logFC">-1.20540156331372</data>
+</node>
+<node id="LEFTY2">
+  <data key="p_value">0.00108109840562794</data>
+  <data key="logFC">-2.27249491863392</data>
+</node>
+<node id="CALML5">
+  <data key="p_value">0.00407809858223205</data>
+  <data key="logFC">5.96350369883331</data>
+</node>
+<node id="TTR">
+  <data key="p_value">0.00438369809018428</data>
+  <data key="logFC">5.49837064825156</data>
+</node>
+<node id="CALCB">
+  <data key="p_value">0.00338208005084775</data>
+  <data key="logFC">5.32066939278418</data>
+</node>
+<node id="GHSR">
+  <data key="p_value">0.00184517954338387</data>
+  <data key="logFC">5.14236395283869</data>
+</node>
+<node id="CT45A9">
+  <data key="p_value">0.00220474053413467</data>
+  <data key="logFC">5.04291837095788</data>
+</node>
+<node id="CLEC1B">
+  <data key="p_value">0.00291833898326935</data>
+  <data key="logFC">5.01877529657572</data>
+</node>
+<node id="CT45A8">
+  <data key="p_value">0.00330209586177905</data>
+  <data key="logFC">5.00775937642314</data>
+</node>
+<node id="BDKRB1">
+  <data key="p_value">0.00241094525940994</data>
+  <data key="logFC">4.94618511237473</data>
+</node>
+<node id="SSX2">
+  <data key="p_value">0.0015773534024463</data>
+  <data key="logFC">4.84619669304752</data>
+</node>
+<node id="SSX3">
+  <data key="p_value">0.00544207717134571</data>
+  <data key="logFC">4.40241312504782</data>
+</node>
+<node id="SCNN1G">
+  <data key="p_value">0.00165758965427836</data>
+  <data key="logFC">4.23869888445785</data>
+</node>
+<node id="SSX4B">
+  <data key="p_value">0.00371360446885147</data>
+  <data key="logFC">4.01450794052812</data>
+</node>
+<node id="SSX4">
+  <data key="p_value">0.00379261227847273</data>
+  <data key="logFC">4.00228205886279</data>
+</node>
+<node id="SULT1E1">
+  <data key="p_value">0.00384206279328292</data>
+  <data key="logFC">3.99325471627357</data>
+</node>
+<node id="HTR3C">
+  <data key="p_value">0.00275203416078048</data>
+  <data key="logFC">3.9289689009297</data>
+</node>
+<node id="IL6">
+  <data key="p_value">0.0035530991762976</data>
+  <data key="logFC">3.90955632868169</data>
+</node>
+<node id="MIP">
+  <data key="p_value">0.00295176392389721</data>
+  <data key="logFC">3.90922085958762</data>
+</node>
+<node id="CNGB1">
+  <data key="p_value">0.00298226544941657</data>
+  <data key="logFC">3.90453624182562</data>
+</node>
+<node id="CXCL8">
+  <data key="p_value">0.00460950799195222</data>
+  <data key="logFC">3.87903116104259</data>
+</node>
+<node id="GABRB1">
+  <data key="p_value">0.0061754687890787</data>
+  <data key="logFC">3.87650730881319</data>
+</node>
+<node id="ZPBP2">
+  <data key="p_value">0.00615393585997994</data>
+  <data key="logFC">3.84274555401041</data>
+</node>
+<node id="POU2F3">
+  <data key="p_value">0.00489305497467422</data>
+  <data key="logFC">3.82014115525898</data>
+</node>
+<node id="SELE">
+  <data key="p_value">0.00299580374074942</data>
+  <data key="logFC">3.80616244111147</data>
+</node>
+<node id="CRX">
+  <data key="p_value">0.00454346746723702</data>
+  <data key="logFC">3.69105915938705</data>
+</node>
+<node id="HTR3A">
+  <data key="p_value">0.00570029383061295</data>
+  <data key="logFC">3.64010686978342</data>
+</node>
+<node id="BCO1">
+  <data key="p_value">0.0048238188749594</data>
+  <data key="logFC">3.52167565322347</data>
+</node>
+<node id="PTGS2">
+  <data key="p_value">0.00174474436696502</data>
+  <data key="logFC">3.50042323551485</data>
+</node>
+<node id="PCSK1">
+  <data key="p_value">0.00628737270657916</data>
+  <data key="logFC">3.27934965448054</data>
+</node>
+<node id="GADD45B">
+  <data key="p_value">0.0016928203248253</data>
+  <data key="logFC">3.27104009809604</data>
+</node>
+<node id="CCL19">
+  <data key="p_value">0.00195563053721558</data>
+  <data key="logFC">3.11064422700985</data>
+</node>
+<node id="ASCL1">
+  <data key="p_value">0.0087113879920708</data>
+  <data key="logFC">3.09512824262394</data>
+</node>
+<node id="GYPE">
+  <data key="p_value">0.00154073649715905</data>
+  <data key="logFC">3.02013345172703</data>
+</node>
+<node id="IL5RA">
+  <data key="p_value">0.00491186653280606</data>
+  <data key="logFC">3.00616339383887</data>
+</node>
+<node id="TNFRSF9">
+  <data key="p_value">0.00527158933012119</data>
+  <data key="logFC">2.99773750406975</data>
+</node>
+<node id="TEKT3">
+  <data key="p_value">0.010201629466084</data>
+  <data key="logFC">2.86255828533525</data>
+</node>
+<node id="SV2C">
+  <data key="p_value">0.00886335619907995</data>
+  <data key="logFC">2.84245616614262</data>
+</node>
+<node id="NR2E3">
+  <data key="p_value">0.00947906565121207</data>
+  <data key="logFC">2.8368261310812</data>
+</node>
+<node id="PLA2G10">
+  <data key="p_value">0.00732445375703842</data>
+  <data key="logFC">2.80232566998082</data>
+</node>
+<node id="ENO4">
+  <data key="p_value">0.00617512420104165</data>
+  <data key="logFC">2.79356817265457</data>
+</node>
+<node id="AK7">
+  <data key="p_value">0.00326436985558309</data>
+  <data key="logFC">2.7298358839971</data>
+</node>
+<node id="CCL26">
+  <data key="p_value">0.00561214604150559</data>
+  <data key="logFC">2.69495202316751</data>
+</node>
+<node id="PPP3R2">
+  <data key="p_value">0.00457067791841072</data>
+  <data key="logFC">2.68866413125163</data>
+</node>
+<node id="MARVELD2">
+  <data key="p_value">0.00878957209774879</data>
+  <data key="logFC">2.53325217312179</data>
+</node>
+<node id="SHISA9">
+  <data key="p_value">0.00482932366838684</data>
+  <data key="logFC">2.51210438919682</data>
+</node>
+<node id="DNAH5">
+  <data key="p_value">0.00170296979487152</data>
+  <data key="logFC">2.49401131294862</data>
+</node>
+<node id="CD3G">
+  <data key="p_value">0.00440678130042605</data>
+  <data key="logFC">2.48828406161493</data>
+</node>
+<node id="PDE6A">
+  <data key="p_value">0.00623514406491513</data>
+  <data key="logFC">2.45568127768283</data>
+</node>
+<node id="CXCL2">
+  <data key="p_value">0.0063811195360739</data>
+  <data key="logFC">2.38055575939096</data>
+</node>
+<node id="SALL4">
+  <data key="p_value">0.00936472802444221</data>
+  <data key="logFC">2.3733284788596</data>
+</node>
+<node id="CACNA1F">
+  <data key="p_value">0.00593765426693367</data>
+  <data key="logFC">2.29973672813376</data>
+</node>
+<node id="GIPR">
+  <data key="p_value">0.00689766612561457</data>
+  <data key="logFC">2.22944603064248</data>
+</node>
+<node id="CIDEA">
+  <data key="p_value">0.00213652060553971</data>
+  <data key="logFC">2.22799505417941</data>
+</node>
+<node id="BCL11B">
+  <data key="p_value">0.00665030592221512</data>
+  <data key="logFC">2.22567234882154</data>
+</node>
+<node id="CA13">
+  <data key="p_value">0.00523263423646432</data>
+  <data key="logFC">2.18213629043072</data>
+</node>
+<node id="IL1RL1">
+  <data key="p_value">0.00710429988281947</data>
+  <data key="logFC">2.15088386550617</data>
+</node>
+<node id="PGA4">
+  <data key="p_value">0.00153527538237134</data>
+  <data key="logFC">2.04540138237725</data>
+</node>
+<node id="PDK4">
+  <data key="p_value">0.00692525814280785</data>
+  <data key="logFC">1.99677894535432</data>
+</node>
+<node id="PGA5">
+  <data key="p_value">0.00311367382708492</data>
+  <data key="logFC">1.98912450416994</data>
+</node>
+<node id="TNFSF9">
+  <data key="p_value">0.00415112482725847</data>
+  <data key="logFC">1.91954593186967</data>
+</node>
+<node id="FAAP24">
+  <data key="p_value">0.0038669606871464</data>
+  <data key="logFC">1.86992066003352</data>
+</node>
+<node id="GYG2">
+  <data key="p_value">0.00521331462811359</data>
+  <data key="logFC">1.80439167061281</data>
+</node>
+<node id="RPS6KA6">
+  <data key="p_value">0.00641886845223339</data>
+  <data key="logFC">1.70654569240433</data>
+</node>
+<node id="TBX5">
+  <data key="p_value">0.0016471925031722</data>
+  <data key="logFC">1.7048858098191</data>
+</node>
+<node id="PPP2R2B">
+  <data key="p_value">0.00446169368864344</data>
+  <data key="logFC">1.67799622064195</data>
+</node>
+<node id="TACR1">
+  <data key="p_value">0.00725255277267285</data>
+  <data key="logFC">1.66073736394971</data>
+</node>
+<node id="ELOVL6">
+  <data key="p_value">0.00248273721778128</data>
+  <data key="logFC">1.6516364785169</data>
+</node>
+<node id="ATP1B3">
+  <data key="p_value">0.00830086672577793</data>
+  <data key="logFC">1.64725304366375</data>
+</node>
+<node id="CEP152">
+  <data key="p_value">0.00489920782056035</data>
+  <data key="logFC">1.62498231990778</data>
+</node>
+<node id="NRXN1">
+  <data key="p_value">0.00611905161359739</data>
+  <data key="logFC">1.62135263759236</data>
+</node>
+<node id="CLDN1">
+  <data key="p_value">0.00522808594322277</data>
+  <data key="logFC">1.62097680160797</data>
+</node>
+<node id="WNT3">
+  <data key="p_value">0.00391047097701193</data>
+  <data key="logFC">1.61446955913724</data>
+</node>
+<node id="PLIN1">
+  <data key="p_value">0.00858700309981295</data>
+  <data key="logFC">1.59176284704739</data>
+</node>
+<node id="POU2F2">
+  <data key="p_value">0.0075057888658236</data>
+  <data key="logFC">1.55446539943237</data>
+</node>
+<node id="PDE8B">
+  <data key="p_value">0.00782427325360283</data>
+  <data key="logFC">1.47624802936445</data>
+</node>
+<node id="GFPT2">
+  <data key="p_value">0.00261005965946756</data>
+  <data key="logFC">1.47247642852494</data>
+</node>
+<node id="CABP4">
+  <data key="p_value">0.00558284165334995</data>
+  <data key="logFC">1.4687201783036</data>
+</node>
+<node id="MICB">
+  <data key="p_value">0.00654344144787444</data>
+  <data key="logFC">1.46143078416724</data>
+</node>
+<node id="EIF4A3">
+  <data key="p_value">0.00562157268598599</data>
+  <data key="logFC">1.45081434611963</data>
+</node>
+<node id="C7">
+  <data key="p_value">0.00494435819160148</data>
+  <data key="logFC">1.44464674159421</data>
+</node>
+<node id="MAP3K8">
+  <data key="p_value">0.00606254733983785</data>
+  <data key="logFC">1.43566036873416</data>
+</node>
+<node id="S1PR2">
+  <data key="p_value">0.00323844804228171</data>
+  <data key="logFC">1.36347259958818</data>
+</node>
+<node id="HRH1">
+  <data key="p_value">0.00350236013373787</data>
+  <data key="logFC">1.35550111418854</data>
+</node>
+<node id="UGCG">
+  <data key="p_value">0.0055318411557148</data>
+  <data key="logFC">1.34333483127269</data>
+</node>
+<node id="SOX9">
+  <data key="p_value">0.00853412201645448</data>
+  <data key="logFC">1.30758972721034</data>
+</node>
+<node id="BCL2L11">
+  <data key="p_value">0.00808596381226153</data>
+  <data key="logFC">1.29919230486046</data>
+</node>
+<node id="EIF2AK3">
+  <data key="p_value">0.00338097871716636</data>
+  <data key="logFC">1.28970248832271</data>
+</node>
+<node id="LEPR">
+  <data key="p_value">0.00427398961841421</data>
+  <data key="logFC">1.28018345725336</data>
+</node>
+<node id="CACNB2">
+  <data key="p_value">0.00646595227983895</data>
+  <data key="logFC">1.27906476687687</data>
+</node>
+<node id="CACNA2D4">
+  <data key="p_value">0.00240744792878748</data>
+  <data key="logFC">1.27815419363169</data>
+</node>
+<node id="NR2F1">
+  <data key="p_value">0.0101002124190808</data>
+  <data key="logFC">1.25739995474963</data>
+</node>
+<node id="CLCF1">
+  <data key="p_value">0.0102195811506915</data>
+  <data key="logFC">1.21846759269679</data>
+</node>
+<node id="LILRB4">
+  <data key="p_value">0.00974998276786208</data>
+  <data key="logFC">1.0503866789758</data>
+</node>
+<node id="PXDNL">
+  <data key="p_value">0.00323670937036201</data>
+  <data key="logFC">1.01578391332428</data>
+</node>
+<node id="AHR">
+  <data key="p_value">0.00910691310583065</data>
+  <data key="logFC">1.01279027266528</data>
+</node>
+<node id="ADAMTS5">
+  <data key="p_value">0.00221436072312715</data>
+  <data key="logFC">0.929241376621312</data>
+</node>
+<node id="XYLT1">
+  <data key="p_value">0.00436273538129616</data>
+  <data key="logFC">0.927767302032284</data>
+</node>
+<node id="UGDH">
+  <data key="p_value">0.00772533661778715</data>
+  <data key="logFC">0.856759558518319</data>
+</node>
+<node id="UBE2D2">
+  <data key="p_value">0.00985169288433705</data>
+  <data key="logFC">-0.605976932385936</data>
+</node>
+<node id="SRP14">
+  <data key="p_value">0.00959431418263904</data>
+  <data key="logFC">-0.670042879856256</data>
+</node>
+<node id="DNAJC19">
+  <data key="p_value">0.0101645333515965</data>
+  <data key="logFC">-0.704739120743448</data>
+</node>
+<node id="MRPL24">
+  <data key="p_value">0.00830679656097805</data>
+  <data key="logFC">-0.707686180401107</data>
+</node>
+<node id="POLR2F">
+  <data key="p_value">0.00972461327054404</data>
+  <data key="logFC">-0.720418347190979</data>
+</node>
+<node id="LSM10">
+  <data key="p_value">0.00830752672959627</data>
+  <data key="logFC">-0.727477663850912</data>
+</node>
+<node id="MRPL40">
+  <data key="p_value">0.0058967541690555</data>
+  <data key="logFC">-0.732242155679343</data>
+</node>
+<node id="NDUFAF2">
+  <data key="p_value">0.00862300487113314</data>
+  <data key="logFC">-0.748897860726554</data>
+</node>
+<node id="MALSU1">
+  <data key="p_value">0.00843088083959446</data>
+  <data key="logFC">-0.759460290893584</data>
+</node>
+<node id="MTX2">
+  <data key="p_value">0.00916448273845973</data>
+  <data key="logFC">-0.765603919780907</data>
+</node>
+<node id="COA6">
+  <data key="p_value">0.00828137492601968</data>
+  <data key="logFC">-0.789750691084964</data>
+</node>
+<node id="ZCRB1">
+  <data key="p_value">0.0104512906357128</data>
+  <data key="logFC">-0.809358336217341</data>
+</node>
+<node id="PARK7">
+  <data key="p_value">0.00423938501891025</data>
+  <data key="logFC">-0.809544370414086</data>
+</node>
+<node id="MRPS15">
+  <data key="p_value">0.00514985477440282</data>
+  <data key="logFC">-0.824447422109697</data>
+</node>
+<node id="KCNS3">
+  <data key="p_value">0.00745020457670403</data>
+  <data key="logFC">-0.827135675059773</data>
+</node>
+<node id="CACNA2D3">
+  <data key="p_value">0.00624087841059118</data>
+  <data key="logFC">-0.828248985902233</data>
+</node>
+<node id="COPS5">
+  <data key="p_value">0.0064803726385161</data>
+  <data key="logFC">-0.836820003050655</data>
+</node>
+<node id="NDUFS3">
+  <data key="p_value">0.00776003982446597</data>
+  <data key="logFC">-0.850927388983377</data>
+</node>
+<node id="TPI1">
+  <data key="p_value">0.00918546306794711</data>
+  <data key="logFC">-0.853190201710612</data>
+</node>
+<node id="PET100">
+  <data key="p_value">0.00591561482380777</data>
+  <data key="logFC">-0.865972533570761</data>
+</node>
+<node id="MRPL21">
+  <data key="p_value">0.00534514858767621</data>
+  <data key="logFC">-0.883282798680355</data>
+</node>
+<node id="RPS20">
+  <data key="p_value">0.00864590695197589</data>
+  <data key="logFC">-0.892139407223576</data>
+</node>
+<node id="CBWD2">
+  <data key="p_value">0.0029615588817933</data>
+  <data key="logFC">-0.907120012317831</data>
+</node>
+<node id="CDK5">
+  <data key="p_value">0.00309560498260334</data>
+  <data key="logFC">-0.90869897786436</data>
+</node>
+<node id="TOMM5">
+  <data key="p_value">0.00207124522823807</data>
+  <data key="logFC">-0.91172397079625</data>
+</node>
+<node id="BAD">
+  <data key="p_value">0.00733608573079607</data>
+  <data key="logFC">-0.915329457725566</data>
+</node>
+<node id="MRPL51">
+  <data key="p_value">0.00750742352586459</data>
+  <data key="logFC">-0.938835683428311</data>
+</node>
+<node id="NDUFA6">
+  <data key="p_value">0.00731135445667738</data>
+  <data key="logFC">-0.947303937371958</data>
+</node>
+<node id="NUDT2">
+  <data key="p_value">0.00832360771759766</data>
+  <data key="logFC">-0.953026580480035</data>
+</node>
+<node id="COX5B">
+  <data key="p_value">0.00431258185037251</data>
+  <data key="logFC">-0.954373095548427</data>
+</node>
+<node id="SNRPN">
+  <data key="p_value">0.00385953729156732</data>
+  <data key="logFC">-0.957712114946357</data>
+</node>
+<node id="SNURF">
+  <data key="p_value">0.00384308086963974</data>
+  <data key="logFC">-0.957941165570761</data>
+</node>
+<node id="AURKA">
+  <data key="p_value">0.00336772342843941</data>
+  <data key="logFC">-0.96478618157799</data>
+</node>
+<node id="CBWD1">
+  <data key="p_value">0.00442715194285253</data>
+  <data key="logFC">-0.969140575691844</data>
+</node>
+<node id="NDUFB2">
+  <data key="p_value">0.00433563658155984</data>
+  <data key="logFC">-0.971260336414905</data>
+</node>
+<node id="CKM">
+  <data key="p_value">0.00864807283150702</data>
+  <data key="logFC">-0.984450785156564</data>
+</node>
+<node id="RPS29">
+  <data key="p_value">0.00751983827335628</data>
+  <data key="logFC">-0.997965068413251</data>
+</node>
+<node id="MRPL33">
+  <data key="p_value">0.00688433533303395</data>
+  <data key="logFC">-1.00389235244571</data>
+</node>
+<node id="ATP23">
+  <data key="p_value">0.00317829856350808</data>
+  <data key="logFC">-1.02139576214435</data>
+</node>
+<node id="UQCRQ">
+  <data key="p_value">0.00283110315714368</data>
+  <data key="logFC">-1.02533294006582</data>
+</node>
+<node id="NDUFC2">
+  <data key="p_value">0.00277809293656397</data>
+  <data key="logFC">-1.0289968262304</data>
+</node>
+<node id="BOLA3">
+  <data key="p_value">0.00189827439650232</data>
+  <data key="logFC">-1.03053700992921</data>
+</node>
+<node id="COX7A1">
+  <data key="p_value">0.00689770045703751</data>
+  <data key="logFC">-1.03419254909384</data>
+</node>
+<node id="DHRS4">
+  <data key="p_value">0.00338266193888337</data>
+  <data key="logFC">-1.03555421431026</data>
+</node>
+<node id="COX6C">
+  <data key="p_value">0.00795075561113981</data>
+  <data key="logFC">-1.04476821638546</data>
+</node>
+<node id="NDUFA1">
+  <data key="p_value">0.00488421098747995</data>
+  <data key="logFC">-1.06849299354881</data>
+</node>
+<node id="RPL21">
+  <data key="p_value">0.00927222665877326</data>
+  <data key="logFC">-1.06977574336705</data>
+</node>
+<node id="NDUFC2-KCTD14">
+  <data key="p_value">0.00188147290333211</data>
+  <data key="logFC">-1.07989101619512</data>
+</node>
+<node id="NDUFB9">
+  <data key="p_value">0.00192093587452298</data>
+  <data key="logFC">-1.1528233577818</data>
+</node>
+<node id="LAMB3">
+  <data key="p_value">0.00461839911435097</data>
+  <data key="logFC">-1.15605204481607</data>
+</node>
+<node id="CSF3R">
+  <data key="p_value">0.00955271751390085</data>
+  <data key="logFC">-1.20155135463922</data>
+</node>
+<node id="SERPINA1">
+  <data key="p_value">0.00341022827313572</data>
+  <data key="logFC">-1.30959541568946</data>
+</node>
+<node id="GREM2">
+  <data key="p_value">0.00798424823011788</data>
+  <data key="logFC">-1.40807229312786</data>
+</node>
+<node id="LEFTY1">
+  <data key="p_value">0.00393307348297683</data>
+  <data key="logFC">-2.00091486191389</data>
+</node>
+<node id="CENPE">
+  <data key="p_value">0.0106165986719039</data>
+  <data key="logFC">1.67244528629028</data>
+</node>
+<node id="E2F2">
+  <data key="p_value">0.0106444434672933</data>
+  <data key="logFC">2.02580381455135</data>
+</node>
+<node id="OSMR">
+  <data key="p_value">0.0106727121665349</data>
+  <data key="logFC">1.05280546790456</data>
+</node>
+<node id="NDUFC1">
+  <data key="p_value">0.0106749421822767</data>
+  <data key="logFC">-0.775729150965597</data>
+</node>
+<node id="CDON">
+  <data key="p_value">0.0107525156359196</data>
+  <data key="logFC">0.943646531588481</data>
+</node>
+<node id="POU3F3">
+  <data key="p_value">0.0107590609888188</data>
+  <data key="logFC">2.65361975898657</data>
+</node>
+<node id="DNAH12">
+  <data key="p_value">0.0111047872960656</data>
+  <data key="logFC">2.51950985439963</data>
+</node>
+<node id="KLF4">
+  <data key="p_value">0.0111356615555339</data>
+  <data key="logFC">1.33853659193371</data>
+</node>
+<node id="CHRM4">
+  <data key="p_value">0.0111661127819864</data>
+  <data key="logFC">-2.62159853605873</data>
+</node>
+<node id="BEX2">
+  <data key="p_value">0.011194288429333</data>
+  <data key="logFC">1.53216143737269</data>
+</node>
+<node id="HAO1">
+  <data key="p_value">0.0113492730767854</data>
+  <data key="logFC">3.43003663515141</data>
+</node>
+<node id="TOMM7">
+  <data key="p_value">0.0115327102553398</data>
+  <data key="logFC">-0.897025149997216</data>
+</node>
+<node id="BCAT1">
+  <data key="p_value">0.0117226783010172</data>
+  <data key="logFC">1.11572484381198</data>
+</node>
+<node id="F13B">
+  <data key="p_value">0.0117233168223291</data>
+  <data key="logFC">3.68584991646715</data>
+</node>
+<node id="BRD2">
+  <data key="p_value">0.0118057003283441</data>
+  <data key="logFC">1.13386551352299</data>
+</node>
+<node id="SCN3B">
+  <data key="p_value">0.011814522978266</data>
+  <data key="logFC">0.770177069899436</data>
+</node>
+<node id="TIMM10">
+  <data key="p_value">0.0120190800295664</data>
+  <data key="logFC">-0.774479372895318</data>
+</node>
+<node id="UBL5">
+  <data key="p_value">0.0121293692549124</data>
+  <data key="logFC">-0.718698000121895</data>
+</node>
+<node id="RPS28">
+  <data key="p_value">0.0121940446123797</data>
+  <data key="logFC">-0.754410080593796</data>
+</node>
+<node id="WDR76">
+  <data key="p_value">0.0122105406813441</data>
+  <data key="logFC">1.2856594526508</data>
+</node>
+<node id="TMC1">
+  <data key="p_value">0.0123939193814794</data>
+  <data key="logFC">2.14389752149512</data>
+</node>
+<node id="NT5M">
+  <data key="p_value">0.012415377473573</data>
+  <data key="logFC">-0.936325227441883</data>
+</node>
+<node id="MRPL53">
+  <data key="p_value">0.0124883109589207</data>
+  <data key="logFC">-0.773888609991098</data>
+</node>
+<node id="NDUFA11">
+  <data key="p_value">0.0125800935551625</data>
+  <data key="logFC">-0.7070662754485459</data>
+</node>
+<node id="PLA2G2A">
+  <data key="p_value">0.012651788052015</data>
+  <data key="logFC">2.05197443777097</data>
+</node>
+<node id="ENPP1">
+  <data key="p_value">0.0126554811434628</data>
+  <data key="logFC">0.693163006921262</data>
+</node>
+<node id="NDUFB1">
+  <data key="p_value">0.0127235593877367</data>
+  <data key="logFC">-1.0887230822433</data>
+</node>
+<node id="NANOG">
+  <data key="p_value">0.0127954738667459</data>
+  <data key="logFC">3.0700752313052</data>
+</node>
+<node id="BMP6">
+  <data key="p_value">0.0130067187753391</data>
+  <data key="logFC">0.812549488776954</data>
+</node>
+<node id="MRPL20">
+  <data key="p_value">0.0130277999225583</data>
+  <data key="logFC">-0.730208658110625</data>
+</node>
+<node id="MRPS18C">
+  <data key="p_value">0.0130310797371812</data>
+  <data key="logFC">-0.85007088489784</data>
+</node>
+<node id="TPM1">
+  <data key="p_value">0.0130964903210154</data>
+  <data key="logFC">-0.963011388128381</data>
+</node>
+<node id="SCN8A">
+  <data key="p_value">0.0132403498330654</data>
+  <data key="logFC">1.61484607827547</data>
+</node>
+<node id="GATA2">
+  <data key="p_value">0.0133594110803496</data>
+  <data key="logFC">1.06651534006259</data>
+</node>
+<node id="GYPC">
+  <data key="p_value">0.0134536601220462</data>
+  <data key="logFC">-0.816615264627881</data>
+</node>
+<node id="CHCHD3">
+  <data key="p_value">0.0134670292621851</data>
+  <data key="logFC">-0.76232620436719</data>
+</node>
+<node id="ARPC2">
+  <data key="p_value">0.0137357949626313</data>
+  <data key="logFC">-0.703318242270621</data>
+</node>
+<node id="PTGER3">
+  <data key="p_value">0.0137566022922301</data>
+  <data key="logFC">1.24736459836218</data>
+</node>
+<node id="UROS">
+  <data key="p_value">0.0137701545658782</data>
+  <data key="logFC">-0.750418181024841</data>
+</node>
+<node id="TNIP3">
+  <data key="p_value">0.0138704757880436</data>
+  <data key="logFC">3.41592813009282</data>
+</node>
+<node id="CCL28">
+  <data key="p_value">0.0139103127757987</data>
+  <data key="logFC">1.78600125397123</data>
+</node>
+<node id="MRPL15">
+  <data key="p_value">0.0140889909982344</data>
+  <data key="logFC">-0.809915204987479</data>
+</node>
+<node id="RAB3B">
+  <data key="p_value">0.0141125560399914</data>
+  <data key="logFC">2.22117043411427</data>
+</node>
+<node id="CCR7">
+  <data key="p_value">0.0144070400863138</data>
+  <data key="logFC">2.04113689098673</data>
+</node>
+<node id="GLI3">
+  <data key="p_value">0.0144128343471485</data>
+  <data key="logFC">0.789292685602375</data>
+</node>
+<node id="GAMT">
+  <data key="p_value">0.0144341278872655</data>
+  <data key="logFC">-0.968139428676024</data>
+</node>
+<node id="RBP4">
+  <data key="p_value">0.0144342720558475</data>
+  <data key="logFC">1.64812347110136</data>
+</node>
+<node id="SNRNP27">
+  <data key="p_value">0.0145874216199424</data>
+  <data key="logFC">-0.623519674540214</data>
+</node>
+<node id="NDUFA3">
+  <data key="p_value">0.0145967418078543</data>
+  <data key="logFC">-0.732316028238339</data>
+</node>
+<node id="FZD5">
+  <data key="p_value">0.0146126909106108</data>
+  <data key="logFC">0.713642546032983</data>
+</node>
+<node id="ZMAT5">
+  <data key="p_value">0.0146555560409871</data>
+  <data key="logFC">-0.735567900459736</data>
+</node>
+<node id="GGT7">
+  <data key="p_value">0.0147399287976432</data>
+  <data key="logFC">-1.19243553958029</data>
+</node>
+<node id="PAM16">
+  <data key="p_value">0.0149179488997437</data>
+  <data key="logFC">-0.937564370644781</data>
+</node>
+<node id="CXCL13">
+  <data key="p_value">0.0149579643184952</data>
+  <data key="logFC">3.78828764011751</data>
+</node>
+<node id="PRKAG2">
+  <data key="p_value">0.0149734615750272</data>
+  <data key="logFC">0.893798344532843</data>
+</node>
+<node id="SHC4">
+  <data key="p_value">0.0150918193988581</data>
+  <data key="logFC">1.2237185465117</data>
+</node>
+<node id="TAC3">
+  <data key="p_value">0.0151000922029488</data>
+  <data key="logFC">2.1100580204071</data>
+</node>
+<node id="NKX2-5">
+  <data key="p_value">0.0151072330779824</data>
+  <data key="logFC">2.69714455546823</data>
+</node>
+<node id="COX8A">
+  <data key="p_value">0.015171218663425</data>
+  <data key="logFC">-0.790439828639059</data>
+</node>
+<node id="CREB5">
+  <data key="p_value">0.0152434209715761</data>
+  <data key="logFC">1.25507558885924</data>
+</node>
+<node id="TIMM17B">
+  <data key="p_value">0.0152507330765953</data>
+  <data key="logFC">-0.762660303532208</data>
+</node>
+<node id="EMC4">
+  <data key="p_value">0.0154081771269561</data>
+  <data key="logFC">-0.656446792424581</data>
+</node>
+<node id="CCND2">
+  <data key="p_value">0.0154954575914009</data>
+  <data key="logFC">0.922077061668734</data>
+</node>
+<node id="SIK2">
+  <data key="p_value">0.0155644309469083</data>
+  <data key="logFC">0.742459703256154</data>
+</node>
+<node id="MRPL52">
+  <data key="p_value">0.0156241748651459</data>
+  <data key="logFC">-0.683132645786898</data>
+</node>
+<node id="BAK1">
+  <data key="p_value">0.0156282371725922</data>
+  <data key="logFC">-0.648800168476197</data>
+</node>
+<node id="EZH2">
+  <data key="p_value">0.015658996746828</data>
+  <data key="logFC">1.38474885323826</data>
+</node>
+<node id="WWC1">
+  <data key="p_value">0.015787123492278</data>
+  <data key="logFC">2.41219297445132</data>
+</node>
+<node id="PABPC1L">
+  <data key="p_value">0.0158237505283868</data>
+  <data key="logFC">0.952588112786897</data>
+</node>
+<node id="BRS3">
+  <data key="p_value">0.0158284005608737</data>
+  <data key="logFC">5.07044331500955</data>
+</node>
+<node id="AKR1D1">
+  <data key="p_value">0.0158419097904686</data>
+  <data key="logFC">3.66008479905445</data>
+</node>
+<node id="LDHA">
+  <data key="p_value">0.0159357080563858</data>
+  <data key="logFC">-1.18075274858031</data>
+</node>
+<node id="RPGRIP1">
+  <data key="p_value">0.0159657448228999</data>
+  <data key="logFC">1.86390254423397</data>
+</node>
+<node id="PPP1R1B">
+  <data key="p_value">0.0160162507684585</data>
+  <data key="logFC">1.92437800902524</data>
+</node>
+<node id="PGR">
+  <data key="p_value">0.0162073506871891</data>
+  <data key="logFC">1.00314071473615</data>
+</node>
+<node id="PGM2">
+  <data key="p_value">0.0163065568207754</data>
+  <data key="logFC">0.966416189772365</data>
+</node>
+<node id="MRC1">
+  <data key="p_value">0.016311623096483</data>
+  <data key="logFC">1.0232663597101</data>
+</node>
+<node id="EFNA2">
+  <data key="p_value">0.01643821471927</data>
+  <data key="logFC">2.63987739480117</data>
+</node>
+<node id="ACER1">
+  <data key="p_value">0.016497628516862</data>
+  <data key="logFC">2.8799045361182</data>
+</node>
+<node id="GDF6">
+  <data key="p_value">0.0166315386824841</data>
+  <data key="logFC">1.93981383269257</data>
+</node>
+<node id="NDUFA13">
+  <data key="p_value">0.0166332092366194</data>
+  <data key="logFC">-0.782864919185589</data>
+</node>
+<node id="GAPDH">
+  <data key="p_value">0.016662542143115</data>
+  <data key="logFC">-0.955722133588365</data>
+</node>
+<node id="SOAT1">
+  <data key="p_value">0.0166699149182878</data>
+  <data key="logFC">0.928911977980035</data>
+</node>
+<node id="UQCRHL">
+  <data key="p_value">0.0167264214434462</data>
+  <data key="logFC">-0.709500640574873</data>
+</node>
+<node id="CA5A">
+  <data key="p_value">0.0167540537456942</data>
+  <data key="logFC">3.36046457034123</data>
+</node>
+<node id="PSMC3">
+  <data key="p_value">0.016799071054486</data>
+  <data key="logFC">-0.660529803013617</data>
+</node>
+<node id="LGALS9B">
+  <data key="p_value">0.0169962662202609</data>
+  <data key="logFC">1.95442925409574</data>
+</node>
+<node id="RIPK2">
+  <data key="p_value">0.0170004111995606</data>
+  <data key="logFC">1.14251143141421</data>
+</node>
+<node id="NDUFB5">
+  <data key="p_value">0.0172535406957511</data>
+  <data key="logFC">-0.807037904635608</data>
+</node>
+<node id="TRAF3IP2">
+  <data key="p_value">0.0172835932784842</data>
+  <data key="logFC">0.803035877693467</data>
+</node>
+<node id="TRAPPC3">
+  <data key="p_value">0.0172927480856874</data>
+  <data key="logFC">-0.579689265824109</data>
+</node>
+<node id="GADD45G">
+  <data key="p_value">0.0173002257620392</data>
+  <data key="logFC">-1.43400922094869</data>
+</node>
+<node id="PLAUR">
+  <data key="p_value">0.0174755336441069</data>
+  <data key="logFC">1.42235613041786</data>
+</node>
+<node id="MRPL11">
+  <data key="p_value">0.0175490192924025</data>
+  <data key="logFC">-0.681868406176511</data>
+</node>
+<node id="NMNAT1">
+  <data key="p_value">0.0175839807743275</data>
+  <data key="logFC">-0.89282065873809</data>
+</node>
+<node id="TRAPPC2B">
+  <data key="p_value">0.0176427546004694</data>
+  <data key="logFC">-0.700962967750846</data>
+</node>
+<node id="CCL2">
+  <data key="p_value">0.0178008292118279</data>
+  <data key="logFC">1.81840682759416</data>
+</node>
+<node id="PSMB10">
+  <data key="p_value">0.0178544723614254</data>
+  <data key="logFC">-1.0209481660235</data>
+</node>
+<node id="FOXO1">
+  <data key="p_value">0.0178839374420316</data>
+  <data key="logFC">0.73043480963568</data>
+</node>
+<node id="SKA1">
+  <data key="p_value">0.0179450399130411</data>
+  <data key="logFC">2.80852455720519</data>
+</node>
+<node id="PCK1">
+  <data key="p_value">0.0181215413001453</data>
+  <data key="logFC">1.69423029893896</data>
+</node>
+<node id="CIB2">
+  <data key="p_value">0.0181675641489252</data>
+  <data key="logFC">-1.19627952809902</data>
+</node>
+<node id="CLDN11">
+  <data key="p_value">0.0183216461765919</data>
+  <data key="logFC">0.757658067916019</data>
+</node>
+<node id="PTGER4">
+  <data key="p_value">0.0183579014752964</data>
+  <data key="logFC">1.16509489025948</data>
+</node>
+<node id="CD83">
+  <data key="p_value">0.0183630191772574</data>
+  <data key="logFC">1.55474197775438</data>
+</node>
+<node id="SNRPD2">
+  <data key="p_value">0.0186068548387387</data>
+  <data key="logFC">-0.918405606653639</data>
+</node>
+<node id="CYP27A1">
+  <data key="p_value">0.0186168644356565</data>
+  <data key="logFC">-0.645243819638558</data>
+</node>
+<node id="CDC20B">
+  <data key="p_value">0.0186412228730334</data>
+  <data key="logFC">3.14284738741478</data>
+</node>
+<node id="TAT">
+  <data key="p_value">0.0186480376515574</data>
+  <data key="logFC">3.25848354148517</data>
+</node>
+<node id="COX4I1">
+  <data key="p_value">0.0186932200994997</data>
+  <data key="logFC">-0.7726490193552</data>
+</node>
+<node id="CYP1A2">
+  <data key="p_value">0.0188614183293017</data>
+  <data key="logFC">3.49834813665521</data>
+</node>
+<node id="PLK4">
+  <data key="p_value">0.0189050455418883</data>
+  <data key="logFC">1.6687449476238</data>
+</node>
+<node id="PSMD14">
+  <data key="p_value">0.0189111666736891</data>
+  <data key="logFC">-0.680695028638039</data>
+</node>
+<node id="MRPS28">
+  <data key="p_value">0.0189330178353234</data>
+  <data key="logFC">-0.660041805583017</data>
+</node>
+<node id="DSC2">
+  <data key="p_value">0.0190963946525535</data>
+  <data key="logFC">1.16957330558291</data>
+</node>
+<node id="DSG2">
+  <data key="p_value">0.0192228669010853</data>
+  <data key="logFC">0.85507831655619</data>
+</node>
+<node id="GLRX3">
+  <data key="p_value">0.0192549814468864</data>
+  <data key="logFC">-0.598979994506525</data>
+</node>
+<node id="MRPL34">
+  <data key="p_value">0.0192831539292271</data>
+  <data key="logFC">-0.680132954839782</data>
+</node>
+<node id="SAT1">
+  <data key="p_value">0.0193290664943252</data>
+  <data key="logFC">1.27889497548962</data>
+</node>
+<node id="UBB">
+  <data key="p_value">0.0194678416475356</data>
+  <data key="logFC">-0.620975965837335</data>
+</node>
+<node id="CH25H">
+  <data key="p_value">0.0195114597073707</data>
+  <data key="logFC">3.04244229817095</data>
+</node>
+<node id="NUTF2">
+  <data key="p_value">0.0196243036422771</data>
+  <data key="logFC">-0.544897970714084</data>
+</node>
+<node id="CD44">
+  <data key="p_value">0.0197899050608456</data>
+  <data key="logFC">1.05977690223675</data>
+</node>
+<node id="FASN">
+  <data key="p_value">0.0197928557102296</data>
+  <data key="logFC">1.26800177015599</data>
+</node>
+<node id="GABRG2">
+  <data key="p_value">0.0199220096165577</data>
+  <data key="logFC">4.12972135563649</data>
+</node>
+<node id="UQCRH">
+  <data key="p_value">0.0199800313862688</data>
+  <data key="logFC">-0.868631551421459</data>
+</node>
+<node id="CTH">
+  <data key="p_value">0.0200254850528235</data>
+  <data key="logFC">1.62479113382959</data>
+</node>
+<node id="AK1">
+  <data key="p_value">0.0200817721117589</data>
+  <data key="logFC">-0.905845797279684</data>
+</node>
+<node id="PAIP1">
+  <data key="p_value">0.0202561555955344</data>
+  <data key="logFC">-0.711407271073681</data>
+</node>
+<node id="UBA3">
+  <data key="p_value">0.0203042759678581</data>
+  <data key="logFC">-0.550833321753196</data>
+</node>
+<node id="MELK">
+  <data key="p_value">0.0204250978943632</data>
+  <data key="logFC">2.110038264651</data>
+</node>
+<node id="TPH1">
+  <data key="p_value">0.020462045378384</data>
+  <data key="logFC">1.87036006921633</data>
+</node>
+<node id="CXCR2">
+  <data key="p_value">0.0207416882911911</data>
+  <data key="logFC">-1.48033635444949</data>
+</node>
+<node id="PRKACG">
+  <data key="p_value">0.020899121965466</data>
+  <data key="logFC">3.10997737294747</data>
+</node>
+<node id="PIGR">
+  <data key="p_value">0.020924982301747</data>
+  <data key="logFC">2.9092384212683</data>
+</node>
+<node id="NME2">
+  <data key="p_value">0.0209429326329843</data>
+  <data key="logFC">-0.681306652010136</data>
+</node>
+<node id="DNAJB1">
+  <data key="p_value">0.0210357234229629</data>
+  <data key="logFC">1.36139515738075</data>
+</node>
+<node id="EPHA7">
+  <data key="p_value">0.0210929150969224</data>
+  <data key="logFC">2.00152660894223</data>
+</node>
+<node id="GUCY2F">
+  <data key="p_value">0.0211307039583253</data>
+  <data key="logFC">3.60728757818016</data>
+</node>
+<node id="ANXA1">
+  <data key="p_value">0.0211531263364399</data>
+  <data key="logFC">1.00455428036185</data>
+</node>
+<node id="RGS14">
+  <data key="p_value">0.0212954816454837</data>
+  <data key="logFC">-0.86905334891002</data>
+</node>
+<node id="GYPB">
+  <data key="p_value">0.0215169667346004</data>
+  <data key="logFC">4.10406991530698</data>
+</node>
+<node id="SF3B5">
+  <data key="p_value">0.0215291709652645</data>
+  <data key="logFC">-0.649008192141282</data>
+</node>
+<node id="UGT8">
+  <data key="p_value">0.0219134253156212</data>
+  <data key="logFC">2.42748474570816</data>
+</node>
+<node id="CCL11">
+  <data key="p_value">0.0219142412911853</data>
+  <data key="logFC">3.47044578159794</data>
+</node>
+<node id="NDUFB10">
+  <data key="p_value">0.0219314836898713</data>
+  <data key="logFC">-0.793204780102674</data>
+</node>
+<node id="ISCA2">
+  <data key="p_value">0.022154436908524</data>
+  <data key="logFC">-0.647706447502504</data>
+</node>
+<node id="ISY1">
+  <data key="p_value">0.0222728021929631</data>
+  <data key="logFC">-0.575603718852457</data>
+</node>
+<node id="IKBKB">
+  <data key="p_value">0.0223007032322011</data>
+  <data key="logFC">-0.719947637257966</data>
+</node>
+<node id="XCL1">
+  <data key="p_value">0.0223246484052993</data>
+  <data key="logFC">2.42816747425011</data>
+</node>
+<node id="SHH">
+  <data key="p_value">0.0227675598094473</data>
+  <data key="logFC">2.58300319234753</data>
+</node>
+<node id="CGN">
+  <data key="p_value">0.0228868613026509</data>
+  <data key="logFC">1.74264358844114</data>
+</node>
+<node id="NXF1">
+  <data key="p_value">0.022970217904178</data>
+  <data key="logFC">0.834233770233361</data>
+</node>
+<node id="OLIG1">
+  <data key="p_value">0.0229893096134148</data>
+  <data key="logFC">1.50138925688916</data>
+</node>
+<node id="CXCL1">
+  <data key="p_value">0.0230384281762632</data>
+  <data key="logFC">2.56910391566004</data>
+</node>
+<node id="CYP27C1">
+  <data key="p_value">0.0231187500471345</data>
+  <data key="logFC">1.2197658675808</data>
+</node>
+<node id="CCL22">
+  <data key="p_value">0.0231377362091921</data>
+  <data key="logFC">2.93129019908995</data>
+</node>
+<node id="MS4A2">
+  <data key="p_value">0.0231621930085047</data>
+  <data key="logFC">1.0571297738253</data>
+</node>
+<node id="TEKT2">
+  <data key="p_value">0.0233101069282238</data>
+  <data key="logFC">2.46913381384515</data>
+</node>
+<node id="CRY1">
+  <data key="p_value">0.0234310207950834</data>
+  <data key="logFC">0.82746677943201</data>
+</node>
+<node id="TPM2">
+  <data key="p_value">0.0234672231475742</data>
+  <data key="logFC">-0.944096589406174</data>
+</node>
+<node id="NME1-NME2">
+  <data key="p_value">0.0234679802936384</data>
+  <data key="logFC">-0.681967156141837</data>
+</node>
+<node id="LEP">
+  <data key="p_value">0.0235829250552544</data>
+  <data key="logFC">1.72692762165374</data>
+</node>
+<node id="NTRK3">
+  <data key="p_value">0.0238057769396041</data>
+  <data key="logFC">1.05612699411988</data>
+</node>
+<node id="CYP2B6">
+  <data key="p_value">0.0238479786800015</data>
+  <data key="logFC">2.84924890003889</data>
+</node>
+<node id="SLC6A4">
+  <data key="p_value">0.0238895355653457</data>
+  <data key="logFC">1.98244829524219</data>
+</node>
+<node id="RPL37A">
+  <data key="p_value">0.0239496035579635</data>
+  <data key="logFC">-0.778903977635832</data>
+</node>
+<node id="RIMS2">
+  <data key="p_value">0.024193244060511</data>
+  <data key="logFC">2.66420260183917</data>
+</node>
+<node id="MRPL37">
+  <data key="p_value">0.0244597334647912</data>
+  <data key="logFC">-0.594169317313886</data>
+</node>
+<node id="MYH1">
+  <data key="p_value">0.0245851705245894</data>
+  <data key="logFC">-1.10193736568455</data>
+</node>
+<node id="NDUFA7">
+  <data key="p_value">0.0247980884523157</data>
+  <data key="logFC">-0.799777124423403</data>
+</node>
+<node id="PNKD">
+  <data key="p_value">0.0250125520869986</data>
+  <data key="logFC">-0.622279106246855</data>
+</node>
+<node id="BIRC3">
+  <data key="p_value">0.0250392281526896</data>
+  <data key="logFC">1.32289648429247</data>
+</node>
+<node id="PRKCG">
+  <data key="p_value">0.0252589470655316</data>
+  <data key="logFC">2.73649236752541</data>
+</node>
+<node id="PSMA8">
+  <data key="p_value">0.0253742052937934</data>
+  <data key="logFC">1.92659747315744</data>
+</node>
+<node id="CD14">
+  <data key="p_value">0.0253858900630298</data>
+  <data key="logFC">0.783020328747069</data>
+</node>
+<node id="PSMD4">
+  <data key="p_value">0.0254812016850949</data>
+  <data key="logFC">-0.652507078907251</data>
+</node>
+<node id="AKR1C2">
+  <data key="p_value">0.0255415557674641</data>
+  <data key="logFC">-0.833146310304438</data>
+</node>
+<node id="PSMB3">
+  <data key="p_value">0.0255704421326384</data>
+  <data key="logFC">-0.575712107072542</data>
+</node>
+<node id="HPSE">
+  <data key="p_value">0.0256333223251323</data>
+  <data key="logFC">1.33061366108842</data>
+</node>
+<node id="CACNG8">
+  <data key="p_value">0.0257743048129954</data>
+  <data key="logFC">1.18884752823249</data>
+</node>
+<node id="HDAC11">
+  <data key="p_value">0.0258044542481272</data>
+  <data key="logFC">-0.827748593624319</data>
+</node>
+<node id="STX11">
+  <data key="p_value">0.0258146600650563</data>
+  <data key="logFC">1.1032360211588</data>
+</node>
+<node id="BUB1B">
+  <data key="p_value">0.0260348049195589</data>
+  <data key="logFC">1.65483975111242</data>
+</node>
+<node id="PGAM2">
+  <data key="p_value">0.0261087106399887</data>
+  <data key="logFC">-0.925392813512466</data>
+</node>
+<node id="PTS">
+  <data key="p_value">0.0261678814887274</data>
+  <data key="logFC">-0.858042763358536</data>
+</node>
+<node id="S100A1">
+  <data key="p_value">0.0261880852775651</data>
+  <data key="logFC">-1.00609856773337</data>
+</node>
+<node id="GABRE">
+  <data key="p_value">0.0265885593639828</data>
+  <data key="logFC">1.15356896348918</data>
+</node>
+<node id="RRAGD">
+  <data key="p_value">0.0265893398339063</data>
+  <data key="logFC">-0.652394377904039</data>
+</node>
+<node id="RPL26L1">
+  <data key="p_value">0.0267922109163535</data>
+  <data key="logFC">-0.683361126961301</data>
+</node>
+<node id="REL">
+  <data key="p_value">0.0268117940915738</data>
+  <data key="logFC">1.01916401151114</data>
+</node>
+<node id="EFNB2">
+  <data key="p_value">0.0269204827649915</data>
+  <data key="logFC">0.856014848394299</data>
+</node>
+<node id="CLDN4">
+  <data key="p_value">0.0270057908844893</data>
+  <data key="logFC">1.04285839971385</data>
+</node>
+<node id="MLXIPL">
+  <data key="p_value">0.0271843288814966</data>
+  <data key="logFC">0.675340961917205</data>
+</node>
+<node id="CSF2">
+  <data key="p_value">0.0271873817207619</data>
+  <data key="logFC">3.93700650237194</data>
+</node>
+<node id="ABCB1">
+  <data key="p_value">0.0275293615621736</data>
+  <data key="logFC">1.16195916987063</data>
+</node>
+<node id="SDHB">
+  <data key="p_value">0.0276726095667972</data>
+  <data key="logFC">-0.668580389248706</data>
+</node>
+<node id="CDCA8">
+  <data key="p_value">0.0278821739255367</data>
+  <data key="logFC">1.6601585040595</data>
+</node>
+<node id="INTS6L">
+  <data key="p_value">0.0279875958515495</data>
+  <data key="logFC">1.23679986606394</data>
+</node>
+<node id="MRPL18">
+  <data key="p_value">0.028032068546705</data>
+  <data key="logFC">-0.560013762010524</data>
+</node>
+<node id="TRIM49">
+  <data key="p_value">0.0280946257296958</data>
+  <data key="logFC">2.91983469308691</data>
+</node>
+<node id="RUNX2">
+  <data key="p_value">0.0280994400588133</data>
+  <data key="logFC">1.08588506326903</data>
+</node>
+<node id="UQCRFS1">
+  <data key="p_value">0.0281856127462968</data>
+  <data key="logFC">-0.697641975986074</data>
+</node>
+<node id="OCLN">
+  <data key="p_value">0.028198462068541</data>
+  <data key="logFC">1.1928407488415</data>
+</node>
+<node id="MERTK">
+  <data key="p_value">0.028245090301912</data>
+  <data key="logFC">0.879169793568366</data>
+</node>
+<node id="SMKR1">
+  <data key="p_value">0.0282453585300396</data>
+  <data key="logFC">1.78875988452153</data>
+</node>
+<node id="CHCHD10">
+  <data key="p_value">0.0282516127160611</data>
+  <data key="logFC">-0.804630490981564</data>
+</node>
+<node id="NTRK2">
+  <data key="p_value">0.0283586760892341</data>
+  <data key="logFC">0.803821512520795</data>
+</node>
+<node id="EMC6">
+  <data key="p_value">0.0285140063304275</data>
+  <data key="logFC">-0.722842323284602</data>
+</node>
+<node id="NDUFAF5">
+  <data key="p_value">0.0286345260847055</data>
+  <data key="logFC">-0.75503738245374</data>
+</node>
+<node id="TIMM13">
+  <data key="p_value">0.0286729628914651</data>
+  <data key="logFC">-0.790582449254372</data>
+</node>
+<node id="ICAM1">
+  <data key="p_value">0.0286772565320804</data>
+  <data key="logFC">1.09755392622914</data>
+</node>
+<node id="NCAPH">
+  <data key="p_value">0.0287340691569704</data>
+  <data key="logFC">1.51801925463371</data>
+</node>
+<node id="SAMM50">
+  <data key="p_value">0.0287477199847212</data>
+  <data key="logFC">-0.651359673838577</data>
+</node>
+<node id="NDUFS2">
+  <data key="p_value">0.028753997148468</data>
+  <data key="logFC">-0.672393432470848</data>
+</node>
+<node id="PGA3">
+  <data key="p_value">0.0287895449142787</data>
+  <data key="logFC">1.43773771839134</data>
+</node>
+<node id="MARVELD3">
+  <data key="p_value">0.0290319290220879</data>
+  <data key="logFC">1.8631397123242</data>
+</node>
+<node id="RPS25">
+  <data key="p_value">0.0291052397230287</data>
+  <data key="logFC">-0.734717248902532</data>
+</node>
+<node id="ATF4">
+  <data key="p_value">0.0291736847173159</data>
+  <data key="logFC">-0.636447720061131</data>
+</node>
+<node id="GAP43">
+  <data key="p_value">0.0292336758230702</data>
+  <data key="logFC">1.47987640317876</data>
+</node>
+<node id="ACKR2">
+  <data key="p_value">0.029236582752528</data>
+  <data key="logFC">1.0091554575813</data>
+</node>
+<node id="CDC26">
+  <data key="p_value">0.0293011270149031</data>
+  <data key="logFC">-0.712379360154895</data>
+</node>
+<node id="TIMMDC1">
+  <data key="p_value">0.0293787453798361</data>
+  <data key="logFC">-0.657834373634767</data>
+</node>
+<node id="LSM1">
+  <data key="p_value">0.0294056999433959</data>
+  <data key="logFC">-0.583755209744235</data>
+</node>
+<node id="GINS4">
+  <data key="p_value">0.0295880588850076</data>
+  <data key="logFC">1.23715055003589</data>
+</node>
+<node id="NMBR">
+  <data key="p_value">0.0296656065309533</data>
+  <data key="logFC">3.32000813665713</data>
+</node>
+<node id="PRC1">
+  <data key="p_value">0.0297180434846967</data>
+  <data key="logFC">1.09475435947045</data>
+</node>
+<node id="COX11">
+  <data key="p_value">0.0297762594130506</data>
+  <data key="logFC">-0.51964197321861</data>
+</node>
+<node id="EFHC2">
+  <data key="p_value">0.0298384947605431</data>
+  <data key="logFC">2.07446708804608</data>
+</node>
+<node id="FCGR1A">
+  <data key="p_value">0.0299423890777892</data>
+  <data key="logFC">1.72234772384666</data>
+</node>
+<node id="GCG">
+  <data key="p_value">0.0299707948035739</data>
+  <data key="logFC">3.95389937570055</data>
+</node>
+<node id="UCHL3">
+  <data key="p_value">0.0303375511229223</data>
+  <data key="logFC">-0.690674013422621</data>
+</node>
+<node id="MEP1B">
+  <data key="p_value">0.0303670139386395</data>
+  <data key="logFC">2.20788987354038</data>
+</node>
+<node id="NDUFB8">
+  <data key="p_value">0.0305804943036766</data>
+  <data key="logFC">-0.757552519433324</data>
+</node>
+<node id="ERCC1">
+  <data key="p_value">0.0305824900837002</data>
+  <data key="logFC">-0.598064082050227</data>
+</node>
+<node id="RPS14">
+  <data key="p_value">0.0306583681412093</data>
+  <data key="logFC">-0.797241253631373</data>
+</node>
+<node id="ARPC5L">
+  <data key="p_value">0.0306803203682083</data>
+  <data key="logFC">-0.74824098208466</data>
+</node>
+<node id="CXCL3">
+  <data key="p_value">0.0310049265592905</data>
+  <data key="logFC">2.06736871173015</data>
+</node>
+<node id="COX6B1">
+  <data key="p_value">0.0311211447024321</data>
+  <data key="logFC">-0.75903455726619</data>
+</node>
+<node id="IL1R1">
+  <data key="p_value">0.0311723107913695</data>
+  <data key="logFC">0.778579484831434</data>
+</node>
+<node id="NDUFA4">
+  <data key="p_value">0.0314790770648765</data>
+  <data key="logFC">-1.014820277138</data>
+</node>
+<node id="S100B">
+  <data key="p_value">0.0317570414786497</data>
+  <data key="logFC">1.33956636943137</data>
+</node>
+<node id="VAV3">
+  <data key="p_value">0.0318278531675965</data>
+  <data key="logFC">0.813128999492509</data>
+</node>
+<node id="IKZF3">
+  <data key="p_value">0.0319220968129221</data>
+  <data key="logFC">1.29917286432956</data>
+</node>
+<node id="MX2">
+  <data key="p_value">0.0322633003822886</data>
+  <data key="logFC">0.920993420337485</data>
+</node>
+<node id="NDUFA2">
+  <data key="p_value">0.0323523647549719</data>
+  <data key="logFC">-0.761376742298982</data>
+</node>
+<node id="MFAP5">
+  <data key="p_value">0.0323765843187439</data>
+  <data key="logFC">1.33509554826057</data>
+</node>
+<node id="ITGAM">
+  <data key="p_value">0.0325162025594837</data>
+  <data key="logFC">0.703350926317461</data>
+</node>
+<node id="EMC7">
+  <data key="p_value">0.0327150434317099</data>
+  <data key="logFC">-0.54128616148649</data>
+</node>
+<node id="TRIM49C">
+  <data key="p_value">0.0331508957594968</data>
+  <data key="logFC">3.25828390174687</data>
+</node>
+<node id="ARL6IP1">
+  <data key="p_value">0.0335204377611559</data>
+  <data key="logFC">0.922131393015061</data>
+</node>
+<node id="GPC3">
+  <data key="p_value">0.033609171376343</data>
+  <data key="logFC">0.88111840775788</data>
+</node>
+<node id="ATP1A3">
+  <data key="p_value">0.0337857794896796</data>
+  <data key="logFC">1.45505339460261</data>
+</node>
+<node id="P2RX7">
+  <data key="p_value">0.0339484660366051</data>
+  <data key="logFC">0.98757978857101</data>
+</node>
+<node id="EIF3K">
+  <data key="p_value">0.0340754739394025</data>
+  <data key="logFC">-0.72099142656339</data>
+</node>
+<node id="SYK">
+  <data key="p_value">0.0341317262634862</data>
+  <data key="logFC">0.651881888836659</data>
+</node>
+<node id="DEFB1">
+  <data key="p_value">0.0342990052687468</data>
+  <data key="logFC">2.59397466965085</data>
+</node>
+<node id="CALD1">
+  <data key="p_value">0.03435845124336</data>
+  <data key="logFC">0.77918261577601</data>
+</node>
+<node id="EFNA1">
+  <data key="p_value">0.0345973282965109</data>
+  <data key="logFC">0.64260377485032</data>
+</node>
+<node id="RYR2">
+  <data key="p_value">0.0347419967419731</data>
+  <data key="logFC">1.05017674815421</data>
+</node>
+<node id="CCDC124">
+  <data key="p_value">0.0349529903724756</data>
+  <data key="logFC">-0.655693205710817</data>
+</node>
+<node id="KDM6A">
+  <data key="p_value">0.0350227570465473</data>
+  <data key="logFC">0.631668535075202</data>
+</node>
+<node id="ADRA2A">
+  <data key="p_value">0.0352066574657417</data>
+  <data key="logFC">1.0273995762863</data>
+</node>
+<node id="KIAA0513">
+  <data key="p_value">0.0353021300075615</data>
+  <data key="logFC">-0.755768261328992</data>
+</node>
+<node id="NQO1">
+  <data key="p_value">0.0354817221487521</data>
+  <data key="logFC">-0.931859187287668</data>
+</node>
+<node id="SIRT1">
+  <data key="p_value">0.0355904578058713</data>
+  <data key="logFC">0.707939017235233</data>
+</node>
+<node id="RPS23">
+  <data key="p_value">0.0358049403926836</data>
+  <data key="logFC">-0.588374163969534</data>
+</node>
+<node id="IFNLR1">
+  <data key="p_value">0.0358246665909153</data>
+  <data key="logFC">-0.652586237679359</data>
+</node>
+<node id="RPL23A">
+  <data key="p_value">0.0359770354787905</data>
+  <data key="logFC">-0.672264961295349</data>
+</node>
+<node id="RNF7">
+  <data key="p_value">0.0360730860477002</data>
+  <data key="logFC">-0.564159602286971</data>
+</node>
+<node id="NCK2">
+  <data key="p_value">0.0361459144321852</data>
+  <data key="logFC">-0.599688820633195</data>
+</node>
+<node id="SIRT4">
+  <data key="p_value">0.0362762677589418</data>
+  <data key="logFC">-0.625266165466205</data>
+</node>
+<node id="HERC5">
+  <data key="p_value">0.0362965520681487</data>
+  <data key="logFC">0.750069624308324</data>
+</node>
+<node id="ESPL1">
+  <data key="p_value">0.0363234508073179</data>
+  <data key="logFC">1.49201213637249</data>
+</node>
+<node id="HK1">
+  <data key="p_value">0.0364055184368386</data>
+  <data key="logFC">-0.537279133620676</data>
+</node>
+<node id="LBP">
+  <data key="p_value">0.0365327641473423</data>
+  <data key="logFC">1.60272357277452</data>
+</node>
+<node id="HSPH1">
+  <data key="p_value">0.0366318360190219</data>
+  <data key="logFC">0.994011722798532</data>
+</node>
+<node id="TNFAIP3">
+  <data key="p_value">0.0367244616765338</data>
+  <data key="logFC">1.05739821200895</data>
+</node>
+<node id="BHLHE41">
+  <data key="p_value">0.0367691104064467</data>
+  <data key="logFC">-0.734352718749882</data>
+</node>
+<node id="KCNQ4">
+  <data key="p_value">0.0368075728768124</data>
+  <data key="logFC">0.776908476544532</data>
+</node>
+<node id="PPP1R15A">
+  <data key="p_value">0.0370107336172189</data>
+  <data key="logFC">1.22879838782501</data>
+</node>
+<node id="BHMT2">
+  <data key="p_value">0.0371067523919136</data>
+  <data key="logFC">-0.70255269260276</data>
+</node>
+<node id="STAMBP">
+  <data key="p_value">0.0373387946875798</data>
+  <data key="logFC">-0.48680569106377</data>
+</node>
+<node id="NLGN1">
+  <data key="p_value">0.0373542899082848</data>
+  <data key="logFC">1.63151436959252</data>
+</node>
+<node id="AKR1B1">
+  <data key="p_value">0.0374801500920944</data>
+  <data key="logFC">-0.641593593459514</data>
+</node>
+<node id="CLPS">
+  <data key="p_value">0.0378643453017872</data>
+  <data key="logFC">3.14187848267393</data>
+</node>
+<node id="SSX1">
+  <data key="p_value">0.0379076357023275</data>
+  <data key="logFC">3.08888400642232</data>
+</node>
+<node id="KCNE1">
+  <data key="p_value">0.0381541001872631</data>
+  <data key="logFC">2.24972040449938</data>
+</node>
+<node id="MRPL48">
+  <data key="p_value">0.0382428877214727</data>
+  <data key="logFC">-0.637861795069602</data>
+</node>
+<node id="RALY">
+  <data key="p_value">0.0383091969698434</data>
+  <data key="logFC">-0.535121860605104</data>
+</node>
+<node id="CRLF1">
+  <data key="p_value">0.0384967790854075</data>
+  <data key="logFC">-0.729141642553983</data>
+</node>
+<node id="CHMP2A">
+  <data key="p_value">0.0386691056832829</data>
+  <data key="logFC">-0.620175281686968</data>
+</node>
+<node id="CIDEC">
+  <data key="p_value">0.0388498201238422</data>
+  <data key="logFC">1.45250141375806</data>
+</node>
+<node id="SPC25">
+  <data key="p_value">0.0388692765355034</data>
+  <data key="logFC">2.3580662611077</data>
+</node>
+<node id="MRPL47">
+  <data key="p_value">0.0392163565512008</data>
+  <data key="logFC">-0.576697858189334</data>
+</node>
+<node id="TOM1">
+  <data key="p_value">0.0393292608193727</data>
+  <data key="logFC">-0.669784294071429</data>
+</node>
+<node id="C6">
+  <data key="p_value">0.0393413547093925</data>
+  <data key="logFC">1.07302816665399</data>
+</node>
+<node id="ANGPT2">
+  <data key="p_value">0.039380868953489</data>
+  <data key="logFC">0.923950778980844</data>
+</node>
+<node id="SLC10A1">
+  <data key="p_value">0.0394075830850559</data>
+  <data key="logFC">1.96231273265896</data>
+</node>
+<node id="OAS1">
+  <data key="p_value">0.0394411528006402</data>
+  <data key="logFC">0.722788433899361</data>
+</node>
+<node id="RAB27A">
+  <data key="p_value">0.0397586994727915</data>
+  <data key="logFC">0.784161882005431</data>
+</node>
+<node id="MYH13">
+  <data key="p_value">0.039791427899118</data>
+  <data key="logFC">-1.36175250806799</data>
+</node>
+<node id="INTS6">
+  <data key="p_value">0.0399152609225977</data>
+  <data key="logFC">1.00857629356675</data>
+</node>
+<node id="BOLA1">
+  <data key="p_value">0.0401908022963578</data>
+  <data key="logFC">-0.79629229926759</data>
+</node>
+<node id="SOD1">
+  <data key="p_value">0.0404604602284757</data>
+  <data key="logFC">-0.560230720505851</data>
+</node>
+<node id="CETN2">
+  <data key="p_value">0.0405414603824995</data>
+  <data key="logFC">-0.588902390805219</data>
+</node>
+<node id="NCR1">
+  <data key="p_value">0.0405428004709704</data>
+  <data key="logFC">2.05569888308733</data>
+</node>
+<node id="AGMAT">
+  <data key="p_value">0.040841979734028</data>
+  <data key="logFC">-0.865569232608959</data>
+</node>
+<node id="ANAPC11">
+  <data key="p_value">0.0409797997255754</data>
+  <data key="logFC">-0.79642357400502</data>
+</node>
+<node id="BMPR1B">
+  <data key="p_value">0.0410741732257869</data>
+  <data key="logFC">0.853119020463168</data>
+</node>
+<node id="BECN1">
+  <data key="p_value">0.041106988460737</data>
+  <data key="logFC">-0.492173846135</data>
+</node>
+<node id="ADM">
+  <data key="p_value">0.0411464957441426</data>
+  <data key="logFC">1.15639718790615</data>
+</node>
+<node id="HMBS">
+  <data key="p_value">0.0412553503737964</data>
+  <data key="logFC">-0.808423769291655</data>
+</node>
+<node id="FGF14">
+  <data key="p_value">0.0413823964990592</data>
+  <data key="logFC">1.23858766300268</data>
+</node>
+<node id="EIF2AK1">
+  <data key="p_value">0.0414398846721766</data>
+  <data key="logFC">-0.652219349174251</data>
+</node>
+<node id="EREG">
+  <data key="p_value">0.0417245747667691</data>
+  <data key="logFC">1.53930909205869</data>
+</node>
+<node id="NDUFB11">
+  <data key="p_value">0.0417356630128844</data>
+  <data key="logFC">-0.850053735097962</data>
+</node>
+<node id="TNNT3">
+  <data key="p_value">0.0421871723193209</data>
+  <data key="logFC">-0.861727129778082</data>
+</node>
+<node id="GSR">
+  <data key="p_value">0.0422445505450244</data>
+  <data key="logFC">-0.522544928915429</data>
+</node>
+<node id="FANCB">
+  <data key="p_value">0.0423097791749935</data>
+  <data key="logFC">1.79038528858011</data>
+</node>
+<node id="MGAM2">
+  <data key="p_value">0.0423991076636876</data>
+  <data key="logFC">2.73021059135263</data>
+</node>
+<node id="INHBA">
+  <data key="p_value">0.0424266583437386</data>
+  <data key="logFC">1.04426646915745</data>
+</node>
+<node id="PLAU">
+  <data key="p_value">0.0426707317907254</data>
+  <data key="logFC">0.738926562693808</data>
+</node>
+<node id="MTIF3">
+  <data key="p_value">0.0429609513258313</data>
+  <data key="logFC">-0.653893672038707</data>
+</node>
+<node id="PGK1">
+  <data key="p_value">0.0431868076971699</data>
+  <data key="logFC">-0.561277167270962</data>
+</node>
+<node id="MYH8">
+  <data key="p_value">0.0431958375286968</data>
+  <data key="logFC">-1.30065893581015</data>
+</node>
+<node id="LIPE">
+  <data key="p_value">0.0432754087388876</data>
+  <data key="logFC">0.868382396952868</data>
+</node>
+<node id="PGM1">
+  <data key="p_value">0.0433074059399125</data>
+  <data key="logFC">-0.718462065419354</data>
+</node>
+<node id="HRH4">
+  <data key="p_value">0.0433334230115307</data>
+  <data key="logFC">1.86032526188133</data>
+</node>
+<node id="RAPGEF4">
+  <data key="p_value">0.0435832993859923</data>
+  <data key="logFC">0.977463519218346</data>
+</node>
+<node id="RUNX1">
+  <data key="p_value">0.043646843906619</data>
+  <data key="logFC">1.06351032188687</data>
+</node>
+<node id="C5">
+  <data key="p_value">0.0437865923376303</data>
+  <data key="logFC">0.901461393463642</data>
+</node>
+<node id="UCHL1">
+  <data key="p_value">0.0438442849687815</data>
+  <data key="logFC">-1.11850395950436</data>
+</node>
+<node id="R3HDM4">
+  <data key="p_value">0.04384821334242</data>
+  <data key="logFC">-0.557912711252781</data>
+</node>
+<node id="KNTC1">
+  <data key="p_value">0.043901025784201</data>
+  <data key="logFC">0.893784285835634</data>
+</node>
+<node id="FPR1">
+  <data key="p_value">0.043953482479646</data>
+  <data key="logFC">-1.13763369494606</data>
+</node>
+<node id="GP6">
+  <data key="p_value">0.0439647612340955</data>
+  <data key="logFC">1.71143725149268</data>
+</node>
+<node id="EIF2S2">
+  <data key="p_value">0.043969711639661</data>
+  <data key="logFC">-0.526712452343254</data>
+</node>
+<node id="AKR1C3">
+  <data key="p_value">0.0442698651880098</data>
+  <data key="logFC">-0.61528493751356</data>
+</node>
+<node id="SLC9A1">
+  <data key="p_value">0.0444736285773407</data>
+  <data key="logFC">0.793599178471581</data>
+</node>
+<node id="MNAT1">
+  <data key="p_value">0.0444813855524187</data>
+  <data key="logFC">-0.574225060991763</data>
+</node>
+<node id="ENPP2">
+  <data key="p_value">0.0449754667656412</data>
+  <data key="logFC">0.853605967848923</data>
+</node>
+<node id="MRPL57">
+  <data key="p_value">0.0452644241115137</data>
+  <data key="logFC">-0.503310501268328</data>
+</node>
+<node id="CWC15">
+  <data key="p_value">0.0452647023959787</data>
+  <data key="logFC">-0.710823126221</data>
+</node>
+<node id="NOMO3">
+  <data key="p_value">0.0452838392255525</data>
+  <data key="logFC">-0.588588093309369</data>
+</node>
+<node id="NTPCR">
+  <data key="p_value">0.0455196373557522</data>
+  <data key="logFC">-0.714114312762861</data>
+</node>
+<node id="ABCA1">
+  <data key="p_value">0.0457268133200816</data>
+  <data key="logFC">0.648091961175724</data>
+</node>
+<node id="FGF9">
+  <data key="p_value">0.0461585620057003</data>
+  <data key="logFC">1.21874649496319</data>
+</node>
+<node id="POLR3K">
+  <data key="p_value">0.0462837911109351</data>
+  <data key="logFC">-0.570449423979716</data>
+</node>
+<node id="AOX1">
+  <data key="p_value">0.0464534462726812</data>
+  <data key="logFC">0.811998544125628</data>
+</node>
+<node id="GINS2">
+  <data key="p_value">0.0466162885961869</data>
+  <data key="logFC">-0.685499015824492</data>
+</node>
+<node id="COX17">
+  <data key="p_value">0.046777507431528</data>
+  <data key="logFC">-0.938169521360055</data>
+</node>
+<node id="ISCA1">
+  <data key="p_value">0.0468630360951776</data>
+  <data key="logFC">-0.558959678500616</data>
+</node>
+<node id="IL18R1">
+  <data key="p_value">0.0468813304768845</data>
+  <data key="logFC">0.958988557186346</data>
+</node>
+<node id="LMO2">
+  <data key="p_value">0.0470167106284805</data>
+  <data key="logFC">-0.94712404673924</data>
+</node>
+<node id="SCN4B">
+  <data key="p_value">0.047017332521735</data>
+  <data key="logFC">-0.551727020574068</data>
+</node>
+<node id="RDH12">
+  <data key="p_value">0.047022830952654</data>
+  <data key="logFC">2.18046957481766</data>
+</node>
+<node id="CPS1">
+  <data key="p_value">0.0470892482541894</data>
+  <data key="logFC">0.869521971899503</data>
+</node>
+<node id="TPM3">
+  <data key="p_value">0.047213228481542</data>
+  <data key="logFC">-0.694250526908968</data>
+</node>
+<node id="PSENEN">
+  <data key="p_value">0.047353156071337</data>
+  <data key="logFC">-0.52093285480799</data>
+</node>
+<node id="HELLS">
+  <data key="p_value">0.0474509850804437</data>
+  <data key="logFC">1.26043150361906</data>
+</node>
+<node id="PLXNA4">
+  <data key="p_value">0.0474884003111734</data>
+  <data key="logFC">0.613878266831867</data>
+</node>
+<node id="UGT1A10">
+  <data key="p_value">0.0478358334152683</data>
+  <data key="logFC">2.27665310345311</data>
+</node>
+<node id="IFI44">
+  <data key="p_value">0.0480169875371066</data>
+  <data key="logFC">1.09318935840404</data>
+</node>
+<node id="BTK">
+  <data key="p_value">0.0480598312592428</data>
+  <data key="logFC">1.01754260122136</data>
+</node>
+<node id="CYP2C18">
+  <data key="p_value">0.0481698308029777</data>
+  <data key="logFC">2.51660462045731</data>
+</node>
+<node id="AFF4">
+  <data key="p_value">0.0483273486603375</data>
+  <data key="logFC">0.926217055442855</data>
+</node>
+<node id="GATA3">
+  <data key="p_value">0.0485359684662918</data>
+  <data key="logFC">0.86799412753566</data>
+</node>
+<node id="NDUFB6">
+  <data key="p_value">0.0485807408752919</data>
+  <data key="logFC">-0.763781977060318</data>
+</node>
+<node id="ROR1">
+  <data key="p_value">0.0488269705998281</data>
+  <data key="logFC">0.635481219406711</data>
+</node>
+<node id="CD226">
+  <data key="p_value">0.0492472773650827</data>
+  <data key="logFC">1.43781858905555</data>
+</node>
+<node id="RPL18">
+  <data key="p_value">0.0493039360775734</data>
+  <data key="logFC">-0.660689955054994</data>
+</node>
+<node id="FGB">
+  <data key="p_value">0.0493449587723592</data>
+  <data key="logFC">2.38913618009141</data>
+</node>
+<node id="FBN1">
+  <data key="p_value">0.0494420428278233</data>
+  <data key="logFC">0.776329234830334</data>
+</node>
+<node id="EPHA3">
+  <data key="p_value">0.0494518714311807</data>
+  <data key="logFC">1.16229978100739</data>
+</node>
+<edge source="DANIRIXIN" target="CXCR2"/>
+<edge source="MIBAVADEMAB" target="LEPR"/>
+<edge source="PAROXETINE" target="SLC6A4"/>
+<edge source="RELDESEMTIV" target="TNNT3"/>
+<edge source="AZELASTINE" target="HRH1"/>
+<edge source="TAS0612" target="RPS6KA6"/>
+<edge source="AMLODIPINE BESYLATE" target="CACNA1F"/>
+<edge source="ENMD-2076" target="AURKA"/>
+<edge source="NISOLDIPINE" target="CACNA1F"/>
+<edge source="ANCROD" target="FGB"/>
+<edge source="OCRIPLASMIN" target="LAMB3"/>
+<edge source="VANUCIZUMAB" target="ANGPT2"/>
+<edge source="CLOBAZAM" target="GABRG2"/>
+<edge source="VARESPLADIB METHYL" target="PLA2G10"/>
+<edge source="VARESPLADIB METHYL" target="PLA2G2A"/>
+<edge source="ROLAPITANT" target="TACR1"/>
+<edge source="FIBRINOLYSIN, HUMAN" target="FGB"/>
+<edge source="UTOMILUMAB" target="TNFRSF9"/>
+<edge source="ISTAROXIME" target="ATP1B3"/>
+<edge source="AMIFAMPRIDINE PHOSPHATE" target="KCNQ4"/>
+<edge source="AMIFAMPRIDINE PHOSPHATE" target="KCNS3"/>
+<edge source="IBRUTINIB" target="BTK"/>
+<edge source="TOZASERTIB" target="AURKA"/>
+<edge source="ZOLPIDEM" target="GABRG2"/>
+<edge source="ROLAPITANT HYDROCHLORIDE" target="TACR1"/>
+<edge source="BMS-986158" target="BRD2"/>
+<edge source="MIFEPRISTONE" target="PGR"/>
+<edge source="BIVATUZUMAB" target="CD44"/>
+<edge source="FOSNETUPITANT CHLORIDE HYDROCHLORIDE" target="TACR1"/>
+<edge source="METOCLOPRAMIDE" target="HTR3A"/>
+<edge source="TENELIGLIPTIN" target="DPP4"/>
+<edge source="FLAVOXATE" target="PDE8B"/>
+<edge source="SOFPIRONIUM" target="CHRM4"/>
+<edge source="RG-4733" target="PSENEN"/>
+<edge source="MISOPROSTOL" target="PTGER3"/>
+<edge source="TAPINAROF" target="AHR"/>
+<edge source="EFLAPEGRASTIM" target="CSF3R"/>
+<edge source="CLOTHIAPINE" target="HTR3C"/>
+<edge source="DAROTROPIUM BROMIDE" target="CHRM4"/>
+<edge source="BIRICODAR" target="ABCB1"/>
+<edge source="SIRUKUMAB" target="IL6"/>
+<edge source="DEXKETOPROFEN" target="PTGS2"/>
+<edge source="BLINATUMOMAB" target="CD3G"/>
+<edge source="TOREFORANT" target="HRH4"/>
+<edge source="DINACICLIB" target="CDK5"/>
+<edge source="ENTRECTINIB" target="NTRK2"/>
+<edge source="ENTRECTINIB" target="NTRK3"/>
+<edge source="PIROXICAM" target="PTGS2"/>
+<edge source="VENGLUSTAT" target="UGCG"/>
+<edge source="PEXELIZUMAB" target="C5"/>
+<edge source="OTILIMAB" target="CSF2"/>
+<edge source="SEPHB4-HSA" target="EFNB2"/>
+<edge source="MEGESTROL ACETATE" target="PGR"/>
+<edge source="DULOXETINE" target="SLC6A4"/>
+<edge source="AMLODIPINE BENZOATE" target="CACNA1F"/>
+<edge source="PROMETHAZINE HYDROCHLORIDE" target="HRH1"/>
+<edge source="NORTRIPTYLINE HYDROCHLORIDE" target="SLC6A4"/>
+<edge source="ETHOTOIN" target="SCN8A"/>
+<edge source="NETUPITANT" target="TACR1"/>
+<edge source="BEPOTASTINE" target="HRH1"/>
+<edge source="ZONISAMIDE" target="SCN8A"/>
+<edge source="RAVULIZUMAB" target="C5"/>
+<edge source="TOLRESTAT" target="AKR1B1"/>
+<edge source="ENMD-981693" target="AURKA"/>
+<edge source="GUANFACINE" target="ADRA2A"/>
+<edge source="DANUSERTIB" target="AURKA"/>
+<edge source="ALPRAZOLAM" target="GABRG2"/>
+<edge source="PLONMARLIMAB" target="CSF2"/>
+<edge source="METRELEPTIN" target="LEPR"/>
+<edge source="PEXASTIMOGENE DEVACIREPVEC" target="CSF2"/>
+<edge source="GANAXOLONE" target="GABRG2"/>
+<edge source="ZANUBRUTINIB" target="BTK"/>
+<edge source="RIVIPANSEL" target="SELE"/>
+<edge source="EPHEDRINE SULFATE" target="ADRA2A"/>
+<edge source="LUMASIRAN" target="HAO1"/>
+<edge source="TECLISTAMAB" target="CD3G"/>
+<edge source="IMD-1041" target="IKBKB"/>
+<edge source="AMIFAMPRIDINE" target="KCNQ4"/>
+<edge source="AMIFAMPRIDINE" target="KCNS3"/>
+<edge source="ATAGABALIN" target="CACNA2D3"/>
+<edge source="ATAGABALIN" target="CACNA2D4"/>
+<edge source="ATAGABALIN" target="CACNB2"/>
+<edge source="ATAGABALIN" target="CACNG8"/>
+<edge source="LUCERASTAT" target="UGCG"/>
+<edge source="GSK2816126" target="EZH2"/>
+<edge source="GOLIMUMAB" target="TNF"/>
+<edge source="LAROTRECTINIB SULFATE" target="NTRK2"/>
+<edge source="LAROTRECTINIB SULFATE" target="NTRK3"/>
+<edge source="TAFAMIDIS MEGLUMINE" target="TTR"/>
+<edge source="AFACIFENACIN" target="CHRM4"/>
+<edge source="DINOPROSTONE" target="PTGER3"/>
+<edge source="DINOPROSTONE" target="PTGER4"/>
+<edge source="CELGOSIVIR" target="MGAM2"/>
+<edge source="IMAGABALIN" target="CACNA2D3"/>
+<edge source="IMAGABALIN" target="CACNA2D4"/>
+<edge source="IMAGABALIN" target="CACNB2"/>
+<edge source="IMAGABALIN" target="CACNG8"/>
+<edge source="SRT-2104" target="SIRT1"/>
+<edge source="OLOKIZUMAB" target="IL6"/>
+<edge source="UR-63325" target="HRH4"/>
+<edge source="TELOTRISTAT ETIPRATE" target="TPH1"/>
+<edge source="DIGOXIN" target="ATP1A3"/>
+<edge source="SILTUXIMAB" target="IL6"/>
+<edge source="ACETAMINOPHEN" target="PTGS2"/>
+<edge source="TACEDINALINE" target="HDAC11"/>
+<edge source="ALEPLASININ" target="SERPINE1"/>
+<edge source="PACTIMIBE" target="SOAT1"/>
+<edge source="AMLODIPINE" target="CACNA1F"/>
+<edge source="BREXANOLONE" target="GABRE"/>
+<edge source="GRANISETRON" target="HTR3A"/>
+<edge source="PROBUCOL" target="ABCA1"/>
+<edge source="TELOTRISTAT" target="TPH1"/>
+<edge source="AMISELIMOD HYDROCHLORIDE" target="S1PR2"/>
+<edge source="POZELIMAB" target="C5"/>
+<edge source="REGRAMOSTIM" target="CSF3R"/>
+<edge source="AZD9056" target="P2RX7"/>
+<edge source="GSK1482160" target="P2RX7"/>
+<edge source="MOSAPRIDE" target="HTR3A"/>
+<edge source="MOSAPRIDE" target="HTR3C"/>
+<edge source="MOCETINOSTAT" target="HDAC11"/>
+<edge source="CERDULATINIB" target="SYK"/>
+<edge source="PANOBINOSTAT LACTATE" target="HDAC11"/>
+<edge source="LENZILUMAB" target="CSF2"/>
+<edge source="RODATRISTAT ETHYL" target="TPH1"/>
+<edge source="APABETALONE" target="BRD2"/>
+<edge source="MARIZOMIB" target="PSMA8"/>
+<edge source="MARIZOMIB" target="PSMB10"/>
+<edge source="MARIZOMIB" target="PSMB3"/>
+<edge source="BIRINAPANT" target="BIRC3"/>
+<edge source="DALFAMPRIDINE" target="KCNQ4"/>
+<edge source="DALFAMPRIDINE" target="KCNS3"/>
+<edge source="CLAZAKIZUMAB" target="IL6"/>
+<edge source="TALETRECTINIB" target="NTRK2"/>
+<edge source="TALETRECTINIB" target="NTRK3"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA1"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA11"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA13"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA2"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA3"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA4"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA6"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFA7"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFAF2"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB1"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB10"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB11"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB2"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB5"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB6"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB8"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFB9"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFC1"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFS2"/>
+<edge source="METFORMIN HYDROCHLORIDE" target="NDUFS3"/>
+<edge source="DESLANOSIDE" target="ATP1A3"/>
+<edge source="EVOBRUTINIB" target="BTK"/>
+<edge source="EPALRESTAT" target="AKR1B1"/>
+<edge source="NORTRIPTYLINE" target="SLC6A4"/>
+<edge source="VERAPAMIL" target="CACNA1F"/>
+<edge source="DICLOFENAC SODIUM" target="PTGS2"/>
+<edge source="SEVOFLURANE" target="GABRE"/>
+<edge source="SEVOFLURANE" target="GABRB1"/>
+<edge source="SEVOFLURANE" target="GABRG2"/>
+<edge source="FLURBIPROFEN" target="PTGS2"/>
+<edge source="SERTRALINE" target="SLC6A4"/>
+<edge source="ALOGLIPTIN" target="DPP4"/>
+<edge source="ORLISTAT" target="PNLIP"/>
+<edge source="BENRALIZUMAB" target="IL5RA"/>
+<edge source="FINGOLIMOD" target="S1PR2"/>
+<edge source="CERTOLIZUMAB PEGOL" target="TNF"/>
+<edge source="CVX-060" target="ANGPT2"/>
+<edge source="ONDANSETRON" target="HTR3A"/>
+<edge source="SULTHIAME" target="CA13"/>
+<edge source="SULTHIAME" target="CA5A"/>
+<edge source="BI113823" target="BDKRB1"/>
+<edge source="MIDOSTAURIN" target="PRKCG"/>
+<edge source="XANOMELINE" target="CHRM4"/>
+<edge source="MYRCLUDEX B" target="SLC10A1"/>
+<edge source="FREMANEZUMAB" target="CALCB"/>
+<edge source="BEPRIDIL" target="CACNA2D3"/>
+<edge source="BEPRIDIL" target="CACNA2D4"/>
+<edge source="BEPRIDIL" target="CACNB2"/>
+<edge source="BEPRIDIL" target="CACNG8"/>
+<edge source="INFLIXIMAB" target="TNF"/>
+<edge source="ABIVERTINIB" target="BTK"/>
+<edge source="GSK-690693" target="PRKACG"/>
+<edge source="COFIRASERSEN" target="SCNN1G"/>
+<edge source="DESVENLAFAXINE" target="SLC6A4"/>
+<edge source="RO-6870810" target="BRD2"/>
+<edge source="VARESPLADIB" target="PLA2G2A"/>
+<edge source="AMISULPRIDE" target="HTR3C"/>
+<edge source="TARIQUIDAR" target="ABCB1"/>
+<edge source="VENLAFAXINE HYDROCHLORIDE" target="SLC6A4"/>
+<edge source="CEMDISIRAN" target="C5"/>
+<edge source="FELODIPINE" target="CACNA1F"/>
+<edge source="LINAGLIPTIN" target="DPP4"/>
+<edge source="BARDOXOLONE METHYL" target="IKBKB"/>
+<edge source="SULFASALAZINE" target="PTGS2"/>
+<edge source="KETOROLAC" target="PTGS2"/>
+<edge source="TARENFLURBIL" target="PSENEN"/>
+<edge source="DEXFENFLURAMINE" target="HTR3C"/>
+<edge source="SITAGLIPTIN" target="DPP4"/>
+<edge source="NIMODIPINE" target="CACNA1F"/>
+<edge source="ELUBRIXIN" target="CXCR2"/>
+<edge source="EDIFOLIGIDE SODIUM" target="E2F2"/>
+<edge source="ADALIMUMAB" target="TNF"/>
+<edge source="ELIGLUSTAT TARTRATE" target="UGCG"/>
+<edge source="TILPISERTIB" target="MAP3K8"/>
+<edge source="HEPALATIDE" target="SLC10A1"/>
+<edge source="GIMSILUMAB" target="CSF2"/>
+<edge source="CELECOXIB" target="PTGS2"/>
+<edge source="CAFICRESTAT" target="AKR1B1"/>
+<edge source="PROPOFOL" target="GABRE"/>
+<edge source="PROPOFOL" target="GABRB1"/>
+<edge source="PROPOFOL" target="GABRG2"/>
+<edge source="ATALUREN" target="RPL18"/>
+<edge source="ATALUREN" target="RPL21"/>
+<edge source="ATALUREN" target="RPL23A"/>
+<edge source="ATALUREN" target="RPL37A"/>
+<edge source="ATALUREN" target="RPS14"/>
+<edge source="ATALUREN" target="RPS20"/>
+<edge source="ATALUREN" target="RPS23"/>
+<edge source="ATALUREN" target="RPS25"/>
+<edge source="ATALUREN" target="RPS28"/>
+<edge source="ATALUREN" target="RPS29"/>
+<edge source="IC14" target="CD14"/>
+<edge source="MIGLUSTAT" target="UGCG"/>
+<edge source="PHLOROGLUCINOL" target="CACNA2D3"/>
+<edge source="PHLOROGLUCINOL" target="CACNA2D4"/>
+<edge source="PHLOROGLUCINOL" target="CACNB2"/>
+<edge source="PHLOROGLUCINOL" target="CACNG8"/>
+<edge source="VOGLIBOSE" target="MGAM2"/>
+<edge source="CYPROTERONE ACETATE" target="PGR"/>
+<edge source="TREBANANIB" target="ANGPT2"/>
+<edge source="CARBINOXAMINE MALEATE" target="HRH1"/>
+<edge source="ENCEQUIDAR" target="ABCB1"/>
+<edge source="MDX-447" target="FCGR1A"/>
+<edge source="ESLICARBAZEPINE ACETATE" target="SCN8A"/>
+<edge source="FILGRASTIM" target="CSF3R"/>
+<edge source="QUINIDINE" target="SCN8A"/>
+<edge source="OLOPATADINE" target="HRH1"/>
+<edge source="NEVANIMIBE" target="SOAT1"/>
+<edge source="DILTIAZEM" target="CACNA1F"/>
+<edge source="CENEGERMIN" target="NTRK2"/>
+<edge source="CENEGERMIN" target="NTRK3"/>
+<edge source="NIFEDIPINE" target="CACNA1F"/>
+<edge source="ULIMORELIN HYDROCHLORIDE" target="GHSR"/>
+<edge source="AVAGACESTAT" target="PSENEN"/>
+<edge source="VUTRISIRAN" target="TTR"/>
+<edge source="TAZEMETOSTAT" target="EZH2"/>
+<edge source="CARGLUMIC ACID" target="CPS1"/>
+<edge source="PADSEVONIL" target="SV2C"/>
+<edge source="LIDOCAINE" target="SCN8A"/>
+<edge source="METHYLPROMAZINE" target="HRH1"/>
+<edge source="TRIPROLIDINE HYDROCHLORIDE" target="HRH1"/>
+<edge source="DULOXETINE HYDROCHLORIDE" target="SLC6A4"/>
+<edge source="METHOXYFLURANE" target="GABRE"/>
+<edge source="METHOXYFLURANE" target="GABRB1"/>
+<edge source="MIDAZOLAM" target="GABRG2"/>
+<edge source="ALISERTIB" target="AURKA"/>
+<edge source="DICLOFENAC" target="PTGS2"/>
+<edge source="NESVACUMAB" target="ANGPT2"/>
+<edge source="PLASMINOGEN" target="FGB"/>
+<edge source="R-333" target="SYK"/>
+<edge source="ANAMORELIN" target="GHSR"/>
+<edge source="CIRMTUZUMAB" target="ROR1"/>
+<edge source="ZIRITAXESTAT" target="ENPP2"/>
+<edge source="AT-7519" target="CDK5"/>
+<edge source="CE-224535" target="P2RX7"/>
+<edge source="ROPIVACAINE" target="SCN8A"/>
+<edge source="CARLUMAB" target="CCL2"/>
+<edge source="ELX-02" target="RPL18"/>
+<edge source="ELX-02" target="RPL21"/>
+<edge source="ELX-02" target="RPL23A"/>
+<edge source="ELX-02" target="RPL37A"/>
+<edge source="ELX-02" target="RPS14"/>
+<edge source="ELX-02" target="RPS20"/>
+<edge source="ELX-02" target="RPS23"/>
+<edge source="ELX-02" target="RPS25"/>
+<edge source="ELX-02" target="RPS28"/>
+<edge source="ELX-02" target="RPS29"/>
+<edge source="ENTOSPLETINIB" target="SYK"/>
+<edge source="ANAMORELIN HYDROCHLORIDE" target="GHSR"/>
+<edge source="TRELAGLIPTIN" target="DPP4"/>
+<edge source="AMITRIPTYLINE" target="SLC6A4"/>
+<edge source="TROPISETRON" target="HTR3A"/>
+<edge source="TROPISETRON" target="HTR3C"/>
+<edge source="NEFAZODONE HYDROCHLORIDE" target="SLC6A4"/>
+<edge source="CROVALIMAB" target="C5"/>
+<edge source="VERAPAMIL HYDROCHLORIDE" target="CACNA1F"/>
+<edge source="PANOBINOSTAT" target="HDAC11"/>
+<edge source="TOFERSEN" target="SOD1"/>
+<edge source="ADRIFORANT" target="HRH4"/>
+<edge source="COCAINE" target="SCN8A"/>
+<edge source="OLECLUMAB" target="NT5E"/>
+<edge source="CARBAMAZEPINE" target="SCN8A"/>
+<edge source="RIVENPROST" target="PTGER4"/>
+<edge source="GALCANEZUMAB" target="CALCB"/>
+<edge source="FLAVOXATE HYDROCHLORIDE" target="PDE8B"/>
+<edge source="ZIMELDINE" target="HTR3C"/>
+<edge source="BRIMONIDINE TARTRATE" target="ADRA2A"/>
+<edge source="MUPARFOSTAT" target="HPSE"/>
+<edge source="APREPITANT" target="TACR1"/>
+<edge source="TOLAZOLINE" target="ADRA2A"/>
+<edge source="SX-682" target="CXCR2"/>
+<edge source="ILORASERTIB" target="AURKA"/>
+<edge source="TALQUETAMAB" target="CD3G"/>
+<edge source="ROMIDEPSIN" target="HDAC11"/>
+<edge source="DRONEDARONE" target="CACNA1F"/>
+<edge source="CYPROHEPTADINE HYDROCHLORIDE" target="HRH1"/>
+<edge source="ETONOGESTREL" target="PGR"/>
+<edge source="NORETHINDRONE ACETATE" target="PGR"/>
+<edge source="ALCAFTADINE" target="HRH1"/>
+<edge source="OPROZOMIB" target="PSMA8"/>
+<edge source="OPROZOMIB" target="PSMB10"/>
+<edge source="OPROZOMIB" target="PSMB3"/>
+<edge source="OPROZOMIB" target="PSMC3"/>
+<edge source="OPROZOMIB" target="PSMD14"/>
+<edge source="OPROZOMIB" target="PSMD4"/>
+<edge source="TERODILINE" target="CACNA1F"/>
+<edge source="TERODILINE" target="CACNA2D3"/>
+<edge source="TERODILINE" target="CACNA2D4"/>
+<edge source="TERODILINE" target="CACNB2"/>
+<edge source="TERODILINE" target="CACNG8"/>
+<edge source="TERODILINE" target="CHRM4"/>
+<edge source="CETIRIZINE" target="HRH1"/>
+<edge source="TOPIRAMATE" target="SCN8A"/>
+<edge source="TOPIRAMATE" target="GABRE"/>
+<edge source="TOPIRAMATE" target="GABRB1"/>
+<edge source="FIBRINOGEN, HUMAN" target="FGB"/>
+<edge source="MIRTAZAPINE" target="ADRA2A"/>
+<edge source="IDREVLORIDE" target="SCNN1G"/>
+<edge source="EZOGABINE" target="KCNQ4"/>
+<edge source="ACAMPROSATE" target="GABRE"/>
+<edge source="FOSAPREPITANT DIMEGLUMINE" target="TACR1"/>
+<edge source="ESCITALOPRAM" target="SLC6A4"/>
+<edge source="GUANIDINE" target="KCNQ4"/>
+<edge source="GUANIDINE" target="KCNS3"/>
+<edge source="JNJ-54175446" target="P2RX7"/>
+<edge source="FEXOFENADINE" target="HRH1"/>
+<edge source="KETOROLAC TROMETHAMINE" target="PTGS2"/>
+<edge source="LESTAURTINIB" target="NTRK2"/>
+<edge source="LESTAURTINIB" target="NTRK3"/>
+<edge source="OXYMETAZOLINE HYDROCHLORIDE" target="ADRA2A"/>
+<edge source="R-348" target="SYK"/>
+<edge source="LENOGRASTIM" target="CSF3R"/>
+<edge source="OXIGLUTATIONE" target="GSR"/>
+<edge source="BILASTINE" target="HRH1"/>
+<edge source="ALDUMASTAT" target="ADAMTS5"/>
+<edge source="GLOFITAMAB" target="CD3G"/>
+<edge source="HYDROXYZINE" target="HRH1"/>
+<edge source="ABX-IL8" target="CXCL8"/>
+<edge source="CLONAZEPAM" target="GABRG2"/>
+<edge source="FOSAPREPITANT" target="TACR1"/>
+<edge source="PARECOXIB" target="PTGS2"/>
+<edge source="ENIBARCIMAB" target="ADM"/>
+<edge source="PELABRESIB" target="BRD2"/>
+<edge source="ETOMIDATE" target="GABRE"/>
+<edge source="LAMOTRIGINE" target="SCN8A"/>
+<edge source="LANRAPLENIB" target="SYK"/>
+<edge source="TEDISAMIL" target="KCNQ4"/>
+<edge source="TEDISAMIL" target="KCNS3"/>
+<edge source="NAMILUMAB" target="CSF2"/>
+<edge source="EPCORITAMAB" target="CD3G"/>
+<edge source="GLENZOCIMAB" target="GP6"/>
+<edge source="PEGINTERFERON LAMBDA-1A" target="IFNLR1"/>
+<edge source="FOSTAMATINIB DISODIUM" target="SYK"/>
+<edge source="TIRZEPATIDE" target="GIPR"/>
+<edge source="NIROGACESTAT" target="PSENEN"/>
+<edge source="MOLIBRESIB" target="BRD2"/>
+<edge source="CARMUSTINE" target="GSR"/>
+<edge source="SOFPIRONIUM BROMIDE" target="CHRM4"/>
+<edge source="RONICICLIB" target="CDK5"/>
+<edge source="ASTEGOLIMAB" target="IL1RL1"/>
+<edge source="ULIPRISTAL ACETATE" target="PGR"/>
+<edge source="INOTERSEN SODIUM" target="TTR"/>
+<edge source="ZILTIVEKIMAB" target="IL6"/>
+<edge source="OMARIGLIPTIN" target="DPP4"/>
+<edge source="DEXMEDETOMIDINE HYDROCHLORIDE" target="ADRA2A"/>
+<edge source="CATUMAXOMAB" target="CD3G"/>
+<edge source="DEXCHLORPHENIRAMINE" target="HRH1"/>
+<edge source="FORODESINE" target="PNP"/>
+<edge source="ISOFLURANE" target="GABRE"/>
+<edge source="ULODESINE" target="PNP"/>
+<edge source="HUMAX-IL8" target="CXCL8"/>
+<edge source="LEVONORGESTREL" target="PGR"/>
+<edge source="SOVLEPLENIB" target="SYK"/>
+<edge source="FEPIXNEBART" target="EREG"/>
+<edge source="GUANIDINE HYDROCHLORIDE" target="KCNQ4"/>
+<edge source="GUANIDINE HYDROCHLORIDE" target="KCNS3"/>
+<edge source="METFORMIN" target="NDUFA1"/>
+<edge source="METFORMIN" target="NDUFA11"/>
+<edge source="METFORMIN" target="NDUFA13"/>
+<edge source="METFORMIN" target="NDUFA2"/>
+<edge source="METFORMIN" target="NDUFA3"/>
+<edge source="METFORMIN" target="NDUFA4"/>
+<edge source="METFORMIN" target="NDUFA6"/>
+<edge source="METFORMIN" target="NDUFA7"/>
+<edge source="METFORMIN" target="NDUFAF2"/>
+<edge source="METFORMIN" target="NDUFB1"/>
+<edge source="METFORMIN" target="NDUFB10"/>
+<edge source="METFORMIN" target="NDUFB11"/>
+<edge source="METFORMIN" target="NDUFB2"/>
+<edge source="METFORMIN" target="NDUFB5"/>
+<edge source="METFORMIN" target="NDUFB6"/>
+<edge source="METFORMIN" target="NDUFB8"/>
+<edge source="METFORMIN" target="NDUFB9"/>
+<edge source="METFORMIN" target="NDUFC1"/>
+<edge source="METFORMIN" target="NDUFC2"/>
+<edge source="METFORMIN" target="NDUFS2"/>
+<edge source="METFORMIN" target="NDUFS3"/>
+<edge source="LADARIXIN" target="CXCR2"/>
+<edge source="ACADESINE" target="PRKAG2"/>
+<edge source="PRIMIDONE" target="GABRB1"/>
+<edge source="SAXAGLIPTIN" target="DPP4"/>
+<edge source="ALFIMEPRASE" target="FGB"/>
+<edge source="SODIUM DICHLOROACETATE" target="PDK4"/>
+<edge source="DESFLURANE" target="GABRE"/>
+<edge source="NAPROXEN SODIUM" target="PTGS2"/>
+<edge source="FEXOFENADINE HYDROCHLORIDE" target="HRH1"/>
+<edge source="ISRADIPINE" target="CACNA1F"/>
+<edge source="SULOCTIDIL" target="CACNA2D3"/>
+<edge source="SULOCTIDIL" target="CACNA2D4"/>
+<edge source="SULOCTIDIL" target="CACNB2"/>
+<edge source="SULOCTIDIL" target="CACNG8"/>
+<edge source="TIRASEMTIV" target="TNNT3"/>
+<edge source="ETANERCEPT" target="TNF"/>
+<edge source="LEVOCETIRIZINE" target="HRH1"/>
+<edge source="NINGETINIB" target="MERTK"/>
+<edge source="SUCRALFATE" target="PGA5"/>
+<edge source="DIGITOXIN" target="ATP1A3"/>
+<edge source="VALSPODAR" target="ABCB1"/>
+<edge source="METOCLOPRAMIDE HYDROCHLORIDE" target="HTR3A"/>
+<edge source="ECULIZUMAB" target="C5"/>
+<edge source="DIMENHYDRINATE" target="HRH1"/>
+<edge source="PENTOXIFYLLINE" target="PDE6A"/>
+<edge source="PENTOXIFYLLINE" target="PDE8B"/>
+<edge source="TAZEMETOSTAT HYDROBROMIDE" target="EZH2"/>
+<edge source="PHA-793887" target="CDK5"/>
+<edge source="REPARIXIN" target="CXCR2"/>
+<edge source="LABETALOL" target="ADRA2A"/>
+<edge source="BIMOSIAMOSE" target="SELE"/>
+<edge source="ALICAFORSEN" target="ICAM1"/>
+<edge source="ABEXINOSTAT" target="HDAC11"/>
+<edge source="LERCANIDIPINE HYDROCHLORIDE" target="CACNA1F"/>
+<edge source="GUSACITINIB" target="SYK"/>
+<edge source="DIAZEPAM" target="GABRG2"/>
+<edge source="NEDOSIRAN SODIUM" target="LDHA"/>
+<edge source="BENFLUOREX" target="SOAT1"/>
+<edge source="RELAMORELIN" target="GHSR"/>
+<edge source="ZOLPIDEM TARTRATE" target="GABRB1"/>
+<edge source="ZOLPIDEM TARTRATE" target="GABRG2"/>
+<edge source="URELUMAB" target="TNFRSF9"/>
+<edge source="TELOTRISTAT ETHYL" target="TPH1"/>
+<edge source="CR-6086" target="PTGER4"/>
+<edge source="SAR-113945" target="IKBKB"/>
+<edge source="BETAINE" target="BHMT2"/>
+<edge source="PF-04236921" target="IL6"/>
+<edge source="FORODESINE HYDROCHLORIDE" target="PNP"/>
+<edge source="EPINEPHRINE" target="ADRA2A"/>
+<edge source="NABUMETONE" target="PTGS2"/>
+<edge source="IGURATIMOD" target="TRAF3IP2"/>
+<edge source="SORBINIL" target="AKR1B1"/>
+<edge source="EPINASTINE HYDROCHLORIDE" target="HRH1"/>
+<edge source="MACIMORELIN" target="GHSR"/>
+<edge source="MOSUNETUZUMAB" target="CD3G"/>
+<edge source="PROMETHAZINE" target="HRH1"/>
+<edge source="BIRABRESIB" target="BRD2"/>
+<edge source="VANTICTUMAB" target="FZD5"/>
+<edge source="CETILISTAT" target="PNLIP"/>
+<edge source="SELICICLIB" target="CDK5"/>
+<edge source="ACETYLDIGITOXIN" target="ATP1A3"/>
+<edge source="SOTATERCEPT" target="INHBA"/>
+<edge source="BERTILIMUMAB" target="CCL11"/>
+<edge source="ASPIRIN" target="PTGS2"/>
+<edge source="HYDROXYPROGESTERONE CAPROATE" target="PGR"/>
+<edge source="IBUTAMOREN MESYLATE" target="GHSR"/>
+<edge source="DROSPIRENONE" target="PGR"/>
+<edge source="MK0686" target="BDKRB1"/>
+<edge source="VORTIOXETINE" target="SLC6A4"/>
+<edge source="DAROTROPIUM" target="CHRM4"/>
+<edge source="FLUOXETINE" target="SLC6A4"/>
+<edge source="CFI-400945" target="PLK4"/>
+<edge source="ELIGLUSTAT" target="UGCG"/>
+<edge source="PATISIRAN" target="TTR"/>
+<edge source="CENOBAMATE" target="GABRB1"/>
+<edge source="CENOBAMATE" target="GABRG2"/>
+<edge source="ZILUCOPLAN" target="C5"/>
+<edge source="NOREPINEPHRINE" target="ADRA2A"/>
+<edge source="NAVARIXIN" target="CXCR2"/>
+<edge source="ZOSUQUIDAR" target="ABCB1"/>
+<edge source="GARETOSMAB" target="INHBA"/>
+<edge source="ELRANATAMAB" target="CD3G"/>
+<edge source="NICARDIPINE" target="CACNA1F"/>
+<edge source="RGB-286638" target="CDK5"/>
+<edge source="BULEVIRTIDE" target="SLC10A1"/>
+<edge source="SITAGLIPTIN PHOSPHATE" target="DPP4"/>
+<edge source="EPTINEZUMAB" target="CALCB"/>
+<edge source="CLEMASTINE" target="HRH1"/>
+<edge source="BELINOSTAT" target="HDAC11"/>
+<edge source="FARICIMAB" target="ANGPT2"/>
+<edge source="UPROLESELAN" target="SELE"/>
+<edge source="ENTINOSTAT" target="HDAC11"/>
+<edge source="VILDAGLIPTIN" target="DPP4"/>
+<edge source="PF-5190457" target="GHSR"/>
+<edge source="VANDETANIB" target="EPHA3"/>
+<edge source="VANDETANIB" target="EPHA7"/>
+<edge source="LAROTRECTINIB" target="NTRK2"/>
+<edge source="LAROTRECTINIB" target="NTRK3"/>
+<edge source="LUMASIRAN SODIUM" target="HAO1"/>
+<edge source="ACALABRUTINIB MALEATE" target="BTK"/>
+<edge source="DIPYRIDAMOLE" target="PDE6A"/>
+<edge source="DIPYRIDAMOLE" target="PDE8B"/>
+<edge source="PROGESTERONE" target="PGR"/>
+<edge source="MEDROXYPROGESTERONE ACETATE" target="PGR"/>
+<edge source="FOSNETUPITANT" target="TACR1"/>
+<edge source="EPLONTERSEN" target="TTR"/>
+<edge source="PEVONEDISTAT" target="UBA3"/>
+<edge source="PALONOSETRON" target="HTR3A"/>
+<edge source="ONDANSETRON HYDROCHLORIDE" target="HTR3A"/>
+<edge source="TRICLOFOS" target="GABRE"/>
+<edge source="PATISIRAN SODIUM" target="TTR"/>
+<edge source="CODRITUZUMAB" target="GPC3"/>
+<edge source="VATIQUINONE" target="NQO1"/>
+<edge source="TAFAMIDIS" target="TTR"/>
+<edge source="ACALABRUTINIB" target="BTK"/>
+<edge source="CARBINOXAMINE" target="HRH1"/>
+<edge source="GRAPIPRANT" target="PTGER4"/>
+<edge source="LANATOSIDE C" target="ATP1A3"/>
+<edge source="FINGOLIMOD HYDROCHLORIDE" target="S1PR2"/>
+<edge source="ULIPRISTAL" target="PGR"/>
+<edge source="VB-201" target="CD14"/>
+<edge source="CAPROMORELIN" target="GHSR"/>
+<edge source="DEXMEDETOMIDINE" target="ADRA2A"/>
+<edge source="BI-505" target="ICAM1"/>
+<edge source="SEMAGACESTAT" target="PSENEN"/>
+<edge source="RG-1530" target="PLK4"/>
+<edge source="ROPIVACAINE HYDROCHLORIDE" target="SCN8A"/>
+<edge source="PEGFILGRASTIM" target="CSF3R"/>
+<edge source="MT-3724" target="RPL18"/>
+<edge source="MT-3724" target="RPL21"/>
+<edge source="MT-3724" target="RPL23A"/>
+<edge source="MT-3724" target="RPL37A"/>
+<edge source="MT-3724" target="RPS14"/>
+<edge source="MT-3724" target="RPS20"/>
+<edge source="MT-3724" target="RPS23"/>
+<edge source="MT-3724" target="RPS25"/>
+<edge source="MT-3724" target="RPS28"/>
+<edge source="MT-3724" target="RPS29"/>
+<edge source="TZP-102" target="GHSR"/>
+<edge source="OXCARBAZEPINE" target="SCN8A"/>
+<edge source="ANAKINRA" target="IL1R1"/>
+<edge source="UCN-01" target="PRKCG"/>
+<edge source="FOSTAMATINIB" target="SYK"/>
+<edge source="IBOCTADEKIN" target="IL18R1"/>
+<edge source="RAMOSETRON" target="HTR3A"/>
+<edge source="RAMOSETRON" target="HTR3C"/>
+<edge source="IBUTAMOREN" target="GHSR"/>
+<edge source="REMIMAZOLAM BESYLATE" target="GABRG2"/>
+<edge source="ULIMORELIN" target="GHSR"/>
+<edge source="PNLIP" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="DEFB105A" target="ZSWIM7">
+  <data key="score">0.901</data>
+</edge>
+<edge source="RND1" target="ZSWIM7">
+  <data key="score">0.958</data>
+</edge>
+<edge source="C9" target="ZSWIM7">
+  <data key="score">0.996</data>
+</edge>
+<edge source="AIPL1" target="ZSWIM7">
+  <data key="score">0.928</data>
+</edge>
+<edge source="HSPA6" target="ZSWIM7">
+  <data key="score">0.984</data>
+</edge>
+<edge source="TNF" target="ZSWIM7">
+  <data key="score">0.964</data>
+</edge>
+<edge source="SNAI1" target="ZSWIM7">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ID2" target="ZSWIM7">
+  <data key="score">0.905</data>
+</edge>
+<edge source="ATF3" target="ZSWIM7">
+  <data key="score">0.989</data>
+</edge>
+<edge source="SLC7A11" target="ZSWIM7">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ULBP2" target="ZSWIM7">
+  <data key="score">0.971</data>
+</edge>
+<edge source="PNP" target="ZSWIM7">
+  <data key="score">0.99</data>
+</edge>
+<edge source="ULBP3" target="ZSWIM7">
+  <data key="score">0.917</data>
+</edge>
+<edge source="HSPA5" target="ZSWIM7">
+  <data key="score">0.975</data>
+</edge>
+<edge source="EFHB" target="ZSWIM7">
+  <data key="score">0.91</data>
+</edge>
+<edge source="ELL2" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="NRXN3" target="ZSWIM7">
+  <data key="score">0.964</data>
+</edge>
+<edge source="SDR16C5" target="ZSWIM7">
+  <data key="score">0.909</data>
+</edge>
+<edge source="CDKN1A" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="EFNA5" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="GCH1" target="ZSWIM7">
+  <data key="score">0.995</data>
+</edge>
+<edge source="SERPINE1" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="TIAM1" target="ZSWIM7">
+  <data key="score">0.908</data>
+</edge>
+<edge source="NT5E" target="ZSWIM7">
+  <data key="score">0.988</data>
+</edge>
+<edge source="DPP4" target="ZSWIM7">
+  <data key="score">0.987</data>
+</edge>
+<edge source="TAF13" target="ZSWIM7">
+  <data key="score">0.939</data>
+</edge>
+<edge source="POMP" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="LAMTOR5" target="ZSWIM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="ACER1">
+  <data key="score">0.96</data>
+</edge>
+<edge source="ZSWIM7" target="ACKR2">
+  <data key="score">0.977</data>
+</edge>
+<edge source="ZSWIM7" target="ADM">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="AFF4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="AGMAT">
+  <data key="score">0.95</data>
+</edge>
+<edge source="ZSWIM7" target="AK1">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="AK7">
+  <data key="score">0.906</data>
+</edge>
+<edge source="ZSWIM7" target="AKR1B1">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="AKR1C2">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="AKR1C3">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="AKR1D1">
+  <data key="score">0.983</data>
+</edge>
+<edge source="ZSWIM7" target="ANAPC11">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="ANXA1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="AOX1">
+  <data key="score">0.927</data>
+</edge>
+<edge source="ZSWIM7" target="ARL6IP1">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="ARPC2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="ARPC5L">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="ASCL1">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="ATF4">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="ATP1A3">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="ATP1B3">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="ATP23">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="AURKA">
+  <data key="score">0.91</data>
+</edge>
+<edge source="ZSWIM7" target="BAD">
+  <data key="score">0.926</data>
+</edge>
+<edge source="ZSWIM7" target="BAK1">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="BCAT1">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="BCL11B">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="BCL2L11">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="BCO1">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="BECN1">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="BEX2">
+  <data key="score">0.923</data>
+</edge>
+<edge source="ZSWIM7" target="BHLHE41">
+  <data key="score">0.978</data>
+</edge>
+<edge source="ZSWIM7" target="BHMT2">
+  <data key="score">0.979</data>
+</edge>
+<edge source="ZSWIM7" target="BIRC3">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="BMP6">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="BMPR1B">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="BOLA1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="BOLA3">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="BRS3">
+  <data key="score">0.941</data>
+</edge>
+<edge source="ZSWIM7" target="BTK">
+  <data key="score">0.92</data>
+</edge>
+<edge source="ZSWIM7" target="BUB1B">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="C5">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="C6">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="C7">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="CABP4">
+  <data key="score">0.986</data>
+</edge>
+<edge source="ZSWIM7" target="CACNA1F">
+  <data key="score">0.92</data>
+</edge>
+<edge source="ZSWIM7" target="CACNA2D3">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="CACNA2D4">
+  <data key="score">0.923</data>
+</edge>
+<edge source="ZSWIM7" target="CACNB2">
+  <data key="score">0.973</data>
+</edge>
+<edge source="ZSWIM7" target="CACNG8">
+  <data key="score">0.948</data>
+</edge>
+<edge source="ZSWIM7" target="CALCB">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="CALD1">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="CALML5">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="CBWD1">
+  <data key="score">0.929</data>
+</edge>
+<edge source="ZSWIM7" target="CBWD2">
+  <data key="score">0.929</data>
+</edge>
+<edge source="ZSWIM7" target="CCDC124">
+  <data key="score">0.917</data>
+</edge>
+<edge source="ZSWIM7" target="CCL11">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="CCL19">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="CCL2">
+  <data key="score">0.929</data>
+</edge>
+<edge source="ZSWIM7" target="CCL22">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="CCL26">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="CCL28">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="CCND2">
+  <data key="score">0.951</data>
+</edge>
+<edge source="ZSWIM7" target="CCR7">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="CD14">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="CD226">
+  <data key="score">0.927</data>
+</edge>
+<edge source="ZSWIM7" target="CD3G">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="CD44">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="CD83">
+  <data key="score">0.923</data>
+</edge>
+<edge source="ZSWIM7" target="CDC20B">
+  <data key="score">0.917</data>
+</edge>
+<edge source="ZSWIM7" target="CDC26">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="CDCA8">
+  <data key="score">0.908</data>
+</edge>
+<edge source="ZSWIM7" target="CDK5">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="CDON">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CENPE">
+  <data key="score">0.99</data>
+</edge>
+<edge source="ZSWIM7" target="CEP152">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CETN2">
+  <data key="score">0.971</data>
+</edge>
+<edge source="ZSWIM7" target="CGN">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="CH25H">
+  <data key="score">0.967</data>
+</edge>
+<edge source="ZSWIM7" target="CHCHD10">
+  <data key="score">0.985</data>
+</edge>
+<edge source="ZSWIM7" target="CHCHD3">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="CHMP2A">
+  <data key="score">0.978</data>
+</edge>
+<edge source="ZSWIM7" target="CIB2">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="CIDEA">
+  <data key="score">0.959</data>
+</edge>
+<edge source="ZSWIM7" target="CIDEC">
+  <data key="score">0.99</data>
+</edge>
+<edge source="ZSWIM7" target="CKM">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="CLCF1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CLDN1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CLDN11">
+  <data key="score">0.958</data>
+</edge>
+<edge source="ZSWIM7" target="CLDN4">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="CLEC1B">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="CLPS">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CNGB1">
+  <data key="score">0.932</data>
+</edge>
+<edge source="ZSWIM7" target="COA6">
+  <data key="score">0.949</data>
+</edge>
+<edge source="ZSWIM7" target="COPS5">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="COX11">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="COX17">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="COX4I1">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="COX5B">
+  <data key="score">0.977</data>
+</edge>
+<edge source="ZSWIM7" target="COX6B1">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="COX6C">
+  <data key="score">0.913</data>
+</edge>
+<edge source="ZSWIM7" target="COX7A1">
+  <data key="score">0.985</data>
+</edge>
+<edge source="ZSWIM7" target="COX8A">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CREB5">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="CRLF1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CRX">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="CRY1">
+  <data key="score">0.978</data>
+</edge>
+<edge source="ZSWIM7" target="CSF2">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="CSF3R">
+  <data key="score">0.973</data>
+</edge>
+<edge source="ZSWIM7" target="CT45A8">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CT45A9">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CTH">
+  <data key="score">0.948</data>
+</edge>
+<edge source="ZSWIM7" target="CWC15">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="CXCL1">
+  <data key="score">0.92</data>
+</edge>
+<edge source="ZSWIM7" target="CXCL13">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="CXCL2">
+  <data key="score">0.966</data>
+</edge>
+<edge source="ZSWIM7" target="CXCL3">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="CXCL8">
+  <data key="score">0.901</data>
+</edge>
+<edge source="ZSWIM7" target="CXCR2">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="CYP1A2">
+  <data key="score">0.958</data>
+</edge>
+<edge source="ZSWIM7" target="CYP27A1">
+  <data key="score">0.967</data>
+</edge>
+<edge source="ZSWIM7" target="CYP27C1">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="CYP2B6">
+  <data key="score">0.917</data>
+</edge>
+<edge source="ZSWIM7" target="CYP2C18">
+  <data key="score">0.916</data>
+</edge>
+<edge source="ZSWIM7" target="DEFB1">
+  <data key="score">0.901</data>
+</edge>
+<edge source="ZSWIM7" target="DHRS4">
+  <data key="score">0.919</data>
+</edge>
+<edge source="ZSWIM7" target="DNAH12">
+  <data key="score">0.947</data>
+</edge>
+<edge source="ZSWIM7" target="DNAH5">
+  <data key="score">0.947</data>
+</edge>
+<edge source="ZSWIM7" target="DNAJB1">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="DNAJC19">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="DSC2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="DSG2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="EFHC2">
+  <data key="score">0.913</data>
+</edge>
+<edge source="ZSWIM7" target="EFNA1">
+  <data key="score">0.971</data>
+</edge>
+<edge source="ZSWIM7" target="EFNA2">
+  <data key="score">0.979</data>
+</edge>
+<edge source="ZSWIM7" target="EFNB2">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="EIF2AK1">
+  <data key="score">0.909</data>
+</edge>
+<edge source="ZSWIM7" target="EIF2AK3">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="EIF2S2">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="EIF3K">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="EIF4A3">
+  <data key="score">0.922</data>
+</edge>
+<edge source="ZSWIM7" target="ELOVL6">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="EMC4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="EMC6">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="EMC7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="ENO4">
+  <data key="score">0.956</data>
+</edge>
+<edge source="ZSWIM7" target="ENPP1">
+  <data key="score">0.915</data>
+</edge>
+<edge source="ZSWIM7" target="EPHA3">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="EPHA7">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="ERCC1">
+  <data key="score">0.912</data>
+</edge>
+<edge source="ZSWIM7" target="ESPL1">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="EZH2">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="F13B">
+  <data key="score">0.905</data>
+</edge>
+<edge source="ZSWIM7" target="FAAP24">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="FANCB">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="FASN">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="FBN1">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="FCGR1A">
+  <data key="score">0.986</data>
+</edge>
+<edge source="ZSWIM7" target="FGB">
+  <data key="score">0.905</data>
+</edge>
+<edge source="ZSWIM7" target="FGF14">
+  <data key="score">0.962</data>
+</edge>
+<edge source="ZSWIM7" target="FGF9">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="FOXO1">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="FPR1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="FZD5">
+  <data key="score">0.917</data>
+</edge>
+<edge source="ZSWIM7" target="GADD45B">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="GADD45G">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="GAMT">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="GAP43">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="GAPDH">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="GATA2">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="GATA3">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="GCG">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="GDF6">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="GFPT2">
+  <data key="score">0.932</data>
+</edge>
+<edge source="ZSWIM7" target="GGT7">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="GINS2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="GINS4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="GIPR">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="GLI3">
+  <data key="score">0.966</data>
+</edge>
+<edge source="ZSWIM7" target="GLRX3">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="GPC3">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="GREM2">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="GSR">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="GUCY2F">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="GYG2">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="GYPB">
+  <data key="score">0.962</data>
+</edge>
+<edge source="ZSWIM7" target="GYPC">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="GYPE">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="HELLS">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="HERC5">
+  <data key="score">0.914</data>
+</edge>
+<edge source="ZSWIM7" target="HK1">
+  <data key="score">0.932</data>
+</edge>
+<edge source="ZSWIM7" target="HMBS">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="HSPH1">
+  <data key="score">0.99</data>
+</edge>
+<edge source="ZSWIM7" target="HTR3A">
+  <data key="score">0.993</data>
+</edge>
+<edge source="ZSWIM7" target="HTR3C">
+  <data key="score">0.993</data>
+</edge>
+<edge source="ZSWIM7" target="ICAM1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="IFI44">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="IKBKB">
+  <data key="score">0.92</data>
+</edge>
+<edge source="ZSWIM7" target="IKZF3">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="IL1R1">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="IL1RL1">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="IL5RA">
+  <data key="score">0.977</data>
+</edge>
+<edge source="ZSWIM7" target="IL6">
+  <data key="score">0.96</data>
+</edge>
+<edge source="ZSWIM7" target="INTS6">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="INTS6L">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="ISCA1">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="ISCA2">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="ISY1">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="ITGAM">
+  <data key="score">0.909</data>
+</edge>
+<edge source="ZSWIM7" target="KCNE1">
+  <data key="score">0.952</data>
+</edge>
+<edge source="ZSWIM7" target="KDM6A">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="KIAA0513">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="KLF4">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="KNTC1">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="LAMB3">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="LBP">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="LDHA">
+  <data key="score">0.923</data>
+</edge>
+<edge source="ZSWIM7" target="LEFTY1">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="LEFTY2">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="LEP">
+  <data key="score">0.919</data>
+</edge>
+<edge source="ZSWIM7" target="LEPR">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="LGALS9B">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="LILRB4">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="LIPE">
+  <data key="score">0.9</data>
+</edge>
+<edge source="ZSWIM7" target="LMO2">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="LSM1">
+  <data key="score">0.96</data>
+</edge>
+<edge source="ZSWIM7" target="LSM10">
+  <data key="score">0.978</data>
+</edge>
+<edge source="ZSWIM7" target="MALSU1">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="MAP3K8">
+  <data key="score">0.954</data>
+</edge>
+<edge source="ZSWIM7" target="MARVELD2">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="MARVELD3">
+  <data key="score">0.928</data>
+</edge>
+<edge source="ZSWIM7" target="MELK">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="MEP1B">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="MFAP5">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="MGAM2">
+  <data key="score">0.916</data>
+</edge>
+<edge source="ZSWIM7" target="MICB">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="MIP">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="MLXIPL">
+  <data key="score">0.9</data>
+</edge>
+<edge source="ZSWIM7" target="MNAT1">
+  <data key="score">0.967</data>
+</edge>
+<edge source="ZSWIM7" target="MRC1">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL11">
+  <data key="score">0.906</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL15">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL18">
+  <data key="score">0.97</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL20">
+  <data key="score">0.969</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL21">
+  <data key="score">0.969</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL24">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL33">
+  <data key="score">0.93</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL34">
+  <data key="score">0.966</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL37">
+  <data key="score">0.963</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL40">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL47">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL48">
+  <data key="score">0.973</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL51">
+  <data key="score">0.986</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL52">
+  <data key="score">0.982</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL53">
+  <data key="score">0.901</data>
+</edge>
+<edge source="ZSWIM7" target="MRPL57">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="MRPS15">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="MRPS18C">
+  <data key="score">0.973</data>
+</edge>
+<edge source="ZSWIM7" target="MRPS28">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="MS4A2">
+  <data key="score">0.957</data>
+</edge>
+<edge source="ZSWIM7" target="MTIF3">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="MTX2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="MX2">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="MYH1">
+  <data key="score">0.943</data>
+</edge>
+<edge source="ZSWIM7" target="MYH13">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="MYH8">
+  <data key="score">0.939</data>
+</edge>
+<edge source="ZSWIM7" target="NANOG">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="NCAPH">
+  <data key="score">0.915</data>
+</edge>
+<edge source="ZSWIM7" target="NCK2">
+  <data key="score">0.992</data>
+</edge>
+<edge source="ZSWIM7" target="NCR1">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA1">
+  <data key="score">0.954</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA11">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA13">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA2">
+  <data key="score">0.981</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA3">
+  <data key="score">0.94</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA4">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA6">
+  <data key="score">0.971</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFA7">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFAF2">
+  <data key="score">0.959</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFAF5">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB1">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB10">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB11">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB5">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB6">
+  <data key="score">0.963</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB8">
+  <data key="score">0.908</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFB9">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFC1">
+  <data key="score">0.903</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFC2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFC2-KCTD14">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFS2">
+  <data key="score">0.943</data>
+</edge>
+<edge source="ZSWIM7" target="NDUFS3">
+  <data key="score">0.952</data>
+</edge>
+<edge source="ZSWIM7" target="NKX2-5">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="NLGN1">
+  <data key="score">0.964</data>
+</edge>
+<edge source="ZSWIM7" target="NMBR">
+  <data key="score">0.941</data>
+</edge>
+<edge source="ZSWIM7" target="NME1-NME2">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="NME2">
+  <data key="score">0.927</data>
+</edge>
+<edge source="ZSWIM7" target="NMNAT1">
+  <data key="score">0.971</data>
+</edge>
+<edge source="ZSWIM7" target="NOMO3">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="NR2E3">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="NR2F1">
+  <data key="score">0.991</data>
+</edge>
+<edge source="ZSWIM7" target="NRXN1">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="NT5M">
+  <data key="score">0.912</data>
+</edge>
+<edge source="ZSWIM7" target="NTPCR">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="NTRK2">
+  <data key="score">0.975</data>
+</edge>
+<edge source="ZSWIM7" target="NTRK3">
+  <data key="score">0.969</data>
+</edge>
+<edge source="ZSWIM7" target="NUDT2">
+  <data key="score">0.914</data>
+</edge>
+<edge source="ZSWIM7" target="NUTF2">
+  <data key="score">0.974</data>
+</edge>
+<edge source="ZSWIM7" target="NXF1">
+  <data key="score">0.967</data>
+</edge>
+<edge source="ZSWIM7" target="OAS1">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="OCLN">
+  <data key="score">0.958</data>
+</edge>
+<edge source="ZSWIM7" target="OLIG1">
+  <data key="score">0.905</data>
+</edge>
+<edge source="ZSWIM7" target="OSMR">
+  <data key="score">0.932</data>
+</edge>
+<edge source="ZSWIM7" target="PABPC1L">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="PAIP1">
+  <data key="score">0.987</data>
+</edge>
+<edge source="ZSWIM7" target="PAM16">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="PARK7">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="PCK1">
+  <data key="score">0.956</data>
+</edge>
+<edge source="ZSWIM7" target="PCSK1">
+  <data key="score">0.909</data>
+</edge>
+<edge source="ZSWIM7" target="PDE6A">
+  <data key="score">0.932</data>
+</edge>
+<edge source="ZSWIM7" target="PDE8B">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="PET100">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="PGA3">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="PGA4">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="PGA5">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="PGAM2">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="PGK1">
+  <data key="score">0.923</data>
+</edge>
+<edge source="ZSWIM7" target="PGM1">
+  <data key="score">0.993</data>
+</edge>
+<edge source="ZSWIM7" target="PGM2">
+  <data key="score">0.945</data>
+</edge>
+<edge source="ZSWIM7" target="PGR">
+  <data key="score">0.937</data>
+</edge>
+<edge source="ZSWIM7" target="PIGR">
+  <data key="score">0.934</data>
+</edge>
+<edge source="ZSWIM7" target="PLA2G10">
+  <data key="score">0.927</data>
+</edge>
+<edge source="ZSWIM7" target="PLA2G2A">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="PLAU">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="PLAUR">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="PLIN1">
+  <data key="score">0.959</data>
+</edge>
+<edge source="ZSWIM7" target="PLK4">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="PLXNA4">
+  <data key="score">0.958</data>
+</edge>
+<edge source="ZSWIM7" target="PNKD">
+  <data key="score">0.902</data>
+</edge>
+<edge source="ZSWIM7" target="POLR2F">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="POLR3K">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="POU2F2">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="POU2F3">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="POU3F3">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="PPP1R15A">
+  <data key="score">0.975</data>
+</edge>
+<edge source="ZSWIM7" target="PPP1R1B">
+  <data key="score">0.964</data>
+</edge>
+<edge source="ZSWIM7" target="PPP2R2B">
+  <data key="score">0.901</data>
+</edge>
+<edge source="ZSWIM7" target="PPP3R2">
+  <data key="score">0.901</data>
+</edge>
+<edge source="ZSWIM7" target="PRC1">
+  <data key="score">0.91</data>
+</edge>
+<edge source="ZSWIM7" target="PRKACG">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="PRKAG2">
+  <data key="score">0.913</data>
+</edge>
+<edge source="ZSWIM7" target="PRKCG">
+  <data key="score">0.908</data>
+</edge>
+<edge source="ZSWIM7" target="PSMA8">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="PSMB10">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="PSMB3">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="PSMC3">
+  <data key="score">0.959</data>
+</edge>
+<edge source="ZSWIM7" target="PSMD14">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="PSMD4">
+  <data key="score">0.981</data>
+</edge>
+<edge source="ZSWIM7" target="PTGS2">
+  <data key="score">0.975</data>
+</edge>
+<edge source="ZSWIM7" target="PTS">
+  <data key="score">0.995</data>
+</edge>
+<edge source="ZSWIM7" target="PXDNL">
+  <data key="score">0.924</data>
+</edge>
+<edge source="ZSWIM7" target="R3HDM4">
+  <data key="score">0.975</data>
+</edge>
+<edge source="ZSWIM7" target="RAB27A">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="RAB3B">
+  <data key="score">0.934</data>
+</edge>
+<edge source="ZSWIM7" target="RALY">
+  <data key="score">0.936</data>
+</edge>
+<edge source="ZSWIM7" target="RAPGEF4">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="RBP4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RDH12">
+  <data key="score">0.914</data>
+</edge>
+<edge source="ZSWIM7" target="REL">
+  <data key="score">0.956</data>
+</edge>
+<edge source="ZSWIM7" target="RGS14">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="RIMS2">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="RIPK2">
+  <data key="score">0.988</data>
+</edge>
+<edge source="ZSWIM7" target="RNF7">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="RPGRIP1">
+  <data key="score">0.943</data>
+</edge>
+<edge source="ZSWIM7" target="RPL18">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RPL21">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RPL23A">
+  <data key="score">0.917</data>
+</edge>
+<edge source="ZSWIM7" target="RPL26L1">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="RPL37A">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RPS14">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="RPS20">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="RPS23">
+  <data key="score">0.93</data>
+</edge>
+<edge source="ZSWIM7" target="RPS25">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="RPS28">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RPS29">
+  <data key="score">0.96</data>
+</edge>
+<edge source="ZSWIM7" target="RPS6KA6">
+  <data key="score">0.9</data>
+</edge>
+<edge source="ZSWIM7" target="RRAGD">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="RUNX1">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="RUNX2">
+  <data key="score">0.936</data>
+</edge>
+<edge source="ZSWIM7" target="RYR2">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="S100A1">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="S100B">
+  <data key="score">0.98</data>
+</edge>
+<edge source="ZSWIM7" target="SALL4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="SAMM50">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="SAT1">
+  <data key="score">0.95</data>
+</edge>
+<edge source="ZSWIM7" target="SCN3B">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="SCN4B">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="SCN8A">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="SCNN1G">
+  <data key="score">0.906</data>
+</edge>
+<edge source="ZSWIM7" target="SDHB">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="SELE">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="SERPINA1">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="SF3B5">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="SHC4">
+  <data key="score">0.914</data>
+</edge>
+<edge source="ZSWIM7" target="SHH">
+  <data key="score">0.959</data>
+</edge>
+<edge source="ZSWIM7" target="SHISA9">
+  <data key="score">0.948</data>
+</edge>
+<edge source="ZSWIM7" target="SIK2">
+  <data key="score">0.91</data>
+</edge>
+<edge source="ZSWIM7" target="SIRT1">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="SIRT4">
+  <data key="score">0.913</data>
+</edge>
+<edge source="ZSWIM7" target="SKA1">
+  <data key="score">0.976</data>
+</edge>
+<edge source="ZSWIM7" target="SLC6A4">
+  <data key="score">0.95</data>
+</edge>
+<edge source="ZSWIM7" target="SLC9A1">
+  <data key="score">0.936</data>
+</edge>
+<edge source="ZSWIM7" target="SMKR1">
+  <data key="score">0.908</data>
+</edge>
+<edge source="ZSWIM7" target="SNRNP27">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="SNRPD2">
+  <data key="score">0.971</data>
+</edge>
+<edge source="ZSWIM7" target="SNRPN">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="SNURF">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="SOD1">
+  <data key="score">0.904</data>
+</edge>
+<edge source="ZSWIM7" target="SOX9">
+  <data key="score">0.907</data>
+</edge>
+<edge source="ZSWIM7" target="SPC25">
+  <data key="score">0.93</data>
+</edge>
+<edge source="ZSWIM7" target="SRP14">
+  <data key="score">0.912</data>
+</edge>
+<edge source="ZSWIM7" target="SSX1">
+  <data key="score">0.966</data>
+</edge>
+<edge source="ZSWIM7" target="SSX2">
+  <data key="score">0.936</data>
+</edge>
+<edge source="ZSWIM7" target="SSX3">
+  <data key="score">0.936</data>
+</edge>
+<edge source="ZSWIM7" target="SSX4">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="SSX4B">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="STAMBP">
+  <data key="score">0.978</data>
+</edge>
+<edge source="ZSWIM7" target="STX11">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="SULT1E1">
+  <data key="score">0.958</data>
+</edge>
+<edge source="ZSWIM7" target="SYK">
+  <data key="score">0.989</data>
+</edge>
+<edge source="ZSWIM7" target="TAC3">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="TACR1">
+  <data key="score">0.996</data>
+</edge>
+<edge source="ZSWIM7" target="TAT">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="TBX5">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TEKT2">
+  <data key="score">0.913</data>
+</edge>
+<edge source="ZSWIM7" target="TEKT3">
+  <data key="score">0.9</data>
+</edge>
+<edge source="ZSWIM7" target="TIMM10">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="TIMM13">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TIMM17B">
+  <data key="score">0.955</data>
+</edge>
+<edge source="ZSWIM7" target="TIMM8B">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TIMMDC1">
+  <data key="score">0.931</data>
+</edge>
+<edge source="ZSWIM7" target="TMC1">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="TNFAIP3">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="TNFRSF9">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TNFSF9">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TNIP3">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="TNNT3">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="TOM1">
+  <data key="score">0.915</data>
+</edge>
+<edge source="ZSWIM7" target="TOMM5">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TOMM7">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TPH1">
+  <data key="score">0.935</data>
+</edge>
+<edge source="ZSWIM7" target="TPI1">
+  <data key="score">0.906</data>
+</edge>
+<edge source="ZSWIM7" target="TPM1">
+  <data key="score">0.993</data>
+</edge>
+<edge source="ZSWIM7" target="TPM2">
+  <data key="score">0.993</data>
+</edge>
+<edge source="ZSWIM7" target="TPM3">
+  <data key="score">0.915</data>
+</edge>
+<edge source="ZSWIM7" target="TRAPPC2B">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="TRAPPC3">
+  <data key="score">0.965</data>
+</edge>
+<edge source="ZSWIM7" target="TRIM49">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TRIM49C">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="TTR">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="UBB">
+  <data key="score">0.953</data>
+</edge>
+<edge source="ZSWIM7" target="UBE2D2">
+  <data key="score">0.998</data>
+</edge>
+<edge source="ZSWIM7" target="UBL5">
+  <data key="score">0.904</data>
+</edge>
+<edge source="ZSWIM7" target="UCHL1">
+  <data key="score">0.981</data>
+</edge>
+<edge source="ZSWIM7" target="UCHL3">
+  <data key="score">0.986</data>
+</edge>
+<edge source="ZSWIM7" target="UGCG">
+  <data key="score">0.969</data>
+</edge>
+<edge source="ZSWIM7" target="UGDH">
+  <data key="score">0.964</data>
+</edge>
+<edge source="ZSWIM7" target="UGT1A10">
+  <data key="score">0.941</data>
+</edge>
+<edge source="ZSWIM7" target="UGT8">
+  <data key="score">0.969</data>
+</edge>
+<edge source="ZSWIM7" target="UQCRFS1">
+  <data key="score">0.984</data>
+</edge>
+<edge source="ZSWIM7" target="UQCRH">
+  <data key="score">0.964</data>
+</edge>
+<edge source="ZSWIM7" target="UQCRHL">
+  <data key="score">0.974</data>
+</edge>
+<edge source="ZSWIM7" target="UQCRQ">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="UROS">
+  <data key="score">0.999</data>
+</edge>
+<edge source="ZSWIM7" target="VAV3">
+  <data key="score">0.997</data>
+</edge>
+<edge source="ZSWIM7" target="WDR76">
+  <data key="score">0.972</data>
+</edge>
+<edge source="ZSWIM7" target="WNT3">
+  <data key="score">0.921</data>
+</edge>
+<edge source="ZSWIM7" target="WWC1">
+  <data key="score">0.925</data>
+</edge>
+<edge source="ZSWIM7" target="XCL1">
+  <data key="score">0.994</data>
+</edge>
+<edge source="ZSWIM7" target="XYLT1">
+  <data key="score">0.918</data>
+</edge>
+<edge source="ZSWIM7" target="ZCRB1">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="ZMAT5">
+  <data key="score">0.961</data>
+</edge>
+<edge source="ZSWIM7" target="ZPBP2">
+  <data key="score">0.938</data>
+</edge>
+<edge source="ZSWIM7" target="ZSWIM7">
+  <data key="score">0.9</data>
+</edge>
+</graph></graphml>
