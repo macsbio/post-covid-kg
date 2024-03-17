@@ -14,6 +14,7 @@ Input files:
 Modified Scripts: those are scripts from the package pyBiodataFuse that have been modified for this project, they enable a smooth generation of the graph
 - drug_diseease_annotator.py
 - new_disgenet_annotator.py
+     - This function runs locally and is used when the disgenet annotator doesn't work properly. The files contained in disgenet folder are necessary for its correct functioning 
 - opentargets.py
 - minerva.py
 - generator.py
