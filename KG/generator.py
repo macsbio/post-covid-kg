@@ -337,7 +337,7 @@ def add_ppi_subgraph(g, gene_node_label, annot_list):
 
     return g
 
-def add_gene_disease_subgraph(g, gene_node_label_2, annot_list):
+def add_drug_disease_subgraph(g, gene_node_label_2, annot_list):
     """Construct part of the graph by linking the gene to a list of annotation entities (disease, drug ..etc).
 
     :param g: the input graph to extend with new nodes and edges.
@@ -433,7 +433,7 @@ def generate_networkx_graph(fuse_df: pd.DataFrame,drug_disease=None):
             if type(ddi_list) == float :
                 ddi_list = []
 
-            add_gene_disease_subgraph(g, gene_node_label_2, ddi_list)
+            add_drug_disease_subgraph(g, gene_node_label_2, ddi_list)
     
     for node in g.nodes():
         for k, v in g.nodes[node]["attr_dict"].items():
