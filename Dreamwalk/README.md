@@ -25,4 +25,14 @@ Scripts:
 
 Output files:
 - graph.txt
-- hierac
+- nodetypes.tsv
+- dis_sim.tsv
+- similarity_graph_drugs.tsv
+- similarity_graph.txt
+- hierarchy.csv
+- embedding_file.plk
+- dda_files folder: drug-disease interaction files randomly generted
+- results folder: contains the models trained with the data
+
+### Alternative results
+- 0.9 Workflow: contains the same workflow but using 0.9 as cutoff for gene-gene interactions baed on STRING scores. 
