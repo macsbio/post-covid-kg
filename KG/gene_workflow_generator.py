@@ -60,7 +60,7 @@ disease_df, opentargets_disease_metadata = opentargets.get_gene_disease_associat
     bridgedb_df=bridgdb_df
 )
 disease_df.head()
-'''
+
 
 #Wikipathways
 wp_df, wp_metadata = wikipathways.get_gene_wikipathway(bridgedb_df=bridgdb_df)
@@ -124,6 +124,6 @@ pygraph = generator.generate_networkx_graph(combined_df,drug_disease)
 
 neo4j_exporter.save_graph_to_neo4j_graphml(pygraph, 'graph.graphml')
 
-
+'''
 
 
