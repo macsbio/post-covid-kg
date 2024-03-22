@@ -1,41 +1,29 @@
 # Post-COVID Knowledge Graph (KG) 🦠🔍📊
 
-Welcome to the Post-COVID Knowledge Graph (KG) repository! 🌟
+## Knowledge Graph Construction 🧩
+In this folder you will find the data and scripts used for constructing the post-COVID-19 Knowledge graph.
+First of all be sure you have installed pyBiodataFuse in your environment, otherwise install using:
 
-## About ℹ️
-The Post-COVID Knowledge Graph project aims to comprehensively map the molecular mechanisms, gene-disease associations, drug-target interactions, and omics data from patients, providing insights into post-COVID-19 syndrome and potential treatment options. Utilizing resources like the COVID-19 Disease Map,pyBiodataFuse python package and different drug repurposing algorithms, this project seeks to integrate information from various sources to achieve a thorough understanding of the disease and its potential treatments.
+```bash
+   $ pip install git+https://github.com/BioDataFuse/pyBiodatafuse.git
+ ```
+Input files:
+- input_genes.csv: this file contains the genes you want to use as source nodes
+- post-COVID-19_genes.csv: this is a set of genes with a known relationship with post-COVID-19 according literature. Only use if your project has a focus on post-COVID-19
 
-<img width="1076" alt="methods" src="https://github.com/macsbio/post-covid-kg/assets/113828670/31985e0b-2e80-4f00-ab7d-6f25993f0cd9">
+Modified Scripts: those are scripts from the package pyBiodataFuse that have been modified for this project, they enable a smooth generation of the graph
+- drug_diseease_annotator.py
+- new_disgenet_annotator.py
+     - This function runs locally and is used when the disgenet annotator doesn't work properly. The files contained in disgenet folder are necessary for its correct functioning 
+- opentargets.py
+- minerva.py
+- generator.py
+- neo4j_exporter.py
 
+Script: this is the file that generates the KG
+- gene_workflow_generator.py
 
-
-## Projects 🛠️
-
-This repository hosts several parts related to the Post-COVID Knowledge Graph. Each part addresses different aspects of post-COVID-19 syndrome; KG construction, data exploration and visualization, and algorithm implementation. 📑📊💻
-
-### Project 1: Knowledge Graph Construction 🧩
-Description: In this project, we build the Post-COVID Knowledge Graph using transcriptomic data and the pyBiodataFuse python package to extract relevant associations between genes, drugs, diseases, gene ontologies, locations and pathways. 🧠🖥️
-
-### Project 2: Data Exploration and Visualization 📊👀
-Description: Gene set enrichment analysis, over-representation analysis, PPI networks in Cytoscape.
-
-### Project 3: Drug Repurposing Algorithm 💊🔄
-Description: This part involves selecting different algorithms, testing them, and comparing their functionality and results.
-
-## Getting Started 🚀
-
-To get started with the Post-COVID KG project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/macsbio/post-covid-kg.git
-
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact 📧
-
-For any inquiries or suggestions regarding the Post-COVID Knowledge Graph project, feel free to reach out to the project maintainer:
-
-[Alejandro Adriaque Lozano](mailto:a.alejandroadriaque@student.maastrichtuniversiry.nl) ✉️
+Output files:
+- graph.csv: formatted table with all the information, however not in triplets format
+- graph.graphml: graph ready for importing into neo4j
+- combined_df.plk: graph in plk format
