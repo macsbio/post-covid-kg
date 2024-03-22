@@ -1,13 +1,15 @@
 
-library(readxl)
-library(dplyr)
-library(ggplot2)
-library(biomaRt)
-library(clusterProfiler)
-library(fgsea)
-library(org.Hs.eg.db)
-library(enrichplot)
-library(ggridges)
+# List of packages to check and install if necessary
+packages <- c("readxl", "dplyr", "ggplot2", "biomaRt", "clusterProfiler", 
+              "fgsea", "org.Hs.eg.db", "enrichplot", "ggridges")
+
+# Loop through the packages, install if not already installed
+for (pkg in packages) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg)
+    library(pkg, character.only = TRUE)
+  }
+}
 
 
 # Extract the directory part of the file path
