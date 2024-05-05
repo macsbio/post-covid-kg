@@ -60,10 +60,10 @@ disease_df, opentargets_disease_metadata = opentargets.get_gene_disease_associat
     bridgedb_df=bridgdb_df
 )
 disease_df.head()
-
+'''
 
 #Wikipathways
-wp_df, wp_metadata = wikipathways.get_gene_wikipathway(bridgedb_df=bridgdb_df)
+wp_df, wp_metadata = wikipathways.get_gene_wikipathways(bridgedb_df=bridgdb_df)
 wp_df.head()
 
 #Protein-protein STRING
@@ -84,6 +84,7 @@ row=0
 post_covid_node =  {'disease_name': 'Post-COVID-19', 'diseaseid': 'C0000000'}
 for x in disgenet_result['identifier']:
     if x.strip() in list(post_covid_genes['identifier']):
+        lol=(disgenet_result['DisGeNET'][row])
         disgenet_result['DisGeNET'][row].append(post_covid_node)
         
     row=row+1
@@ -110,6 +111,7 @@ ncbi_genes = ncbi_genes.rename(columns={'target': 'ncbi_id'})
 
 combined_df= pd.merge(combined_df, ncbi_genes,on='identifier',how='left')
 
+
 #Export formatted table
 combined_df.to_csv('graph.csv')
 
@@ -124,6 +126,5 @@ pygraph = generator.generate_networkx_graph(combined_df,drug_disease)
 
 neo4j_exporter.save_graph_to_neo4j_graphml(pygraph, 'graph.graphml')
 
-'''
 
 

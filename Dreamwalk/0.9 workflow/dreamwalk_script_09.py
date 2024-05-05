@@ -11,8 +11,7 @@ Created on Tue Feb 20 10:32:58 2024
 import os 
 from pathlib import Path
 path = Path(__file__).resolve().parent
-path_parent=Path(__file__).resolve().parent.parent
-os.chdir(path_parent)
+os.chdir(path)
 
 import pandas as pd
 import DREAMwalk.generate_files as gen
@@ -21,9 +20,9 @@ from DREAMwalk.generate_embeddings import save_embedding_files
 from DREAMwalk.predict_associations import predict_dda
 from DREAMwalk.generate_similarity_net import save_sim_graph
 from DREAMwalk.calculate_drug_scores import find_candidates
-os.chdir(path)
-'''
 
+
+'''
 # GENERATE FILES
 
 kg_data= pd.read_csv('preprocessed_graph.csv')
@@ -35,7 +34,7 @@ gen.generate_files(kg_data)
 
 dis_gen.save_dis_sim('preprocessed_graph.csv','dis_sim.tsv')
 
-'''
+
 # ALGORITHM
 
 
@@ -62,7 +61,7 @@ similarty_graph.to_csv('similarty_graph.txt', sep='\t', index=False,header=False
 
 
 nodetypef='nodetypes.tsv'
-embeddingf='embedding_file.pkl'
+embeddingf='embedding_file09.pkl'
 simf='similarty_graph.txt'
 
 save_embedding_files(netf=networkf,sim_netf=hierf, outputf=embeddingf,
@@ -73,13 +72,19 @@ save_embedding_files(netf=networkf,sim_netf=hierf, outputf=embeddingf,
 
 pairf='dda_files/dda10.tsv'
 modelf='results/clf10.pkl'
-embeddingf='embedding_file.pkl'
+embeddingf='embedding_file09.pkl'
 
 predict_dda(embeddingf=embeddingf, pairf=pairf, modelf=modelf)
+'''
 
 # Calculate drug scores
+embeddingf='embedding_file09.pkl'
 model_folder= 'results'
 query_disease= 'C0000000'
 kgfile='preprocessed_graph.csv'
 find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_count=20)
+
+results1=find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_count=100)
+results1.to_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/results1_09.csv')
+
 

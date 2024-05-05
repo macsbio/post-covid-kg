@@ -39,9 +39,9 @@ def save_dis_sim(kgfile, sim_file):
     
     
     ########################################## Retrieve disease-gene information locally (API not working)
-    gene_ids = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/KG/disgenet/genes_disgenet.csv')
-    diseases_ids = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/KG/disgenet/diseases_disgenet.csv')
-    gene_diseases = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/KG/disgenet/gene-disease_disgenet.csv')
+    gene_ids = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/post-covid-kg/KG/disgenet/genes_disgenet.csv')
+    diseases_ids = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/post-covid-kg/KG/disgenet/diseases_disgenet.csv')
+    gene_diseases = pd.read_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/post-covid-kg/KG/disgenet/gene-disease_disgenet.csv')
     
     df_all= pd.DataFrame()
     df_all['diseaseId']  =   diseases

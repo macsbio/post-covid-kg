@@ -113,6 +113,7 @@ def add_opentargets_go_subgraph(g, gene_node_label, annot_list):
             "source": "OpenTargets",
             "name": go["go_name"],
             "id": go["go_id"],
+            "go_type": go["go_type"],
             "labels": "gene ontology",
         }
 
@@ -184,11 +185,12 @@ def add_opentargets_drug_subgraph(g, gene_node_label, annot_list):
                 "name": drug["drug_name"],
                 "id": drug["chembl_id"],
                 "drugID":drug["drugbank"],
+                "adverse_effect_count":drug["adverse_effect_count"],
                 "labels": "drug",
             }
 
             g.add_node(drug_node_label, attr_dict=drug_node_attrs)
-
+            
             edge_attrs = {"source": "OpenTargets", "type": drug["relation"]}
 
             edge_hash = hash(frozenset(edge_attrs.items()))
@@ -201,7 +203,25 @@ def add_opentargets_drug_subgraph(g, gene_node_label, annot_list):
 
             if len(node_exists) == 0:
                 g.add_edge(gene_node_label, drug_node_label,label=drug["relation"], attr_dict=edge_attrs)
+            
+            
+            #Add side effects
+            if drug['adverse_effect']:
+                for effect in drug['adverse_effect']:
+                    effect_node_attrs={
+                        "source":"OpenTargets",
+                        "labels":"side effect",
+                        "name": effect['name'],
+                        "id":effect['meddraCode']
+                            }
+                    g.add_node(effect['name'],attr_dict=effect_node_attrs)
+                    
+                    new_edge = (drug_node_label,effect['name'])
 
+                    # Check if the edge already exists
+                    if not g.has_edge(*new_edge):
+                        # Add the edge to the graph
+                        g.add_edge(drug_node_label,effect['name'],label='has_side_affect')
     return g
 
 
@@ -251,14 +271,14 @@ def add_wikipathways_subgraph(g, gene_node_label, annot_list):
     :returns: a NetworkX MultiDiGraph
     """
     for pathway in annot_list:
-        if not pd.isna(pathway["pathwayLabel"]):
-            pathway_node_label = pathway["pathwayLabel"]
+        if not pd.isna(pathway["pathway_label"]):
+            pathway_node_label = pathway["pathway_label"]
             pathway_node_attrs = {
                 "source": "WikiPathways",
-                "name": pathway["pathwayLabel"],
-                "id": pathway["pathwayId"],
+                "name": pathway["pathway_label"],
+                "id": pathway["pathway_id"],
                 "labels": "pathway",
-                "gene_count": pathway["pathwayGeneCount"],
+                "gene_count": pathway["pathway_gene_count"],
             }
 
             g.add_node(pathway_node_label, attr_dict=pathway_node_attrs)
@@ -324,16 +344,19 @@ def add_ppi_subgraph(g, gene_node_label, annot_list):
     :returns: a NetworkX MultiDiGraph
     """
     for ppi in annot_list:
-        edge_attrs = {"source": "STRING", "type": "interacts_with", "score": ppi["score"]}
+        edge_attrs = {"source": 'STRING', "label": 'stringdb_link_to', "score": ppi.get("score")}
 
         edge_hash = hash(frozenset(edge_attrs.items()))
         edge_attrs["edge_hash"] = edge_hash
-        edge_data = g.get_edge_data(gene_node_label, ppi["stringdb_link_to"])
-        edge_data = {} if edge_data is None else edge_data
-        node_exists = [x for x, y in edge_data.items() if y["attr_dict"]["edge_hash"] == edge_hash]
-
-        if len(node_exists) == 0:
-            g.add_edge(gene_node_label, ppi["stringdb_link_to"], label="interacts_with",attr_dict=edge_attrs)
+        
+        new_edge = (gene_node_label,ppi["stringdb_link_to"])
+        
+        
+        # Check if the edge already exists
+        if not g.has_edge(*new_edge):
+            # Add the edge to the graph
+            g.add_edge(gene_node_label,ppi["stringdb_link_to"] ,label='stringdb_link_to', attr_dict=edge_attrs)
+       
 
     return g
 
@@ -394,6 +417,8 @@ def generate_networkx_graph(fuse_df: pd.DataFrame,drug_disease=None):
                 "name": row["identifier"],
                 "id": row["target"],
                 "ncbiID":row["ncbi_id"],
+                "logFC":row["logFC_dea_x"],
+                "p-value":row["p-Value_dea_x"],
                 "labels": "gene",
                 row["target.source"]: row["target"],
             }
@@ -414,26 +439,24 @@ def generate_networkx_graph(fuse_df: pd.DataFrame,drug_disease=None):
                     annot_list = []
 
                 func_dict[annot_key](g, gene_node_label, annot_list)
-
-    if "stringdb" in row:
-        for _i, row in fuse_df.iterrows():
-            if type(row["identifier.source"]) != float:
-                ppi_list = json.loads(json.dumps(row["stringdb"]))
-
-            if ppi_list is None:
-                ppi_list = []
-
-            add_ppi_subgraph(g, gene_node_label, ppi_list)
+    
+        if "StringDB" in row and type(row['StringDB'])!=float:
+                gene_node_label = row["identifier"]
+                if type(row["identifier.source"]) != float:
+                    ppi_list = json.loads(json.dumps(row["StringDB"]))
+    
+                if ppi_list is None:
+                    ppi_list = []
+                add_ppi_subgraph(g, gene_node_label, ppi_list)
            
-    if "drug_diseases" in row and drug_disease is not None:
-        for _i, row in fuse_df.iterrows():
-            gene_node_label_2= row['identifier']
-            ddi_list = json.loads(json.dumps(row["drug_diseases"]))
-
-            if type(ddi_list) == float :
-                ddi_list = []
-
-            add_drug_disease_subgraph(g, gene_node_label_2, ddi_list)
+        if "drug_diseases" in row and drug_disease is not None and type(row['drug_diseases'])!=float:
+                gene_node_label_2= row['identifier']
+                ddi_list = json.loads(json.dumps(row["drug_diseases"]))
+    
+                if type(ddi_list) == float :
+                    ddi_list = []
+    
+                add_drug_disease_subgraph(g, gene_node_label_2, ddi_list)
     
     for node in g.nodes():
         for k, v in g.nodes[node]["attr_dict"].items():

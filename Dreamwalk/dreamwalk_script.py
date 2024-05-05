@@ -21,7 +21,7 @@ from DREAMwalk.predict_associations import predict_dda
 from DREAMwalk.generate_similarity_net import save_sim_graph
 from DREAMwalk.calculate_drug_scores import find_candidates
 
-
+'''
 # GENERSTE FILES
 kg_data= pd.read_csv('preprocessed_graph.csv')
 
@@ -51,7 +51,7 @@ similarty_graph[4] = range(0, len(similarty_graph))
 similarty_graph.to_csv('similarty_graph.txt', sep='\t', index=False,header=False)
 
 
-'''
+
 # Generate node embeddings by teleport-guided randomwalk
 
 
@@ -67,13 +67,15 @@ save_embedding_files(netf=networkf,sim_netf=hierf, outputf=embeddingf,
 
 pairf='dda_files/dda10.tsv'
 modelf='results/clf10.pkl'
-embeddingf='embedding_file.pkl'
+embeddingf='embedding_file04.pkl'
 
 predict_dda(embeddingf=embeddingf, pairf=pairf, modelf=modelf)
-
+'''
 # Calculate drug scores
 model_folder= 'results'
+embeddingf='embedding_file04.pkl'
 query_disease= 'C0000000'
 kgfile='preprocessed_graph.csv'
-find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_count=20)
-'''
+results1=find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_count=100)
+
+results1.to_csv('/Users/alejandroadriaquelozano/Documents/Internships/MacsBio/results1_04.csv')

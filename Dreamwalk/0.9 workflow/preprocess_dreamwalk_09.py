@@ -37,7 +37,7 @@ filtered_data = data[data['score'].isna() | (data['score'] > 0.9)]
 
 
 # Drugbank ATC    
-atc_hierarchy = pd.read_csv('drugbank/atc_hierarchy.csv')
+atc_hierarchy = pd.read_csv('atc_hierarchy.csv')
 atc_hierarchy=atc_hierarchy.drop(columns=['Unnamed: 0','dbID'])
 atc_hierarchy = atc_hierarchy.dropna(subset=['id'])
 

@@ -159,6 +159,7 @@ def get_gene_go_process(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame, dict]:
               id
               name
             }
+            aspect
           }
         }
       }
@@ -180,20 +181,21 @@ def get_gene_go_process(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame, dict]:
     }
 
     # Generate the OpenTargets DataFrame
-    data = []
+    intermediate_df = pd.DataFrame()
 
     for gene in r["data"]["targets"]:
         terms = [i["term"] for i in gene["geneOntology"]]
+        types= [i["aspect"] for i in gene["geneOntology"]]
         path_df = pd.DataFrame(terms)
+        path_df['go_type']=types
+        path_df = path_df.drop_duplicates()
         path_df["target"] = gene["id"]
-        data.append(path_df)
+        intermediate_df = pd.concat([intermediate_df, path_df], ignore_index=True)
 
-    if len(data) == 0:
-        return pd.DataFrame(), version_metadata
+    if intermediate_df.empty:
+        return pd.DataFrame()
 
-    opentargets_df = pd.concat(data)
-
-    opentargets_df.rename(
+    intermediate_df.rename(
         columns={
             "id": "go_id",
             "name": "go_name",
@@ -201,13 +203,14 @@ def get_gene_go_process(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame, dict]:
         inplace=True,
     )
 
+
     # Merge the two DataFrames on the target column
     merged_df = collapse_data_sources(
         data_df=data_df,
         source_namespace="Ensembl",
-        target_df=opentargets_df,
+        target_df=intermediate_df,
         common_cols=["target"],
-        target_specific_cols=["go_id", "go_name"],
+        target_specific_cols=["go_id", "go_name","go_type"],
         col_name="GO_Process",  # TODO: Cross-check if correct name
     )
 
@@ -371,9 +374,17 @@ def get_gene_drug_interactions(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame,
                 id
                 crossReferences{source,reference}
                 name
+                adverseEvents{
+                    count
+                    rows{     
+                      name
+                      meddraCode
+                    }
+                  }
               }
             }
           }
+
         }
       }
     """
@@ -405,7 +416,7 @@ def get_gene_drug_interactions(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame,
         if drug_df.empty:
             continue
 
-        drug_df[["chembl_id", "crossReferences","drug_name"]] = drug_df["drug"].apply(pd.Series)
+        drug_df[["chembl_id", "crossReferences","drug_name","adverse_events"]] = drug_df["drug"].apply(pd.Series)
         drug_df.drop(columns=["drug"], inplace=True)
 
         drug_df["target"] = gene["id"]
@@ -423,7 +434,15 @@ def get_gene_drug_interactions(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame,
                     if y['source']=='drugbank':
                         drug_df['drugbank'][row]=y['reference'][0]
             row=row+1      
-            
+       
+        drug_df['adverse_effect_count']=None
+        drug_df['adverse_effect']=None
+        row=0
+        for x in drug_df['adverse_events']:
+            if x:
+                drug_df['adverse_effect_count'][row]=x['count']
+                drug_df['adverse_effect'][row]=x['rows']
+            row=row+1
             
         data.append(drug_df)
 
@@ -438,7 +457,7 @@ def get_gene_drug_interactions(bridgedb_df: pd.DataFrame) -> Tuple[pd.DataFrame,
         source_namespace="Ensembl",
         target_df=opentargets_df,
         common_cols=["target"],
-        target_specific_cols=["chembl_id", "drug_name", "relation","drugbank"],
+        target_specific_cols=["chembl_id", "drug_name", "relation","drugbank","adverse_effect_count","adverse_effect"],
         col_name="ChEMBL_Drugs",  # TODO: Cross-check if correct name
     )
 

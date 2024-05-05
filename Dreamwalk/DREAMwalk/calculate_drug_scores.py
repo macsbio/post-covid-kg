@@ -92,6 +92,8 @@ def find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_
 
     # create a model list from the model files
     model_files = os.listdir(model_folder)
+    if '.DS_Store' in model_files:
+        model_files.remove('.DS_Store')
     model_list = []
     for file in model_files:
         file_path = os.path.join(model_folder, file)
@@ -104,6 +106,7 @@ def find_candidates(kgfile, embeddingf, model_folder, query_disease, candidates_
 
     candidate_drugs = process_drugs(drugs_to_process, query_disease, embeddingf, model_list, map_name_dict, candidates_count)
     print(candidate_drugs)
+    return(candidate_drugs)
 
 if __name__ == '__main__':
     args=parse_args()
