@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "id": "TOPIRAMATE", "label": "TOPIRAMATE", "shape": "dot", "size": 20}, {"color": "green", "id": "GABRB1", "label": "GABRB1", "shape": "dot", "size": 15}, {"color": "blue", "id": "Peptide GPCRs", "label": "Peptide GPCRs", "shape": "dot", "size": 10}, {"color": "blue", "id": "6q16 copy number variation", "label": "6q16 copy number variation", "shape": "dot", "size": 10}, {"color": "blue", "id": "Signaling by ERBB4", "label": "Signaling by ERBB4", "shape": "dot", "size": 10}, {"color": "blue", "id": "GPCRs, class A rhodopsin-like", "label": "GPCRs, class A rhodopsin-like", "shape": "dot", "size": 10}, {"color": "blue", "id": "GABA receptor activation", "label": "GABA receptor activation", "shape": "dot", "size": 10}, {"color": "green", "id": "SCN8A", "label": "SCN8A", "shape": "dot", "size": 15}, {"color": "blue", "id": "Monoamine transport", "label": "Monoamine transport", "shape": "dot", "size": 10}, {"color": "blue", "id": "ADHD and autism (ASD) linked metabolic pathways and SNP", "label": "ADHD and autism (ASD) linked metabolic pathways and SNP", "shape": "dot", "size": 10}, {"color": "blue", "id": "Circadian rhythm genes", "label": "Circadian rhythm genes", "shape": "dot", "size": 10}, {"color": "blue", "id": "Interaction between L1 and Ankyrins", "label": "Interaction between L1 and Ankyrins", "shape": "dot", "size": 10}, {"color": "blue", "id": "Phase 0 - rapid depolarisation", "label": "Phase 0 - rapid depolarisation", "shape": "dot", "size": 10}, {"color": "blue", "id": "Sudden infant death syndrome (SIDS) susceptibility pathways", "label": "Sudden infant death syndrome (SIDS) susceptibility pathways", "shape": "dot", "size": 10}, {"color": "blue", "id": "Synaptic vesicle pathway", "label": "Synaptic vesicle pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Nuclear receptors meta-pathway", "label": "Nuclear receptors meta-pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Cell lineage map for neuronal differentiation", "label": "Cell lineage map for neuronal differentiation", "shape": "dot", "size": 10}, {"color": "blue", "id": "NRF2 pathway", "label": "NRF2 pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Serotonin transporter activity", "label": "Serotonin transporter activity", "shape": "dot", "size": 10}, {"color": "red", "id": "CLONAZEPAM", "label": "CLONAZEPAM", "shape": "dot", "size": 20}, {"color": "green", "id": "GABRG2", "label": "GABRG2", "shape": "dot", "size": 15}, {"color": "red", "id": "ALPRAZOLAM", "label": "ALPRAZOLAM", "shape": "dot", "size": 20}, {"color": "red", "id": "MIDAZOLAM", "label": "MIDAZOLAM", "shape": "dot", "size": 20}, {"color": "red", "id": "CLOBAZAM", "label": "CLOBAZAM", "shape": "dot", "size": 20}, {"color": "red", "id": "DIAZEPAM", "label": "DIAZEPAM", "shape": "dot", "size": 20}, {"color": "red", "id": "GANAXOLONE", "label": "GANAXOLONE", "shape": "dot", "size": 20}, {"color": "red", "id": "EZOGABINE", "label": "EZOGABINE", "shape": "dot", "size": 20}, {"color": "green", "id": "KCNQ4", "label": "KCNQ4", "shape": "dot", "size": 15}, {"color": "blue", "id": "Sensory processing of sound by outer hair cells of the cochlea", "label": "Sensory processing of sound by outer hair cells of the cochlea", "shape": "dot", "size": 10}, {"color": "blue", "id": "Voltage gated Potassium channels", "label": "Voltage gated Potassium channels", "shape": "dot", "size": 10}, {"color": "blue", "id": "Sensory processing of sound by inner hair cells of the cochlea", "label": "Sensory processing of sound by inner hair cells of the cochlea", "shape": "dot", "size": 10}, {"color": "red", "id": "GUANIDINE", "label": "GUANIDINE", "shape": "dot", "size": 20}, {"color": "green", "id": "KCNS3", "label": "KCNS3", "shape": "dot", "size": 15}, {"color": "blue", "id": "Glucagon-like Peptide-1 (GLP1) regulates insulin secretion", "label": "Glucagon-like Peptide-1 (GLP1) regulates insulin secretion", "shape": "dot", "size": 10}, {"color": "red", "id": "AMIFAMPRIDINE", "label": "AMIFAMPRIDINE", "shape": "dot", "size": 20}]);
+                  edges = new vis.DataSet([{"from": "TOPIRAMATE", "title": "AFFECTS", "to": "GABRB1"}, {"from": "GABRB1", "title": "PART_OF", "to": "Peptide GPCRs"}, {"from": "GABRB1", "title": "PART_OF", "to": "6q16 copy number variation"}, {"from": "GABRB1", "title": "PART_OF", "to": "Signaling by ERBB4"}, {"from": "GABRB1", "title": "PART_OF", "to": "GPCRs, class A rhodopsin-like"}, {"from": "GABRB1", "title": "PART_OF", "to": "GABA receptor activation"}, {"from": "TOPIRAMATE", "title": "AFFECTS", "to": "SCN8A"}, {"from": "SCN8A", "title": "PART_OF", "to": "Monoamine transport"}, {"from": "SCN8A", "title": "PART_OF", "to": "ADHD and autism (ASD) linked metabolic pathways and SNP"}, {"from": "SCN8A", "title": "PART_OF", "to": "Circadian rhythm genes"}, {"from": "SCN8A", "title": "PART_OF", "to": "Interaction between L1 and Ankyrins"}, {"from": "SCN8A", "title": "PART_OF", "to": "Phase 0 - rapid depolarisation"}, {"from": "SCN8A", "title": "PART_OF", "to": "Sudden infant death syndrome (SIDS) susceptibility pathways"}, {"from": "SCN8A", "title": "PART_OF", "to": "Synaptic vesicle pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Nuclear receptors meta-pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Cell lineage map for neuronal differentiation"}, {"from": "SCN8A", "title": "PART_OF", "to": "NRF2 pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Serotonin transporter activity"}, {"from": "CLONAZEPAM", "title": "AFFECTS", "to": "GABRG2"}, {"from": "GABRG2", "title": "PART_OF", "to": "Signaling by ERBB4"}, {"from": "GABRG2", "title": "PART_OF", "to": "GABA receptor activation"}, {"from": "ALPRAZOLAM", "title": "AFFECTS", "to": "GABRG2"}, {"from": "MIDAZOLAM", "title": "AFFECTS", "to": "GABRG2"}, {"from": "CLOBAZAM", "title": "AFFECTS", "to": "GABRG2"}, {"from": "DIAZEPAM", "title": "AFFECTS", "to": "GABRG2"}, {"from": "GANAXOLONE", "title": "AFFECTS", "to": "GABRG2"}, {"from": "EZOGABINE", "title": "AFFECTS", "to": "KCNQ4"}, {"from": "KCNQ4", "title": "PART_OF", "to": "Sensory processing of sound by outer hair cells of the cochlea"}, {"from": "KCNQ4", "title": "PART_OF", "to": "Voltage gated Potassium channels"}, {"from": "KCNQ4", "title": "PART_OF", "to": "Sensory processing of sound by inner hair cells of the cochlea"}, {"from": "GUANIDINE", "title": "AFFECTS", "to": "KCNQ4"}, {"from": "GUANIDINE", "title": "AFFECTS", "to": "KCNS3"}, {"from": "KCNS3", "title": "PART_OF", "to": "Voltage gated Potassium channels"}, {"from": "KCNS3", "title": "PART_OF", "to": "Glucagon-like Peptide-1 (GLP1) regulates insulin secretion"}, {"from": "AMIFAMPRIDINE", "title": "AFFECTS", "to": "KCNS3"}, {"from": "AMIFAMPRIDINE", "title": "AFFECTS", "to": "KCNQ4"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

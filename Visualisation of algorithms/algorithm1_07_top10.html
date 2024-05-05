@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "id": "DIPYRIDAMOLE", "label": "DIPYRIDAMOLE", "shape": "dot", "size": 20}, {"color": "green", "id": "PDE6A", "label": "PDE6A", "shape": "dot", "size": 15}, {"color": "blue", "id": "Ca2+ pathway", "label": "Ca2+ pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "ATM signaling in development and disease ", "label": "ATM signaling in development and disease ", "shape": "dot", "size": 10}, {"color": "blue", "id": "Activation of the phototransduction cascade", "label": "Activation of the phototransduction cascade", "shape": "dot", "size": 10}, {"color": "blue", "id": "Inactivation, recovery and regulation of the phototransduction cascade", "label": "Inactivation, recovery and regulation of the phototransduction cascade", "shape": "dot", "size": 10}, {"color": "green", "id": "PDE8B", "label": "PDE8B", "shape": "dot", "size": 15}, {"color": "blue", "id": "G alpha (s) signalling events", "label": "G alpha (s) signalling events", "shape": "dot", "size": 10}, {"color": "blue", "id": "Unfolded protein response", "label": "Unfolded protein response", "shape": "dot", "size": 10}, {"color": "blue", "id": "Endoplasmatic Reticulum stress", "label": "Endoplasmatic Reticulum stress", "shape": "dot", "size": 10}, {"color": "blue", "id": "Photodynamic therapy-induced unfolded protein response", "label": "Photodynamic therapy-induced unfolded protein response", "shape": "dot", "size": 10}, {"color": "red", "id": "PENTOXIFYLLINE", "label": "PENTOXIFYLLINE", "shape": "dot", "size": 20}, {"color": "red", "id": "MIDOSTAURIN", "label": "MIDOSTAURIN", "shape": "dot", "size": 20}, {"color": "green", "id": "PRKCG", "label": "PRKCG", "shape": "dot", "size": 15}, {"color": "blue", "id": "WNT5A-dependent internalization of FZD4", "label": "WNT5A-dependent internalization of FZD4", "shape": "dot", "size": 10}, {"color": "blue", "id": "Disinhibition of SNARE formation", "label": "Disinhibition of SNARE formation", "shape": "dot", "size": 10}, {"color": "blue", "id": "G alpha (z) signalling events", "label": "G alpha (z) signalling events", "shape": "dot", "size": 10}, {"color": "blue", "id": "Trafficking of GluR2-containing AMPA receptors", "label": "Trafficking of GluR2-containing AMPA receptors", "shape": "dot", "size": 10}, {"color": "blue", "id": "Response to elevated platelet cytosolic Ca2+", "label": "Response to elevated platelet cytosolic Ca2+", "shape": "dot", "size": 10}, {"color": "blue", "id": "Calmodulin induced events", "label": "Calmodulin induced events", "shape": "dot", "size": 10}, {"color": "red", "id": "LIDOCAINE", "label": "LIDOCAINE", "shape": "dot", "size": 20}, {"color": "green", "id": "SCN8A", "label": "SCN8A", "shape": "dot", "size": 15}, {"color": "blue", "id": "Monoamine transport", "label": "Monoamine transport", "shape": "dot", "size": 10}, {"color": "blue", "id": "ADHD and autism (ASD) linked metabolic pathways and SNP", "label": "ADHD and autism (ASD) linked metabolic pathways and SNP", "shape": "dot", "size": 10}, {"color": "blue", "id": "Circadian rhythm genes", "label": "Circadian rhythm genes", "shape": "dot", "size": 10}, {"color": "blue", "id": "Interaction between L1 and Ankyrins", "label": "Interaction between L1 and Ankyrins", "shape": "dot", "size": 10}, {"color": "blue", "id": "Phase 0 - rapid depolarisation", "label": "Phase 0 - rapid depolarisation", "shape": "dot", "size": 10}, {"color": "blue", "id": "Sudden infant death syndrome (SIDS) susceptibility pathways", "label": "Sudden infant death syndrome (SIDS) susceptibility pathways", "shape": "dot", "size": 10}, {"color": "blue", "id": "Synaptic vesicle pathway", "label": "Synaptic vesicle pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Nuclear receptors meta-pathway", "label": "Nuclear receptors meta-pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Cell lineage map for neuronal differentiation", "label": "Cell lineage map for neuronal differentiation", "shape": "dot", "size": 10}, {"color": "blue", "id": "NRF2 pathway", "label": "NRF2 pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Serotonin transporter activity", "label": "Serotonin transporter activity", "shape": "dot", "size": 10}, {"color": "red", "id": "QUINIDINE", "label": "QUINIDINE", "shape": "dot", "size": 20}, {"color": "red", "id": "ZONISAMIDE", "label": "ZONISAMIDE", "shape": "dot", "size": 20}, {"color": "red", "id": "ETHOTOIN", "label": "ETHOTOIN", "shape": "dot", "size": 20}, {"color": "red", "id": "XANOMELINE", "label": "XANOMELINE", "shape": "dot", "size": 20}, {"color": "green", "id": "CHRM4", "label": "CHRM4", "shape": "dot", "size": 15}, {"color": "blue", "id": "G alpha (i) signalling events", "label": "G alpha (i) signalling events", "shape": "dot", "size": 10}, {"color": "blue", "id": "Muscarinic acetylcholine receptors", "label": "Muscarinic acetylcholine receptors", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "DIPYRIDAMOLE", "title": "AFFECTS", "to": "PDE6A"}, {"from": "PDE6A", "title": "PART_OF", "to": "Ca2+ pathway"}, {"from": "PDE6A", "title": "PART_OF", "to": "ATM signaling in development and disease "}, {"from": "PDE6A", "title": "PART_OF", "to": "Activation of the phototransduction cascade"}, {"from": "PDE6A", "title": "PART_OF", "to": "Inactivation, recovery and regulation of the phototransduction cascade"}, {"from": "DIPYRIDAMOLE", "title": "AFFECTS", "to": "PDE8B"}, {"from": "PDE8B", "title": "PART_OF", "to": "G alpha (s) signalling events"}, {"from": "PDE8B", "title": "PART_OF", "to": "Unfolded protein response"}, {"from": "PDE8B", "title": "PART_OF", "to": "Endoplasmatic Reticulum stress"}, {"from": "PDE8B", "title": "PART_OF", "to": "Photodynamic therapy-induced unfolded protein response"}, {"from": "PENTOXIFYLLINE", "title": "AFFECTS", "to": "PDE8B"}, {"from": "PENTOXIFYLLINE", "title": "AFFECTS", "to": "PDE6A"}, {"from": "MIDOSTAURIN", "title": "AFFECTS", "to": "PRKCG"}, {"from": "PRKCG", "title": "PART_OF", "to": "WNT5A-dependent internalization of FZD4"}, {"from": "PRKCG", "title": "PART_OF", "to": "Disinhibition of SNARE formation"}, {"from": "PRKCG", "title": "PART_OF", "to": "G alpha (z) signalling events"}, {"from": "PRKCG", "title": "PART_OF", "to": "Trafficking of GluR2-containing AMPA receptors"}, {"from": "PRKCG", "title": "PART_OF", "to": "Response to elevated platelet cytosolic Ca2+"}, {"from": "PRKCG", "title": "PART_OF", "to": "Calmodulin induced events"}, {"from": "LIDOCAINE", "title": "AFFECTS", "to": "SCN8A"}, {"from": "SCN8A", "title": "PART_OF", "to": "Monoamine transport"}, {"from": "SCN8A", "title": "PART_OF", "to": "ADHD and autism (ASD) linked metabolic pathways and SNP"}, {"from": "SCN8A", "title": "PART_OF", "to": "Circadian rhythm genes"}, {"from": "SCN8A", "title": "PART_OF", "to": "Interaction between L1 and Ankyrins"}, {"from": "SCN8A", "title": "PART_OF", "to": "Phase 0 - rapid depolarisation"}, {"from": "SCN8A", "title": "PART_OF", "to": "Sudden infant death syndrome (SIDS) susceptibility pathways"}, {"from": "SCN8A", "title": "PART_OF", "to": "Synaptic vesicle pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Nuclear receptors meta-pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Cell lineage map for neuronal differentiation"}, {"from": "SCN8A", "title": "PART_OF", "to": "NRF2 pathway"}, {"from": "SCN8A", "title": "PART_OF", "to": "Serotonin transporter activity"}, {"from": "QUINIDINE", "title": "AFFECTS", "to": "SCN8A"}, {"from": "ZONISAMIDE", "title": "AFFECTS", "to": "SCN8A"}, {"from": "ETHOTOIN", "title": "AFFECTS", "to": "SCN8A"}, {"from": "XANOMELINE", "title": "AFFECTS", "to": "CHRM4"}, {"from": "CHRM4", "title": "PART_OF", "to": "G alpha (i) signalling events"}, {"from": "CHRM4", "title": "PART_OF", "to": "Muscarinic acetylcholine receptors"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "id": "GSK2816126", "label": "GSK2816126", "shape": "dot", "size": 20}, {"color": "green", "id": "EZH2", "label": "EZH2", "shape": "dot", "size": 15}, {"color": "blue", "id": "HCMV Early Events", "label": "HCMV Early Events", "shape": "dot", "size": 10}, {"color": "blue", "id": "PRC2 methylates histones and DNA", "label": "PRC2 methylates histones and DNA", "shape": "dot", "size": 10}, {"color": "blue", "id": "Defective pyroptosis", "label": "Defective pyroptosis", "shape": "dot", "size": 10}, {"color": "blue", "id": "PKMTs methylate histone lysines", "label": "PKMTs methylate histone lysines", "shape": "dot", "size": 10}, {"color": "blue", "id": "Activation of anterior HOX genes in hindbrain development during early embryogenesis", "label": "Activation of anterior HOX genes in hindbrain development during early embryogenesis", "shape": "dot", "size": 10}, {"color": "blue", "id": "Oxidative Stress Induced Senescence", "label": "Oxidative Stress Induced Senescence", "shape": "dot", "size": 10}, {"color": "blue", "id": "Regulation of PTEN gene transcription", "label": "Regulation of PTEN gene transcription", "shape": "dot", "size": 10}, {"color": "blue", "id": "Transcriptional Regulation by E2F6", "label": "Transcriptional Regulation by E2F6", "shape": "dot", "size": 10}, {"color": "red", "id": "ZILTIVEKIMAB", "label": "ZILTIVEKIMAB", "shape": "dot", "size": 20}, {"color": "green", "id": "IL6", "label": "IL6", "shape": "dot", "size": 15}, {"color": "blue", "id": "MAPK3 (ERK1) activation", "label": "MAPK3 (ERK1) activation", "shape": "dot", "size": 10}, {"color": "blue", "id": "ADORA2B mediated anti-inflammatory cytokines production", "label": "ADORA2B mediated anti-inflammatory cytokines production", "shape": "dot", "size": 10}, {"color": "blue", "id": "Interleukin-10 signaling", "label": "Interleukin-10 signaling", "shape": "dot", "size": 10}, {"color": "blue", "id": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)", "label": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)", "shape": "dot", "size": 10}, {"color": "blue", "id": "MAPK1 (ERK2) activation", "label": "MAPK1 (ERK2) activation", "shape": "dot", "size": 10}, {"color": "blue", "id": "Post-translational protein phosphorylation", "label": "Post-translational protein phosphorylation", "shape": "dot", "size": 10}, {"color": "blue", "id": "CD163 mediating an anti-inflammatory response", "label": "CD163 mediating an anti-inflammatory response", "shape": "dot", "size": 10}, {"color": "blue", "id": "Transcriptional Regulation by VENTX", "label": "Transcriptional Regulation by VENTX", "shape": "dot", "size": 10}, {"color": "blue", "id": "Interleukin-4 and Interleukin-13 signaling", "label": "Interleukin-4 and Interleukin-13 signaling", "shape": "dot", "size": 10}, {"color": "blue", "id": "Senescence-Associated Secretory Phenotype (SASP)", "label": "Senescence-Associated Secretory Phenotype (SASP)", "shape": "dot", "size": 10}, {"color": "blue", "id": "Interleukin-6 signaling", "label": "Interleukin-6 signaling", "shape": "dot", "size": 10}, {"color": "red", "id": "OLOKIZUMAB", "label": "OLOKIZUMAB", "shape": "dot", "size": 20}, {"color": "red", "id": "CLAZAKIZUMAB", "label": "CLAZAKIZUMAB", "shape": "dot", "size": 20}, {"color": "red", "id": "PF-04236921", "label": "PF-04236921", "shape": "dot", "size": 20}, {"color": "red", "id": "GARETOSMAB", "label": "GARETOSMAB", "shape": "dot", "size": 20}, {"color": "green", "id": "INHBA", "label": "INHBA", "shape": "dot", "size": 15}, {"color": "blue", "id": "Antagonism of Activin by Follistatin", "label": "Antagonism of Activin by Follistatin", "shape": "dot", "size": 10}, {"color": "blue", "id": "Signaling by BMP", "label": "Signaling by BMP", "shape": "dot", "size": 10}, {"color": "blue", "id": "Glycoprotein hormones", "label": "Glycoprotein hormones", "shape": "dot", "size": 10}, {"color": "blue", "id": "Signaling by Activin", "label": "Signaling by Activin", "shape": "dot", "size": 10}, {"color": "red", "id": "SOTATERCEPT", "label": "SOTATERCEPT", "shape": "dot", "size": 20}, {"color": "red", "id": "TAPINAROF", "label": "TAPINAROF", "shape": "dot", "size": 20}, {"color": "green", "id": "AHR", "label": "AHR", "shape": "dot", "size": 15}, {"color": "blue", "id": "Aryl hydrocarbon receptor signalling", "label": "Aryl hydrocarbon receptor signalling", "shape": "dot", "size": 10}, {"color": "blue", "id": "Endogenous sterols", "label": "Endogenous sterols", "shape": "dot", "size": 10}, {"color": "blue", "id": "PPARA activates gene expression", "label": "PPARA activates gene expression", "shape": "dot", "size": 10}, {"color": "blue", "id": "Phase I - Functionalization of compounds", "label": "Phase I - Functionalization of compounds", "shape": "dot", "size": 10}, {"color": "blue", "id": "Xenobiotics", "label": "Xenobiotics", "shape": "dot", "size": 10}, {"color": "red", "id": "BERTILIMUMAB", "label": "BERTILIMUMAB", "shape": "dot", "size": 20}, {"color": "green", "id": "CCL11", "label": "CCL11", "shape": "dot", "size": 15}, {"color": "blue", "id": "Gastrin signaling pathway", "label": "Gastrin signaling pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "CCL18 signaling pathway", "label": "CCL18 signaling pathway", "shape": "dot", "size": 10}, {"color": "blue", "id": "Chemokine receptors bind chemokines", "label": "Chemokine receptors bind chemokines", "shape": "dot", "size": 10}, {"color": "blue", "id": "Hippo-Merlin signaling dysregulation", "label": "Hippo-Merlin signaling dysregulation", "shape": "dot", "size": 10}, {"color": "blue", "id": "Hepatitis C and hepatocellular carcinoma", "label": "Hepatitis C and hepatocellular carcinoma", "shape": "dot", "size": 10}, {"color": "blue", "id": "Wnt signaling pathway and pluripotency", "label": "Wnt signaling pathway and pluripotency", "shape": "dot", "size": 10}, {"color": "blue", "id": "Pleural mesothelioma", "label": "Pleural mesothelioma", "shape": "dot", "size": 10}, {"color": "red", "id": "CARLUMAB", "label": "CARLUMAB", "shape": "dot", "size": 20}, {"color": "green", "id": "CCL2", "label": "CCL2", "shape": "dot", "size": 15}, {"color": "blue", "id": "NFE2L2 regulating inflammation associated genes", "label": "NFE2L2 regulating inflammation associated genes", "shape": "dot", "size": 10}, {"color": "blue", "id": "Macrophage markers", "label": "Macrophage markers", "shape": "dot", "size": 10}, {"color": "blue", "id": "ATF4 activates genes in response to endoplasmic reticulum  stress", "label": "ATF4 activates genes in response to endoplasmic reticulum  stress", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "GSK2816126", "title": "AFFECTS", "to": "EZH2"}, {"from": "EZH2", "title": "PART_OF", "to": "HCMV Early Events"}, {"from": "EZH2", "title": "PART_OF", "to": "PRC2 methylates histones and DNA"}, {"from": "EZH2", "title": "PART_OF", "to": "Defective pyroptosis"}, {"from": "EZH2", "title": "PART_OF", "to": "PKMTs methylate histone lysines"}, {"from": "EZH2", "title": "PART_OF", "to": "Activation of anterior HOX genes in hindbrain development during early embryogenesis"}, {"from": "EZH2", "title": "PART_OF", "to": "Oxidative Stress Induced Senescence"}, {"from": "EZH2", "title": "PART_OF", "to": "Regulation of PTEN gene transcription"}, {"from": "EZH2", "title": "PART_OF", "to": "Transcriptional Regulation by E2F6"}, {"from": "ZILTIVEKIMAB", "title": "AFFECTS", "to": "IL6"}, {"from": "IL6", "title": "PART_OF", "to": "MAPK3 (ERK1) activation"}, {"from": "IL6", "title": "PART_OF", "to": "ADORA2B mediated anti-inflammatory cytokines production"}, {"from": "IL6", "title": "PART_OF", "to": "Interleukin-10 signaling"}, {"from": "IL6", "title": "PART_OF", "to": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)"}, {"from": "IL6", "title": "PART_OF", "to": "MAPK1 (ERK2) activation"}, {"from": "IL6", "title": "PART_OF", "to": "Post-translational protein phosphorylation"}, {"from": "IL6", "title": "PART_OF", "to": "CD163 mediating an anti-inflammatory response"}, {"from": "IL6", "title": "PART_OF", "to": "Transcriptional Regulation by VENTX"}, {"from": "IL6", "title": "PART_OF", "to": "Interleukin-4 and Interleukin-13 signaling"}, {"from": "IL6", "title": "PART_OF", "to": "Senescence-Associated Secretory Phenotype (SASP)"}, {"from": "IL6", "title": "PART_OF", "to": "Interleukin-6 signaling"}, {"from": "OLOKIZUMAB", "title": "AFFECTS", "to": "IL6"}, {"from": "CLAZAKIZUMAB", "title": "AFFECTS", "to": "IL6"}, {"from": "PF-04236921", "title": "AFFECTS", "to": "IL6"}, {"from": "GARETOSMAB", "title": "AFFECTS", "to": "INHBA"}, {"from": "INHBA", "title": "PART_OF", "to": "Antagonism of Activin by Follistatin"}, {"from": "INHBA", "title": "PART_OF", "to": "Signaling by BMP"}, {"from": "INHBA", "title": "PART_OF", "to": "Glycoprotein hormones"}, {"from": "INHBA", "title": "PART_OF", "to": "Signaling by Activin"}, {"from": "SOTATERCEPT", "title": "AFFECTS", "to": "INHBA"}, {"from": "TAPINAROF", "title": "AFFECTS", "to": "AHR"}, {"from": "AHR", "title": "PART_OF", "to": "Aryl hydrocarbon receptor signalling"}, {"from": "AHR", "title": "PART_OF", "to": "Endogenous sterols"}, {"from": "AHR", "title": "PART_OF", "to": "PPARA activates gene expression"}, {"from": "AHR", "title": "PART_OF", "to": "Phase I - Functionalization of compounds"}, {"from": "AHR", "title": "PART_OF", "to": "Xenobiotics"}, {"from": "BERTILIMUMAB", "title": "AFFECTS", "to": "CCL11"}, {"from": "CCL11", "title": "PART_OF", "to": "Gastrin signaling pathway"}, {"from": "CCL11", "title": "PART_OF", "to": "CCL18 signaling pathway"}, {"from": "CCL11", "title": "PART_OF", "to": "Interleukin-4 and Interleukin-13 signaling"}, {"from": "CCL11", "title": "PART_OF", "to": "Chemokine receptors bind chemokines"}, {"from": "CCL11", "title": "PART_OF", "to": "Hippo-Merlin signaling dysregulation"}, {"from": "CCL11", "title": "PART_OF", "to": "Hepatitis C and hepatocellular carcinoma"}, {"from": "CCL11", "title": "PART_OF", "to": "Wnt signaling pathway and pluripotency"}, {"from": "CCL11", "title": "PART_OF", "to": "Pleural mesothelioma"}, {"from": "CARLUMAB", "title": "AFFECTS", "to": "CCL2"}, {"from": "CCL2", "title": "PART_OF", "to": "Interleukin-10 signaling"}, {"from": "CCL2", "title": "PART_OF", "to": "Interleukin-4 and Interleukin-13 signaling"}, {"from": "CCL2", "title": "PART_OF", "to": "NFE2L2 regulating inflammation associated genes"}, {"from": "CCL2", "title": "PART_OF", "to": "Chemokine receptors bind chemokines"}, {"from": "CCL2", "title": "PART_OF", "to": "Macrophage markers"}, {"from": "CCL2", "title": "PART_OF", "to": "ATF4 activates genes in response to endoplasmic reticulum  stress"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
