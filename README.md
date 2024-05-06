@@ -20,7 +20,7 @@ Description: In this project, we build the Post-COVID Knowledge Graph using tran
 Description: Gene set enrichment analysis, over-representation analysis, PPI networks in Cytoscape.
 
 ### Project 3: Drug Repurposing Algorithm 💊🔄
-Description: This part involves selecting different algorithms, testing them, and comparing their functionality and results.
+Description: This part involves selecting different algorithms, visualising them, and comparing their functionality and results.
 
 ## Getting Started 🚀
 
