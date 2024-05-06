@@ -1,6 +1,6 @@
 # Post-COVID Knowledge Graph (KG) 🦠🔍📊
 
-## Drug Repurposing Algorithm: DreamWalk 💊🔄
+## Drug Repurposing Algorithm: Bang method variation (DreamWalk) 💊🔄
 This part involves running dreamwalk algorithm in the previously generated KG. 
 
 ### Preprocessing
