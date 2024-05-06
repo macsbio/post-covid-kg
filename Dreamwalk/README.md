@@ -6,15 +6,15 @@ This part involves running dreamwalk algorithm in the previously generated KG.
 ### Preprocessing
 First, we need to preprocess the data to feed the algorithm
 Input files:
-- data.csv: exported data from neo4j. You just have to import the graph.graphml file and export it back in csv format.
+- data.csv: exported data from neo4j. You just have to import the graph.graphml file and export it back in CSV format.
 - atc_hierarchy: atc hierarchy for drugs ibtained using the drug_parser.py in the utils folder.
-- DREAMwalk folder: contaings the algorithm scripts
+- DREAMwalk folder: contains the algorithm scripts
 
 Scripts:
 - preprocess_dreamwalk.py
 
 Output file:
-- preprocessed_graph.csv: this is going to be used as input file for the algorithm
+- preprocessed_graph.csv: this is going to be used as an input file for the algorithm
 
 ### Algorithm implementation
 Input files:
@@ -31,8 +31,9 @@ Output files:
 - similarity_graph.txt
 - hierarchy.csv
 - embedding_file.plk
-- dda_files folder: drug-disease interaction files randomly generted
+- dda_files folder: drug-disease interaction files randomly generated
 - results folder: contains the models trained with the data
 
 ### Alternative results
-- 0.9 Workflow: contains the same workflow but using 0.9 as cutoff for gene-gene interactions baed on STRING scores. 
+- 0.9 Workflow: contains the same workflow but uses 0.9 as the cutoff for gene-gene interactions based on STRING scores.
+- 0.7 Workflow: contains the same workflow but uses 0.7 as the cutoff for gene-gene interactions based on STRING scores. 
